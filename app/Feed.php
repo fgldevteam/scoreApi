@@ -16,7 +16,7 @@ class Feed extends Model
 		$url = "http://api.stats.com/v1/stats/".$sport."/". $league."/scores/?date=". $date ."&accept=json&api_key=".env('API_KEY')."&sig=".$sig;
 		
 
-		if(get_headers($url, 1)[0] == 'HTTP/1.1 404 Not Found'){
+		if (get_headers($url, 1)[0] == 'HTTP/1.1 404 Not Found'){
 
 			return array();
 		}
@@ -28,10 +28,10 @@ class Feed extends Model
 	}
 
 
-	public static function filterScoreFeed($rawFeed , $sport)
+	public static function filterScoreFeed($rawFeed , $sport, $league)
 	{
-		if($rawFeed) 
-		{
+		if ($rawFeed) {
+			
 			$events = ($rawFeed->apiResults[0]->league->season->eventType[0]->events);
 
 			$counter = 0;
@@ -51,7 +51,7 @@ class Feed extends Model
 					if($event->eventStatus->name == "Pre-Game"){
 						$game["startTime"]	= $event->startDate[1]->full;
 					}
-					
+
 				}
 				$game["gameStatus"] = $event->eventStatus->name;
 				foreach ($event->teams as $team){	
@@ -59,13 +59,16 @@ class Feed extends Model
 					$game[$team->teamLocationType->name."Team"]		=  $team->location;
 					$game[$team->teamLocationType->name."Nickname"] =  $team->nickname ;
 					if($sport == 'baseball'){
-						$game[$team->teamLocationType->name."Score"] 	=  $team->linescoreTotals->runs ;
+						$game[$team->teamLocationType->name."Score"]=  $team->linescoreTotals->runs ;
 					}
 					else{
 						if(isset($team->score)){
 							$game[$team->teamLocationType->name."Score"]	= $team->score;
 						}
-					}						
+					}	
+					$game[$team->teamLocationType->name."Logo"]	 	= 	"/images/". $league ."/". 
+													preg_replace("/ /", "-", strtolower($team->location)). "-" .
+													preg_replace("/ /", "-", strtolower($team->nickname)) .".svg";			
 				}
 				array_push($leagueGames, json_decode(json_encode($game)));
 				$counter++;
@@ -74,7 +77,7 @@ class Feed extends Model
 			unset($game);
 		
 		}
-		if(isset($leagueGames)){
+		if (isset($leagueGames)){
 
 			return ($leagueGames);
 		}

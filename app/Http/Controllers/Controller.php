@@ -20,7 +20,7 @@ class Controller extends BaseController
 		
 		$rawFeed = Feed::getScoreFeed($league, $sport);
 
-		$processedFeed = Feed::filterScoreFeed($rawFeed, $sport);
+		$processedFeed = Feed::filterScoreFeed($rawFeed, $sport, $league);
 
 		$filteredFeed[$league] = json_decode(json_encode( $processedFeed, JSON_FORCE_OBJECT)); 
 
@@ -35,7 +35,7 @@ class Controller extends BaseController
 		{
 			$rawFeed = Feed::getScoreFeed($league, $sport);
 
-			$processedFeed = Feed::filterScoreFeed($rawFeed, $sport);
+			$processedFeed = Feed::filterScoreFeed($rawFeed, $sport, $league);
 
 			if(! empty($processedFeed) ){
 
