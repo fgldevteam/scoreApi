@@ -17,14 +17,10 @@ class Controller extends BaseController
 	{
 	
 		$sport = $this->leagues[$league];
-		
-		$rawFeed = Feed::getScoreFeed($league, $sport);
-
-		$processedFeed = Feed::filterScoreFeed($rawFeed, $sport, $league);
-
-		$filteredFeed[$league] = json_decode(json_encode( $processedFeed, JSON_FORCE_OBJECT)); 
-
+		$feed = Feed::getScoreFeed($league, $sport);
+		$filteredFeed[$league] = json_decode(json_encode( $feed, JSON_FORCE_OBJECT)); 
 		return json_encode($filteredFeed);
+
 	}	
 
 	public function getAllScores()
@@ -33,21 +29,14 @@ class Controller extends BaseController
 		$returnFeed   = [];
 		foreach($this->leagues as $league=>$sport)
 		{
-			$rawFeed = Feed::getScoreFeed($league, $sport);
-
-			$processedFeed = Feed::filterScoreFeed($rawFeed, $sport, $league);
-
-			if(! empty($processedFeed) ){
-
-				$filteredFeed[$sport] = json_decode(json_encode( $processedFeed, JSON_FORCE_OBJECT)); 
-
+			$feed = Feed::getScoreFeed($league, $sport);
+			if(! empty($feed) ){
+				$filteredFeed[$sport] = json_decode(json_encode( $feed, JSON_FORCE_OBJECT)); 
 			}
 
 		}
 		$returnFeed["sports"] = $filteredFeed;
-		
 		file_put_contents( "/Applications/XAMPP/htdocs/scorefeed-api/public/files/scores.json", json_encode($returnFeed));
-
 		return $returnFeed;
 	}	
 
@@ -88,6 +77,7 @@ class Controller extends BaseController
 		return ($filteredTeams);
 	}
 
+	
 	
 
 }

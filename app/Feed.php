@@ -9,22 +9,49 @@ class Feed extends Model
 	public static function getScoreFeed($league, $sport)
 	{
 		$date = date('y-m-d');
-		// $date = '2014-09-21';
-		
-		$sig = hash('sha256', env('API_KEY').env('SECRET').gmdate('U'));
+		$date = '2015-05-28';
+	 	$feedContent = Feed::getFeedFromURL($date, $sport, $league);
+		$filteredFeed = Feed::filterScoreFeed($feedContent, $sport, $league);
 
-		$url = "http://api.stats.com/v1/stats/".$sport."/". $league."/scores/?date=". $date ."&accept=json&api_key=".env('API_KEY')."&sig=".$sig;
-		
+	 	if(! empty($feedContent)){
+		 	
 
-		if (get_headers($url, 1)[0] == 'HTTP/1.1 404 Not Found'){
+		 	usort($filteredFeed, function($a, $b)
+			{
+	    		return strcmp($a->startTime, $b->startTime);	
+			});
 
-			return array();
-		}
+		 	$earliestGame = $filteredFeed[0];
+		 	$latestGame   = $earliestGame;
+		 	if(count($filteredFeed) > 1 ){
+		 		$latestGame   = $filteredFeed[count($filteredFeed)-1];
+		 	}
+		 	
+		 	if( ($earliestGame->active = 'false') && ($earliestGame->gameStatus == "Pre-Game") ){
+		 		
+		 		// get last nights games
+		 		$date = date("Y-m-d", strtotime("yesterday"));
+		 		$yesterdaysFeed = Feed::getFeedFromURL($date, $sport, $league);
+		 		$yesterdaysFilteredFeed = Feed::filterScoreFeed($yesterdaysFeed, $sport, $league);
+	 	 		$filteredFeed  = array_merge($filteredFeed, $yesterdaysFilteredFeed );
+		 
+		 	}
+		 	else if( ($latestGame->active == 'false') && ($latestGame->gameStatus == "Final" )){
+		 		
+		 		//get tomorrow's games
+		 		$date = date("Y-m-d", strtotime("tomorrow"));
+		 		$tomorrowsFeed = Feed::getFeedFromURL($date, $sport, $league);
+		 		$tomorrowsFilteredFeed = Feed::filterScoreFeed($tomorrowsFeed, $sport, $league);
+	 	 		$filteredFeed  = array_merge($filteredFeed, $tomorrowsFilteredFeed );
 
-		$content =  file_get_contents($url);
-		
-		return json_decode($content);
-			
+		 	}		
+
+		 	usort($filteredFeed, function($a, $b)
+			{
+	    		return strcmp($a->startTime, $b->startTime);	
+			});
+		 }
+	 	return $filteredFeed;
 	}
 
 
@@ -48,11 +75,9 @@ class Feed extends Model
 				}
 				else{
 					$game["active"] =  "false";
-					if($event->eventStatus->name == "Pre-Game"){
-						$game["startTime"]	= $event->startDate[1]->full;
-					}
-
 				}
+				
+				$game["startTime"]	= $event->startDate[1]->full;
 				$game["gameStatus"] = $event->eventStatus->name;
 				foreach ($event->teams as $team){	
 					$game[$team->teamLocationType->name."Id"]		=  $team->teamId;
@@ -153,6 +178,23 @@ class Feed extends Model
 		return $teamsJson;
 	}
 
-	
 
+	public static function getFeedFromURL($date, $sport, $league)
+	{
+		$sig = hash('sha256', env('API_KEY').env('SECRET').gmdate('U'));
+
+		$url = "http://api.stats.com/v1/stats/".$sport."/". $league."/scores/?date=". $date ."&accept=json&api_key=".env('API_KEY')."&sig=".$sig;
+		
+
+		if (get_headers($url, 1)[0] == 'HTTP/1.1 404 Not Found'){
+
+			return array();
+		}
+
+		$content =  file_get_contents($url);
+		
+		return json_decode($content);
+	}
+
+	
 }
