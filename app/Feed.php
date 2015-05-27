@@ -179,6 +179,8 @@ class Feed extends Model
 
 	public static function getFeedFromURL($date, $sport, $league)
 	{
+		sleep(1);
+
 		$sig = hash('sha256', env('API_KEY').env('SECRET').gmdate('U'));
 
 		$url = "http://api.stats.com/v1/stats/".$sport."/". $league."/scores/?date=". $date ."&accept=json&api_key=".env('API_KEY')."&sig=".$sig;
