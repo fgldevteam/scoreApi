@@ -9,7 +9,6 @@ class Feed extends Model
 	public static function getScoreFeed($league, $sport)
 	{
 		$date = date('y-m-d');
-		$date = '2015-05-28';
 	 	$feedContent = Feed::getFeedFromURL($date, $sport, $league);
 		$filteredFeed = Feed::filterScoreFeed($feedContent, $sport, $league);
 
