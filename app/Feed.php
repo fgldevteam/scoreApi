@@ -65,10 +65,9 @@ class Feed extends Model
 			$leagueGames =  array();
 
 			foreach ($events as $event){
-				
 				$game =  array();
-				if ($event->eventStatus->name == "In-Progress")
-				{
+				if ($event->eventStatus->name == "In-Progress") {
+				   
 				    $game ["active"] = "true";
 				    $game ["clock"]  = $event->eventStatus->inningDivision . " " . $event->eventStatus->inning; 
 				}
@@ -78,7 +77,7 @@ class Feed extends Model
 				
 				$game["startTime"]	= $event->startDate[1]->full;
 				$game["gameStatus"] = $event->eventStatus->name;
-				foreach ($event->teams as $team){	
+				foreach ($event->teams as $team) {	
 					$game[$team->teamLocationType->name."Id"]		=  $team->teamId;
 					$game[$team->teamLocationType->name."Team"]		=  $team->location;
 					$game[$team->teamLocationType->name."Nickname"] =  $team->nickname ;
@@ -184,7 +183,6 @@ class Feed extends Model
 
 		$url = "http://api.stats.com/v1/stats/".$sport."/". $league."/scores/?date=". $date ."&accept=json&api_key=".env('API_KEY')."&sig=".$sig;
 		
-
 		if (get_headers($url, 1)[0] == 'HTTP/1.1 404 Not Found'){
 
 			return array();
