@@ -6,10 +6,27 @@ use App\Feed as Feed;
 class Controller extends BaseController
 {
     private $leagues = array();
-
+    private $leagueSeasons = array();
     public function __construct()
     {
     	$this->leagues 	=  [ 'mlb'=>'baseball','nba'=>'basketball', 'nhl'=>'hockey', 'nfl'=>'football'];
+    	$this->leagueSeasons = ['mlb'=> [ 
+    										'start'=> '2015-04-05', 
+    										'end'=> '2015-10-04'
+    									], 
+    							'nhl' =>[
+    										'start'=> '2014-10-08', 
+    										'end'=> '2015-04-11'
+    									], 
+    							'nba' => [
+    										'start'=> '2014-10-28', 
+    										'end'=> '2015-06-04'
+    									] ,
+    							'nfl' =>[
+    										'start'=> '2015-09-10', 
+    										'end'=> '2016-01-03'
+    									] 
+    							];
 
     }
 
@@ -29,9 +46,14 @@ class Controller extends BaseController
 		$returnFeed   = [];
 		foreach($this->leagues as $league=>$sport)
 		{
-			$feed = Feed::getScoreFeed($league, $sport);
+			 if((date('Y-m-d') >= $this->leagueSeasons[$league]['start'])  && (date('Y-m-d') <= $this->leagueSeasons[$league]['end'])){
+				\Log::info($league . ' active');
+				$feed = Feed::getScoreFeed($league, $sport);
+			 }
+			
 			if(! empty($feed) ){
 				$filteredFeed[$sport] = json_decode(json_encode( $feed, JSON_FORCE_OBJECT)); 
+				unset($feed);
 			}
 
 		}
