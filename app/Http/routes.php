@@ -23,3 +23,23 @@ $app->get('api/teams/{league}', 'App\Http\Controllers\Controller@getTeamsByLeagu
 
 $app->get('api/teams', 'App\Http\Controllers\Controller@getAllTeams' );
 
+$app->get('teams', function(){
+	
+	$teamsJson = json_decode(file_get_contents('files/teams.json'));
+	return view('teams')->withteams($teamsJson);
+	
+});
+
+
+$app->get('halo', function(){
+
+	return view('halo');
+
+});
+
+$app->get('sportsdesk', function(){
+
+	return view('sportsdesk');
+
+});
+

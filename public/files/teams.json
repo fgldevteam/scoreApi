@@ -1,0 +1,896 @@
+[
+  {
+    "teamId": 251,
+    "teamLocation": "Colorado",
+    "teamNickname": "Rockies",
+    "logo": "/images/mlb/colorado-rockies.svg"
+  },
+  {
+    "teamId": 253,
+    "teamLocation": "Arizona",
+    "teamNickname": "Diamondbacks",
+    "logo": "/images/mlb/arizona-diamondbacks.svg"
+  },
+  {
+    "teamId": 243,
+    "teamLocation": "Los Angeles",
+    "teamNickname": "Dodgers",
+    "logo": "/images/mlb/los-angeles-dodgers.svg"
+  },
+  {
+    "teamId": 249,
+    "teamLocation": "San Diego",
+    "teamNickname": "Padres",
+    "logo": "/images/mlb/san-diego-padres.svg"
+  },
+  {
+    "teamId": 250,
+    "teamLocation": "San Francisco",
+    "teamNickname": "Giants",
+    "logo": "/images/mlb/san-francisco-giants.svg"
+  },
+  {
+    "teamId": 252,
+    "teamLocation": "Miami",
+    "teamNickname": "Marlins",
+    "logo": "/images/mlb/miami-marlins.svg"
+  },
+  {
+    "teamId": 239,
+    "teamLocation": "Atlanta",
+    "teamNickname": "Braves",
+    "logo": "/images/mlb/atlanta-braves.svg"
+  },
+  {
+    "teamId": 244,
+    "teamLocation": "Washington",
+    "teamNickname": "Nationals",
+    "logo": "/images/mlb/washington-nationals.svg"
+  },
+  {
+    "teamId": 245,
+    "teamLocation": "New York",
+    "teamNickname": "Mets",
+    "logo": "/images/mlb/new-york-mets.svg"
+  },
+  {
+    "teamId": 246,
+    "teamLocation": "Philadelphia",
+    "teamNickname": "Phillies",
+    "logo": "/images/mlb/philadelphia-phillies.svg"
+  },
+  {
+    "teamId": 232,
+    "teamLocation": "Milwaukee",
+    "teamNickname": "Brewers",
+    "logo": "/images/mlb/milwaukee-brewers.svg"
+  },
+  {
+    "teamId": 240,
+    "teamLocation": "Chicago",
+    "teamNickname": "Cubs",
+    "logo": "/images/mlb/chicago-cubs.svg"
+  },
+  {
+    "teamId": 241,
+    "teamLocation": "Cincinnati",
+    "teamNickname": "Reds",
+    "logo": "/images/mlb/cincinnati-reds.svg"
+  },
+  {
+    "teamId": 247,
+    "teamLocation": "Pittsburgh",
+    "teamNickname": "Pirates",
+    "logo": "/images/mlb/pittsburgh-pirates.svg"
+  },
+  {
+    "teamId": 248,
+    "teamLocation": "St. Louis",
+    "teamNickname": "Cardinals",
+    "logo": "/images/mlb/st.-louis-cardinals.svg"
+  },
+  {
+    "teamId": 254,
+    "teamLocation": "Tampa Bay",
+    "teamNickname": "Rays",
+    "logo": "/images/mlb/tampa-bay-rays.svg"
+  },
+  {
+    "teamId": 225,
+    "teamLocation": "Baltimore",
+    "teamNickname": "Orioles",
+    "logo": "/images/mlb/baltimore-orioles.svg"
+  },
+  {
+    "teamId": 226,
+    "teamLocation": "Boston",
+    "teamNickname": "Red Sox",
+    "logo": "/images/mlb/boston-red-sox.svg"
+  },
+  {
+    "teamId": 234,
+    "teamLocation": "New York",
+    "teamNickname": "Yankees",
+    "logo": "/images/mlb/new-york-yankees.svg"
+  },
+  {
+    "teamId": 238,
+    "teamLocation": "Toronto",
+    "teamNickname": "Blue Jays",
+    "logo": "/images/mlb/toronto-blue-jays.svg"
+  },
+  {
+    "teamId": 227,
+    "teamLocation": "Los Angeles",
+    "teamNickname": "Angels",
+    "logo": "/images/mlb/los-angeles-angels.svg"
+  },
+  {
+    "teamId": 235,
+    "teamLocation": "Oakland",
+    "teamNickname": "Athletics",
+    "logo": "/images/mlb/oakland-athletics.svg"
+  },
+  {
+    "teamId": 236,
+    "teamLocation": "Seattle",
+    "teamNickname": "Mariners",
+    "logo": "/images/mlb/seattle-mariners.svg"
+  },
+  {
+    "teamId": 237,
+    "teamLocation": "Texas",
+    "teamNickname": "Rangers",
+    "logo": "/images/mlb/texas-rangers.svg"
+  },
+  {
+    "teamId": 242,
+    "teamLocation": "Houston",
+    "teamNickname": "Astros",
+    "logo": "/images/mlb/houston-astros.svg"
+  },
+  {
+    "teamId": 228,
+    "teamLocation": "Chicago",
+    "teamNickname": "White Sox",
+    "logo": "/images/mlb/chicago-white-sox.svg"
+  },
+  {
+    "teamId": 229,
+    "teamLocation": "Cleveland",
+    "teamNickname": "Indians",
+    "logo": "/images/mlb/cleveland-indians.svg"
+  },
+  {
+    "teamId": 230,
+    "teamLocation": "Detroit",
+    "teamNickname": "Tigers",
+    "logo": "/images/mlb/detroit-tigers.svg"
+  },
+  {
+    "teamId": 231,
+    "teamLocation": "Kansas City",
+    "teamNickname": "Royals",
+    "logo": "/images/mlb/kansas-city-royals.svg"
+  },
+  {
+    "teamId": 233,
+    "teamLocation": "Minnesota",
+    "teamNickname": "Twins",
+    "logo": "/images/mlb/minnesota-twins.svg"
+  },
+  {
+    "teamId": 322,
+    "teamLocation": "NL",
+    "teamNickname": "All-Stars",
+    "logo": "/images/mlb/nl-all-stars.svg"
+  },
+  {
+    "teamId": 321,
+    "teamLocation": "AL",
+    "teamNickname": "All-Stars",
+    "logo": "/images/mlb/al-all-stars.svg"
+  },
+  {
+    "teamId": 2,
+    "teamLocation": "Boston",
+    "teamNickname": "Celtics",
+    "logo": "/images/nba/boston-celtics.svg"
+  },
+  {
+    "teamId": 17,
+    "teamLocation": "Brooklyn",
+    "teamNickname": "Nets",
+    "logo": "/images/nba/brooklyn-nets.svg"
+  },
+  {
+    "teamId": 18,
+    "teamLocation": "New York",
+    "teamNickname": "Knicks",
+    "logo": "/images/nba/new-york-knicks.svg"
+  },
+  {
+    "teamId": 20,
+    "teamLocation": "Philadelphia",
+    "teamNickname": "76ers",
+    "logo": "/images/nba/philadelphia-76ers.svg"
+  },
+  {
+    "teamId": 28,
+    "teamLocation": "Toronto",
+    "teamNickname": "Raptors",
+    "logo": "/images/nba/toronto-raptors.svg"
+  },
+  {
+    "teamId": 4,
+    "teamLocation": "Chicago",
+    "teamNickname": "Bulls",
+    "logo": "/images/nba/chicago-bulls.svg"
+  },
+  {
+    "teamId": 5,
+    "teamLocation": "Cleveland",
+    "teamNickname": "Cavaliers",
+    "logo": "/images/nba/cleveland-cavaliers.svg"
+  },
+  {
+    "teamId": 8,
+    "teamLocation": "Detroit",
+    "teamNickname": "Pistons",
+    "logo": "/images/nba/detroit-pistons.svg"
+  },
+  {
+    "teamId": 11,
+    "teamLocation": "Indiana",
+    "teamNickname": "Pacers",
+    "logo": "/images/nba/indiana-pacers.svg"
+  },
+  {
+    "teamId": 15,
+    "teamLocation": "Milwaukee",
+    "teamNickname": "Bucks",
+    "logo": "/images/nba/milwaukee-bucks.svg"
+  },
+  {
+    "teamId": 1,
+    "teamLocation": "Atlanta",
+    "teamNickname": "Hawks",
+    "logo": "/images/nba/atlanta-hawks.svg"
+  },
+  {
+    "teamId": 5312,
+    "teamLocation": "Charlotte",
+    "teamNickname": "Hornets",
+    "logo": "/images/nba/charlotte-hornets.svg"
+  },
+  {
+    "teamId": 14,
+    "teamLocation": "Miami",
+    "teamNickname": "Heat",
+    "logo": "/images/nba/miami-heat.svg"
+  },
+  {
+    "teamId": 19,
+    "teamLocation": "Orlando",
+    "teamNickname": "Magic",
+    "logo": "/images/nba/orlando-magic.svg"
+  },
+  {
+    "teamId": 27,
+    "teamLocation": "Washington",
+    "teamNickname": "Wizards",
+    "logo": "/images/nba/washington-wizards.svg"
+  },
+  {
+    "teamId": 9,
+    "teamLocation": "Golden State",
+    "teamNickname": "Warriors",
+    "logo": "/images/nba/golden-state-warriors.svg"
+  },
+  {
+    "teamId": 12,
+    "teamLocation": "Los Angeles",
+    "teamNickname": "Clippers",
+    "logo": "/images/nba/los-angeles-clippers.svg"
+  },
+  {
+    "teamId": 13,
+    "teamLocation": "Los Angeles",
+    "teamNickname": "Lakers",
+    "logo": "/images/nba/los-angeles-lakers.svg"
+  },
+  {
+    "teamId": 21,
+    "teamLocation": "Phoenix",
+    "teamNickname": "Suns",
+    "logo": "/images/nba/phoenix-suns.svg"
+  },
+  {
+    "teamId": 23,
+    "teamLocation": "Sacramento",
+    "teamNickname": "Kings",
+    "logo": "/images/nba/sacramento-kings.svg"
+  },
+  {
+    "teamId": 6,
+    "teamLocation": "Dallas",
+    "teamNickname": "Mavericks",
+    "logo": "/images/nba/dallas-mavericks.svg"
+  },
+  {
+    "teamId": 10,
+    "teamLocation": "Houston",
+    "teamNickname": "Rockets",
+    "logo": "/images/nba/houston-rockets.svg"
+  },
+  {
+    "teamId": 29,
+    "teamLocation": "Memphis",
+    "teamNickname": "Grizzlies",
+    "logo": "/images/nba/memphis-grizzlies.svg"
+  },
+  {
+    "teamId": 3,
+    "teamLocation": "New Orleans",
+    "teamNickname": "Pelicans",
+    "logo": "/images/nba/new-orleans-pelicans.svg"
+  },
+  {
+    "teamId": 24,
+    "teamLocation": "San Antonio",
+    "teamNickname": "Spurs",
+    "logo": "/images/nba/san-antonio-spurs.svg"
+  },
+  {
+    "teamId": 7,
+    "teamLocation": "Denver",
+    "teamNickname": "Nuggets",
+    "logo": "/images/nba/denver-nuggets.svg"
+  },
+  {
+    "teamId": 16,
+    "teamLocation": "Minnesota",
+    "teamNickname": "Timberwolves",
+    "logo": "/images/nba/minnesota-timberwolves.svg"
+  },
+  {
+    "teamId": 25,
+    "teamLocation": "Oklahoma City",
+    "teamNickname": "Thunder",
+    "logo": "/images/nba/oklahoma-city-thunder.svg"
+  },
+  {
+    "teamId": 22,
+    "teamLocation": "Portland",
+    "teamNickname": "Trail Blazers",
+    "logo": "/images/nba/portland-trail-blazers.svg"
+  },
+  {
+    "teamId": 26,
+    "teamLocation": "Utah",
+    "teamNickname": "Jazz",
+    "logo": "/images/nba/utah-jazz.svg"
+  },
+  {
+    "teamId": 53,
+    "teamLocation": "East",
+    "teamNickname": "Easterners",
+    "logo": "/images/nba/east-easterners.svg"
+  },
+  {
+    "teamId": 54,
+    "teamLocation": "West",
+    "teamNickname": "Westerners",
+    "logo": "/images/nba/west-westerners.svg"
+  },
+  {
+    "teamId": 4973,
+    "teamLocation": "Tampa Bay",
+    "teamNickname": "Lightning",
+    "logo": "/images/nhl/tampa-bay-lightning.svg"
+  },
+  {
+    "teamId": 4963,
+    "teamLocation": "Montreal",
+    "teamNickname": "Canadiens",
+    "logo": "/images/nhl/montreal-canadiens.svg"
+  },
+  {
+    "teamId": 4974,
+    "teamLocation": "Toronto",
+    "teamNickname": "Maple Leafs",
+    "logo": "/images/nhl/toronto-maple-leafs.svg"
+  },
+  {
+    "teamId": 4954,
+    "teamLocation": "Boston",
+    "teamNickname": "Bruins",
+    "logo": "/images/nhl/boston-bruins.svg"
+  },
+  {
+    "teamId": 4967,
+    "teamLocation": "Ottawa",
+    "teamNickname": "Senators",
+    "logo": "/images/nhl/ottawa-senators.svg"
+  },
+  {
+    "teamId": 4955,
+    "teamLocation": "Buffalo",
+    "teamNickname": "Sabres",
+    "logo": "/images/nhl/buffalo-sabres.svg"
+  },
+  {
+    "teamId": 4958,
+    "teamLocation": "Detroit",
+    "teamNickname": "Red Wings",
+    "logo": "/images/nhl/detroit-red-wings.svg"
+  },
+  {
+    "teamId": 4979,
+    "teamLocation": "Florida",
+    "teamNickname": "Panthers",
+    "logo": "/images/nhl/florida-panthers.svg"
+  },
+  {
+    "teamId": 4960,
+    "teamLocation": "Carolina",
+    "teamNickname": "Hurricanes",
+    "logo": "/images/nhl/carolina-hurricanes.svg"
+  },
+  {
+    "teamId": 4969,
+    "teamLocation": "Pittsburgh",
+    "teamNickname": "Penguins",
+    "logo": "/images/nhl/pittsburgh-penguins.svg"
+  },
+  {
+    "teamId": 4976,
+    "teamLocation": "Washington",
+    "teamNickname": "Capitals",
+    "logo": "/images/nhl/washington-capitals.svg"
+  },
+  {
+    "teamId": 4966,
+    "teamLocation": "New York",
+    "teamNickname": "Rangers",
+    "logo": "/images/nhl/new-york-rangers.svg"
+  },
+  {
+    "teamId": 4968,
+    "teamLocation": "Philadelphia",
+    "teamNickname": "Flyers",
+    "logo": "/images/nhl/philadelphia-flyers.svg"
+  },
+  {
+    "teamId": 4964,
+    "teamLocation": "New Jersey",
+    "teamNickname": "Devils",
+    "logo": "/images/nhl/new-jersey-devils.svg"
+  },
+  {
+    "teamId": 4965,
+    "teamLocation": "New York",
+    "teamNickname": "Islanders",
+    "logo": "/images/nhl/new-york-islanders.svg"
+  },
+  {
+    "teamId": 4982,
+    "teamLocation": "Columbus",
+    "teamNickname": "Blue Jackets",
+    "logo": "/images/nhl/columbus-blue-jackets.svg"
+  },
+  {
+    "teamId": 4962,
+    "teamLocation": "Dallas",
+    "teamNickname": "Stars",
+    "logo": "/images/nhl/dallas-stars.svg"
+  },
+  {
+    "teamId": 4980,
+    "teamLocation": "Nashville",
+    "teamNickname": "Predators",
+    "logo": "/images/nhl/nashville-predators.svg"
+  },
+  {
+    "teamId": 4983,
+    "teamLocation": "Minnesota",
+    "teamNickname": "Wild",
+    "logo": "/images/nhl/minnesota-wild.svg"
+  },
+  {
+    "teamId": 4972,
+    "teamLocation": "St. Louis",
+    "teamNickname": "Blues",
+    "logo": "/images/nhl/st.-louis-blues.svg"
+  },
+  {
+    "teamId": 4981,
+    "teamLocation": "Winnipeg",
+    "teamNickname": "Jets",
+    "logo": "/images/nhl/winnipeg-jets.svg"
+  },
+  {
+    "teamId": 4957,
+    "teamLocation": "Chicago",
+    "teamNickname": "Blackhawks",
+    "logo": "/images/nhl/chicago-blackhawks.svg"
+  },
+  {
+    "teamId": 4970,
+    "teamLocation": "Colorado",
+    "teamNickname": "Avalanche",
+    "logo": "/images/nhl/colorado-avalanche.svg"
+  },
+  {
+    "teamId": 4977,
+    "teamLocation": "Arizona",
+    "teamNickname": "Coyotes",
+    "logo": "/images/nhl/arizona-coyotes.svg"
+  },
+  {
+    "teamId": 4978,
+    "teamLocation": "Anaheim",
+    "teamNickname": "Ducks",
+    "logo": "/images/nhl/anaheim-ducks.svg"
+  },
+  {
+    "teamId": 4961,
+    "teamLocation": "Los Angeles",
+    "teamNickname": "Kings",
+    "logo": "/images/nhl/los-angeles-kings.svg"
+  },
+  {
+    "teamId": 4971,
+    "teamLocation": "San Jose",
+    "teamNickname": "Sharks",
+    "logo": "/images/nhl/san-jose-sharks.svg"
+  },
+  {
+    "teamId": 4975,
+    "teamLocation": "Vancouver",
+    "teamNickname": "Canucks",
+    "logo": "/images/nhl/vancouver-canucks.svg"
+  },
+  {
+    "teamId": 4956,
+    "teamLocation": "Calgary",
+    "teamNickname": "Flames",
+    "logo": "/images/nhl/calgary-flames.svg"
+  },
+  {
+    "teamId": 4959,
+    "teamLocation": "Edmonton",
+    "teamNickname": "Oilers",
+    "logo": "/images/nhl/edmonton-oilers.svg"
+  },
+  {
+    "teamId": 5194,
+    "teamLocation": "Team Foligno",
+    "teamNickname": "All-Stars",
+    "logo": "/images/nhl/team-foligno-all-stars.svg"
+  },
+  {
+    "teamId": 5193,
+    "teamLocation": "Team Toews",
+    "teamNickname": "All-Stars",
+    "logo": "/images/nhl/team-toews-all-stars.svg"
+  },
+  {
+    "teamId": 324,
+    "teamLocation": "Buffalo",
+    "teamNickname": "Bills",
+    "logo": "/images/nfl/buffalo-bills.svg"
+  },
+  {
+    "teamId": 345,
+    "teamLocation": "Miami",
+    "teamNickname": "Dolphins",
+    "logo": "/images/nfl/miami-dolphins.svg"
+  },
+  {
+    "teamId": 348,
+    "teamLocation": "New England",
+    "teamNickname": "Patriots",
+    "logo": "/images/nfl/new-england-patriots.svg"
+  },
+  {
+    "teamId": 352,
+    "teamLocation": "New York",
+    "teamNickname": "Jets",
+    "logo": "/images/nfl/new-york-jets.svg"
+  },
+  {
+    "teamId": 332,
+    "teamLocation": "Denver",
+    "teamNickname": "Broncos",
+    "logo": "/images/nfl/denver-broncos.svg"
+  },
+  {
+    "teamId": 339,
+    "teamLocation": "Kansas City",
+    "teamNickname": "Chiefs",
+    "logo": "/images/nfl/kansas-city-chiefs.svg"
+  },
+  {
+    "teamId": 341,
+    "teamLocation": "Oakland",
+    "teamNickname": "Raiders",
+    "logo": "/images/nfl/oakland-raiders.svg"
+  },
+  {
+    "teamId": 357,
+    "teamLocation": "San Diego",
+    "teamNickname": "Chargers",
+    "logo": "/images/nfl/san-diego-chargers.svg"
+  },
+  {
+    "teamId": 366,
+    "teamLocation": "Baltimore",
+    "teamNickname": "Ravens",
+    "logo": "/images/nfl/baltimore-ravens.svg"
+  },
+  {
+    "teamId": 327,
+    "teamLocation": "Cincinnati",
+    "teamNickname": "Bengals",
+    "logo": "/images/nfl/cincinnati-bengals.svg"
+  },
+  {
+    "teamId": 329,
+    "teamLocation": "Cleveland",
+    "teamNickname": "Browns",
+    "logo": "/images/nfl/cleveland-browns.svg"
+  },
+  {
+    "teamId": 356,
+    "teamLocation": "Pittsburgh",
+    "teamNickname": "Steelers",
+    "logo": "/images/nfl/pittsburgh-steelers.svg"
+  },
+  {
+    "teamId": 325,
+    "teamLocation": "Houston",
+    "teamNickname": "Texans",
+    "logo": "/images/nfl/houston-texans.svg"
+  },
+  {
+    "teamId": 338,
+    "teamLocation": "Indianapolis",
+    "teamNickname": "Colts",
+    "logo": "/images/nfl/indianapolis-colts.svg"
+  },
+  {
+    "teamId": 365,
+    "teamLocation": "Jacksonville",
+    "teamNickname": "Jaguars",
+    "logo": "/images/nfl/jacksonville-jaguars.svg"
+  },
+  {
+    "teamId": 336,
+    "teamLocation": "Tennessee",
+    "teamNickname": "Titans",
+    "logo": "/images/nfl/tennessee-titans.svg"
+  },
+  {
+    "teamId": 331,
+    "teamLocation": "Dallas",
+    "teamNickname": "Cowboys",
+    "logo": "/images/nfl/dallas-cowboys.svg"
+  },
+  {
+    "teamId": 351,
+    "teamLocation": "New York",
+    "teamNickname": "Giants",
+    "logo": "/images/nfl/new-york-giants.svg"
+  },
+  {
+    "teamId": 354,
+    "teamLocation": "Philadelphia",
+    "teamNickname": "Eagles",
+    "logo": "/images/nfl/philadelphia-eagles.svg"
+  },
+  {
+    "teamId": 363,
+    "teamLocation": "Washington",
+    "teamNickname": "Redskins",
+    "logo": "/images/nfl/washington-redskins.svg"
+  },
+  {
+    "teamId": 355,
+    "teamLocation": "Arizona",
+    "teamNickname": "Cardinals",
+    "logo": "/images/nfl/arizona-cardinals.svg"
+  },
+  {
+    "teamId": 359,
+    "teamLocation": "San Francisco",
+    "teamNickname": "49ers",
+    "logo": "/images/nfl/san-francisco-49ers.svg"
+  },
+  {
+    "teamId": 361,
+    "teamLocation": "Seattle",
+    "teamNickname": "Seahawks",
+    "logo": "/images/nfl/seattle-seahawks.svg"
+  },
+  {
+    "teamId": 343,
+    "teamLocation": "St. Louis",
+    "teamNickname": "Rams",
+    "logo": "/images/nfl/st.-louis-rams.svg"
+  },
+  {
+    "teamId": 326,
+    "teamLocation": "Chicago",
+    "teamNickname": "Bears",
+    "logo": "/images/nfl/chicago-bears.svg"
+  },
+  {
+    "teamId": 334,
+    "teamLocation": "Detroit",
+    "teamNickname": "Lions",
+    "logo": "/images/nfl/detroit-lions.svg"
+  },
+  {
+    "teamId": 335,
+    "teamLocation": "Green Bay",
+    "teamNickname": "Packers",
+    "logo": "/images/nfl/green-bay-packers.svg"
+  },
+  {
+    "teamId": 347,
+    "teamLocation": "Minnesota",
+    "teamNickname": "Vikings",
+    "logo": "/images/nfl/minnesota-vikings.svg"
+  },
+  {
+    "teamId": 323,
+    "teamLocation": "Atlanta",
+    "teamNickname": "Falcons",
+    "logo": "/images/nfl/atlanta-falcons.svg"
+  },
+  {
+    "teamId": 364,
+    "teamLocation": "Carolina",
+    "teamNickname": "Panthers",
+    "logo": "/images/nfl/carolina-panthers.svg"
+  },
+  {
+    "teamId": 350,
+    "teamLocation": "New Orleans",
+    "teamNickname": "Saints",
+    "logo": "/images/nfl/new-orleans-saints.svg"
+  },
+  {
+    "teamId": 362,
+    "teamLocation": "Tampa Bay",
+    "teamNickname": "Buccaneers",
+    "logo": "/images/nfl/tampa-bay-buccaneers.svg"
+  },
+  {
+    "teamId": "-chicago-fire",
+    "teamLocation": "Chicago",
+    "teamNickname": "Fire",
+    "logo": "/images/mls/chicago-fire.svg"
+  },
+  {
+    "teamId": "-chivas-usa",
+    "teamLocation": "Chivas",
+    "teamNickname": "USA",
+    "logo": "/images/mls/chivas-usa.svg"
+  },
+  {
+    "teamId": "-colorado-rapids",
+    "teamLocation": "Colorado",
+    "teamNickname": "Rapids",
+    "logo": "/images/mls/colorado-rapids.svg"
+  },
+  {
+    "teamId": "-columbus-crew",
+    "teamLocation": "Columbus",
+    "teamNickname": "Crew",
+    "logo": "/images/mls/columbus-crew.svg"
+  },
+  {
+    "teamId": "-dc-united",
+    "teamLocation": "DC",
+    "teamNickname": "United",
+    "logo": "/images/mls/dc-united.svg"
+  },
+  {
+    "teamId": "-fc-dallas",
+    "teamLocation": "FC",
+    "teamNickname": "Dallas",
+    "logo": "/images/mls/fc-dallas.svg"
+  },
+  {
+    "teamId": "-houston-dynamo",
+    "teamLocation": "Houston",
+    "teamNickname": "Dynamo",
+    "logo": "/images/mls/houston-dynamo.svg"
+  },
+  {
+    "teamId": "-los-angeles-galaxy",
+    "teamLocation": "Los Angeles",
+    "teamNickname": "Galaxy",
+    "logo": "/images/mls/los-angeles-galaxy.svg"
+  },
+  {
+    "teamId": "-montreal-impact",
+    "teamLocation": "Montreal",
+    "teamNickname": "Impact",
+    "logo": "/images/mls/montreal-impact.svg"
+  },
+  {
+    "teamId": "-new-england-revolution",
+    "teamLocation": "New England",
+    "teamNickname": "Revolution",
+    "logo": "/images/mls/new-england-revolution.svg"
+  },
+  {
+    "teamId": "-new-york-city-fc",
+    "teamLocation": "New York City",
+    "teamNickname": "FC",
+    "logo": "/images/mls/new-york-city-fc.svg"
+  },
+  {
+    "teamId": "-new-york-red-bulls",
+    "teamLocation": "New York",
+    "teamNickname": "Red Bulls",
+    "logo": "/images/mls/new-york-red-bulls.svg"
+  },
+  {
+    "teamId": "-orlando-city-sc",
+    "teamLocation": "Orlando",
+    "teamNickname": "City SC",
+    "logo": "/images/mls/orlando-city-sc.svg"
+  },
+  {
+    "teamId": "-philadelphia-union",
+    "teamLocation": "Philadelphia",
+    "teamNickname": "Union",
+    "logo": "/images/mls/philadelphia-union.svg"
+  },
+  {
+    "teamId": "-portland-timbers",
+    "teamLocation": "Portland",
+    "teamNickname": "Timbers",
+    "logo": "/images/mls/portland-timbers.svg"
+  },
+  {
+    "teamId": "-real-salt-lake",
+    "teamLocation": "Real",
+    "teamNickname": "Salt Lake",
+    "logo": "/images/mls/real-salt-lake.svg"
+  },
+  {
+    "teamId": "-san-jose-earthquakes",
+    "teamLocation": "San Jose",
+    "teamNickname": "Earthquakes",
+    "logo": "/images/mls/san-jose-earthquakes.svg"
+  },
+  {
+    "teamId": "-seattle-sounders-fc",
+    "teamLocation": "Seattle",
+    "teamNickname": "Sounders FC",
+    "logo": "/images/mls/seattle-sounders-fc.svg"
+  },
+  {
+    "teamId": "-sporting-kansas-city",
+    "teamLocation": "Sporting",
+    "teamNickname": "Kansas City",
+    "logo": "/images/mls/sporting-kansas-city.svg"
+  },
+  {
+    "teamId": "-toronto-fc",
+    "teamLocation": "Toronto",
+    "teamNickname": "FC",
+    "logo": "/images/mls/toronto-fc.svg"
+  },
+  {
+    "teamId": "-vancouver-whitecaps-fc",
+    "teamLocation": "Vancouver",
+    "teamNickname": "Whitecaps FC",
+    "logo": "/images/mls/vancouver-whitecaps-fc.svg"
+  }
+]
