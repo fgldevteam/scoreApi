@@ -12,7 +12,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="/css/jquery.simplyscroll.css" media="all" type="text/css">
-        <link rel="stylesheet" href="/css/logos.css" media="all" type="text/css">
+        <link rel="stylesheet" href="/css/halo.css" media="all" type="text/css">
     </head>
 
     <body>

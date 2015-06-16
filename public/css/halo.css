@@ -1,0 +1,71 @@
+@font-face { font-family: GalaxiePolarisCondensed-Book.; src: url('/fonts/GalaxiePolarisCondensed-Book.otf'); }
+@font-face { font-family: GalaxiePolarisCondensed-Bold; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Bold.otf'); }
+@font-face { font-family: GalaxiePolarisCondensed-Light; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Light.otf'); }
+
+
+.teamlogo{ width: 50px !important; height: 50px !important; display: inline-block; position: relative; background-size: contain !important; padding: 0px 0px 0px 5px; }
+.teamname, .cityname, .clock, .score, .at { text-transform: uppercase;}
+
+.cityname, .clock, .at {font-family: GalaxiePolarisCondensed-Book; font-size: 16px; line-height: 13px; }
+.teamname{font-family: GalaxiePolarisCondensed-Bold; font-size: 30px; line-height: 30px; }
+.score{ font-family: GalaxiePolarisCondensed-Bold; font-size: 60px; vertical-align: top; line-height: 50px; padding: 0px 5px; }
+.at, .clock{ vertical-align: middle; padding: 0px 10px; }
+
+.simply-scroll { /* Customisable base class for style override DIV */
+	width: 1344px;
+	height: 64px;
+	/*margin-bottom: 1em;*/
+}
+
+	.simply-scroll .simply-scroll-clip {
+		width: 1344px;
+		height: 64px;
+
+		background: rgb(125,126,125); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+		color: #ddd;
+	
+	}
+
+		.simply-scroll .simply-scroll-list {}
+
+		.simply-scroll .simply-scroll-list li {
+			float: left;
+/* 			width: 450px; */
+			height: 64px;
+			padding: 0px 50px;
+/* 			padding: 0px 30px 0px 0px; */
+/* 			border: thin solid lime; */
+		}
+
+		.simply-scroll .simply-scroll-list li.slim {
+			width: 64px;
+
+		}
+		.simply-scroll .simply-scroll-list li.mlblogo {
+			width: 100px;
+		}
+
+		.simply-scroll .simply-scroll-list li.nbalogo {
+			width: 40px;
+		}
+
+		td{
+			vertical-align: middle;
+			font-size: 13px;
+/* 			border: thin solid red; */
+			padding: 0px;
+			margin: 0px;
+/* 			padding: 5px 8px; */
+		}
+
+		.simply-scroll .simply-scroll-list li img {
+			vertical-align: middle;
+		}

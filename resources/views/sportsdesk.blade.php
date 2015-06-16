@@ -175,7 +175,7 @@
         //    console.log( htmlString );
             $('#scroller').append( htmlString );
             $("#scroller").simplyScroll({
-                frameRate : 100
+                frameRate : 70
             });
         });
       

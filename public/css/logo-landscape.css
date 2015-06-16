@@ -1,0 +1,220 @@
+
+.minilogo{ width: 55px !important; height: 55px !important; display: inline-block; position: relative; background-size: contain !important; position: relative; bottom: 15px; }
+
+/*td{ border: thin solid lime; } */
+.cityteam{text-align: left; }
+.team-city { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 35px; line-height: 20px; text-align: left; padding-left: 15px; position: relative; bottom: 20px;}
+.team-name { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 15px; line-height: 15px; text-align: left; float: left;}
+.score{ font-size: 60px; font-family: GalaxiePolarisCondensed-Bold; text-align: center;  margin-left: 30px !important; text-align: right !important; vertical-align: top; position: relative; bottom: 23px;}
+.clock{position: relative; bottom: 15px; left: 50px;}
+/*.clock{ width: 960px; font-size: 72px; font-family: GalaxiePolarisCondensed-Bold; vertical-align: middle; text-align: right; padding-right: 30px; padding-top:25px; float: right;}*/
+/*sup{ font-size: 40px;}*/
+
+/*nhl logos*/
+.NHL-logo         { background: transparent url('cash-assets/images/nhl/05_NHL_Shield.svg') center center no-repeat; }
+.NHL-Anaheim      { background: transparent url('cash-assets/images/nhl/Anaheim_Ducks.svg') center center no-repeat; }
+.NHL-Boston       { background: transparent url('cash-assets/images/nhl/Boston_Bruins.svg') center center no-repeat; }
+.NHL-Buffalo      { background: transparent url('cash-assets/images/nhl/Buffalo_Sabres_Logo.svg') center center no-repeat; }
+.NHL-Calgary      { background: transparent url('cash-assets/images/nhl/Calgary_Flames_Logo.svg') center center no-repeat; }
+.NHL-Carolina     { background: transparent url('cash-assets/images/nhl/Carolina_Hurricanes.svg') center center no-repeat; }
+.NHL-Chicago      { background: transparent url('cash-assets/images/nhl/ChicagoBlackhawksLogo.svg') center center no-repeat; }
+.NHL-Colorado     { background: transparent url('cash-assets/images/nhl/Colorado_Avalanche_logo.svg') center center no-repeat; }
+.NHL-Columbus     { background: transparent url('cash-assets/images/nhl/Columbus_BlueJackets.svg') center center no-repeat; }
+.NHL-Dallas       { background: transparent url('cash-assets/images/nhl/Dallas_Stars_2013_crest.svg') center center no-repeat; }
+.NHL-Detroit      { background: transparent url('cash-assets/images/nhl/Detroit_Red_Wings_logo.svg') center center no-repeat; }
+.NHL-Florida      { background: transparent url('cash-assets/images/nhl/Florida_Panthers.svg') center center no-repeat; }
+.NHL-Edmonton     { background: transparent url('cash-assets/images/nhl/Logo_Edmonton_Oilers.svg') center center no-repeat; }
+.NHL-NYIslanders  { background: transparent url('cash-assets/images/nhl/Logo_New_York_Islanders.svg') center center no-repeat; }
+.NHL-NYRangers    { background: transparent url('cash-assets/images/nhl/New_York_Rangers.svg') 				  center center no-repeat; }
+.NHL-LosAngeles   { background: transparent url('cash-assets/images/nhl/Los_Angeles_Kings_Logo_(2011).svg')   center center no-repeat; }
+.NHL-Minnesota    { background: transparent url('cash-assets/images/nhl/Minnesota_Wild.svg')                  center center no-repeat; }
+.NHL-Montreal     { background: transparent url('cash-assets/images/nhl/Montreal_Canadiens.svg')              center center no-repeat; }
+.NHL-Nashville    { background: transparent url('cash-assets/images/nhl/Nashville_Predators_Logo_(2011).svg') center center no-repeat; }
+.NHL-NewJersey    { background: transparent url('cash-assets/images/nhl/New_Jersey_Devils_logo.svg')          center center no-repeat; }
+.NHL-Ottawa       { background: transparent url('cash-assets/images/nhl/Ottawa_Senators.svg')                 center center no-repeat; }
+.NHL-Philadelphia { background: transparent url('cash-assets/images/nhl/Philadelphia_Flyers.svg')             center center no-repeat; }
+.NHL-Phoenix      { background: transparent url('cash-assets/images/nhl/Phoenix_Coyotes.svg')                 center center no-repeat; }
+.NHL-Pittsburgh   { background: transparent url('cash-assets/images/nhl/Pittsburgh_Penguins_logo.svg')        center center no-repeat; }
+.NHL-SanJose      { background: transparent url('cash-assets/images/nhl/SanJoseSharksLogo.svg')               center center no-repeat; }
+.NHL-StLouis      { background: transparent url('cash-assets/images/nhl/StLouis_Blues.svg')                   center center no-repeat; }
+.NHL-TampaBay     { background: transparent url('cash-assets/images/nhl/Tampa_Bay_Lightning_Logo_2011.svg')   center center no-repeat; }
+.NHL-Toronto      { background: transparent url('cash-assets/images/nhl/Toronto_Maple_Leafs_logo.svg')        center center no-repeat; }
+.NHL-Vancouver    { background: transparent url('cash-assets/images/nhl/Vancouver_Canucks_logo.svg')          center center no-repeat; }
+.NHL-Washington   { background: transparent url('cash-assets/images/nhl/Washington_Capitals.svg')             center center no-repeat; }
+.NHL-Winnipeg     { background: transparent url('cash-assets/images/nhl/Winnipeg_Jets_Logo_2011.svg')         center center no-repeat; }
+
+/*mlb logos*/
+.MLB-logo         { background: transparent url('cash-assets/images/mlb/Major_League_Baseball.svg') center center no-repeat; }
+.MLB-Arizona      { background: transparent url('cash-assets/images/mlb/Arizona_Diamondbacks_Logo.svg') center center no-repeat; }
+.MLB-Atlanta      { background: transparent url('cash-assets/images/mlb/Atlanta_Braves.svg') center center no-repeat; }
+.MLB-Baltimore    { background: transparent url('cash-assets/images/mlb/Baltimore_Orioles_Logo.svg') center center no-repeat; }
+.MLB-ChicagoCubs  { background: transparent url('cash-assets/images/mlb/Chicago_Cubs_Logo.svg') center center no-repeat; }
+.MLB-ChicagoWSox  { background: transparent url('cash-assets/images/mlb/Chicago_White_Sox.svg') center center no-repeat; }
+.MLB-Cincinnati   { background: transparent url('cash-assets/images/mlb/Cincinnati_Reds_Logo.svg') center center no-repeat; }
+.MLB-Cleveland    { background: transparent url('cash-assets/images/mlb/Cleveland_Indians_logo.svg') center center no-repeat; }
+.MLB-Colorado     { background: transparent url('cash-assets/images/mlb/Colorado_Rockies_logo.svg') center center no-repeat; }
+.MLB-Detroit      { background: transparent url('cash-assets/images/mlb/Detroit_tigers_textlogo.svg') center center no-repeat; }
+.MLB-Houston      { background: transparent url('cash-assets/images/mlb/Houston_Astros_Logo.svg') center center no-repeat; }
+.MLB-KansasCity   { background: transparent url('cash-assets/images/mlb/Kansas_City_Royals.svg') center center no-repeat; }
+.MLB-LAAngels     { background: transparent url('cash-assets/images/mlb/Los_Angeles_Angels_of_Anaheim.svg') center center no-repeat; }
+.MLB-LosAngeles   { background: transparent url('cash-assets/images/mlb/Los_Angeles_Dodgers.eps.svg') center center no-repeat; }
+.MLB-Miami        { background: transparent url('cash-assets/images/mlb/MiamiMarlins.svg') center center no-repeat; }
+.MLB-Milwaukee    { background: transparent url('cash-assets/images/mlb/Milwaukee_Brewers_Logo.svg') center center no-repeat; }
+.MLB-Minnesota    { background: transparent url('cash-assets/images/mlb/Minnesota_Twins_Logo.svg') center center no-repeat; }
+.MLB-NYMets       { background: transparent url('cash-assets/images/mlb/New_York_Mets.svg') center center no-repeat; }
+.MLB-NYYankees    { background: transparent url('cash-assets/images/mlb/NewYorkYankees_PrimaryLogo.svg') center center no-repeat; }
+.MLB-Oakland      { background: transparent url('cash-assets/images/mlb/Oakland_athl_primlogo.svg') center center no-repeat; }
+.MLB-Philadelphia { background: transparent url('cash-assets/images/mlb/Philadelphia_Phillies.svg') center center no-repeat; }
+.MLB-Pittsburgh   { background: transparent url('cash-assets/images/mlb/Pittsburgh_Pirates_MLB_Logo.svg') center center no-repeat; }
+.MLB-Boston       { background: transparent url('cash-assets/images/mlb/RedSoxPrimary_HangingSocks.svg') center center no-repeat; }
+.MLB-SanDiego     { background: transparent url('cash-assets/images/mlb/San_Diego_Padres_logo.svg') center center no-repeat; }
+.MLB-SanFrancisco { background: transparent url('cash-assets/images/mlb/San_Francisco_Giants_Logo.svg') center center no-repeat; }
+.MLB-Seattle      { background: transparent url('cash-assets/images/mlb/Seattle_Mariners_logo.svg') center center no-repeat; }
+.MLB-StLouis      { background: transparent url('cash-assets/images/mlb/St._Louis_Cardinals_Logo.svg') center center no-repeat; }
+.MLB-TampaBay     { background: transparent url('cash-assets/images/mlb/Tampa_Bay_Rays.svg') center center no-repeat; }
+.MLB-Texas        { background: transparent url('cash-assets/images/mlb/Texas_Rangers.svg') center center no-repeat; }
+.MLB-Toronto      { background: transparent url('cash-assets/images/mlb/Toronto_Blue_Jays_logo.svg') center center no-repeat; }
+.MLB-Washington   { background: transparent url('cash-assets/images/mlb/Washington-Nationals-Logo.svg') center center no-repeat; }
+
+/*nfl logos*/
+.NFL-logo 			{ background: transparent url('cash-assets/images/nfl/National_Football_League_2008.svg') center center no-repeat; }
+.NFL-Sanfrancisco 	{ background: transparent url('cash-assets/images/nfl/49ers_Logo.svg') center center no-repeat; }
+.NFL-Arizona 		{ background: transparent url('cash-assets/images/nfl/Arizona_Cardinals_logo.svg') center center no-repeat; }
+.NFL-Atlanta 		{ background: transparent url('cash-assets/images/nfl/Atlanta_Falcons_logo.svg') center center no-repeat; }
+.NFL-Baltimore 		{ background: transparent url('cash-assets/images/nfl/Baltimore_Ravens_logo.svg') center center no-repeat; }
+.NFL-Buffalo 		{ background: transparent url('cash-assets/images/nfl/Buffalo_Bills_logo.svg') center center no-repeat; }
+.NFL-Carolina 		{ background: transparent url('cash-assets/images/nfl/Carolina_Panthers_logo_2012.svg') center center no-repeat; }
+.NFL-Chicago 		{ background: transparent url('cash-assets/images/nfl/Chicago_Bears_logo.svg') center center no-repeat; }
+.NFL-Cincinnati 	{ background: transparent url('cash-assets/images/nfl/Cincinnati_Bengals.svg') center center no-repeat; }
+.NFL-Cleveland 		{ background: transparent url('cash-assets/images/nfl/Cleveland_Browns_logo-01.svg') center center no-repeat; }
+.NFL-Dallas 		{ background: transparent url('cash-assets/images/nfl/Dallas_Cowboys.svg') center center no-repeat; }
+.NFL-Denver 		{ background: transparent url('cash-assets/images/nfl/Denver_Broncos_logo.svg') center center no-repeat; }
+.NFL-GreenBay 		{ background: transparent url('cash-assets/images/nfl/Green_Bay_Packers_logo.svg') center center no-repeat; }
+.NFL-Houston 		{ background: transparent url('cash-assets/images/nfl/Houston_Texans_logo.svg') center center no-repeat; }
+.NFL-Indianapolis 	{ background: transparent url('cash-assets/images/nfl/Indianapolis_Colts_logo.svg') center center no-repeat; }
+.NFL-Jacksonville 	{ background: transparent url('cash-assets/images/nfl/Jacksonville_Jaguars.svg') center center no-repeat; }
+.NFL-KansasCity 	{ background: transparent url('cash-assets/images/nfl/Kansas_City_Chiefs_logo.svg') center center no-repeat; }
+.NFL-Miami 			{ background: transparent url('cash-assets/images/nfl/Miami_Dolphins_logo.svg') center center no-repeat; }
+.NFL-Minnesota 		{ background: transparent url('cash-assets/images/nfl/minnesota_vikings.svg') center center no-repeat;}
+.NFL-NewEngland 	{ background: transparent url('cash-assets/images/nfl/New_England_Patriots_logo.svg') center center no-repeat; }
+.NFL-Detroit 		{ background: transparent url('cash-assets/images/nfl/New_Lions_Logo.svg') center center no-repeat; }
+.NFL-Neworleans 	{ background: transparent url('cash-assets/images/nfl/New_Orleans_Saints.svg') center center no-repeat; }
+.NFL-Giants 		{ background: transparent url('cash-assets/images/nfl/New_York_Giants_logo.svg') center center no-repeat; }
+.NFL-Jets 			{ background: transparent url('cash-assets/images/nfl/New_York_Jets_logo.svg') center center no-repeat; }
+.NFL-Oakland 		{ background: transparent url('cash-assets/images/nfl/Oakland_Raiders.svg') center center no-repeat; }
+.NFL-Philadelphia 	{ background: transparent url('cash-assets/images/nfl/Philadelphia_Eagles_primary_logo.svg') center center no-repeat; }
+.NFL-Pittsburgh 	{ background: transparent url('cash-assets/images/nfl/Pittsburgh_Steelers_logo.svg') center center no-repeat; }
+.NFL-Sandiego 		{ background: transparent url('cash-assets/images/nfl/San_Diego_Chargers_logo.svg') center center no-repeat; }
+.NFL-Seattle 		{ background: transparent url('cash-assets/images/nfl/SeattleSeahawks.svg') center center no-repeat; }
+.NFL-Stlouis 		{ background: transparent url('cash-assets/images/nfl/St_Louis_Rams_logo.svg') center center no-repeat; }
+.NFL-TampaBay		{ background: transparent url('cash-assets/images/nfl/Tampa_Bay_Buccaneers_logo.svg') center center no-repeat; }
+.NFL-Tennessee 		{ background: transparent url('cash-assets/images/nfl/Tennessee_Titans_logo.svg') center center no-repeat; }
+.NFL-Washington 	{ background: transparent url('cash-assets/images/nfl/Washington_Redskins_logo.svg') center center no-repeat; }
+
+.NBA-logo 			{ background: transparent url('cash-assets/images/nba/NBALogo.svg') center center no-repeat;}
+.NBA-Atlanta 		{ background: transparent url('cash-assets/images/nba/Atlanta_Hawks.svg') center center no-repeat; }
+.NBA-Boston 		{ background: transparent url('cash-assets/images/nba/Boston_Celtics.svg') center center no-repeat; }
+.NBA-Brooklyn 		{ background: transparent url('cash-assets/images/nba/Brooklyn_Nets_newlogo.svg') center center no-repeat; }
+.NBA-Chicago 		{ background: transparent url('cash-assets/images/nba/Chicago_Bulls_logo.svg') center center no-repeat; }
+.NBA-Charlotte 		{ background: transparent url('cash-assets/images/nba/bobcats.svg') center center no-repeat; }
+.NBA-Cleveland 		{ background: transparent url('cash-assets/images/nba/Cleveland_Cavaliers_2010.svg') center center no-repeat; }
+.NBA-Dallas 		{ background: transparent url('cash-assets/images/nba/Dallas_Mavericks_logo.svg') center center no-repeat; }
+.NBA-Philadelphia 	{ background: transparent url('cash-assets/images/nba/Philadelphia_76ers_Logo.svg') center center no-repeat; }
+.NBA-Denver 		{ background: transparent url('cash-assets/images/nba/Denver_Nuggets.svg') center center no-repeat; }
+.NBA-Detroit 		{ background: transparent url('cash-assets/images/nba/Detroit_Pistons_logo.svg') center center no-repeat; }
+.NBA-GoldenState 	{ background: transparent url('cash-assets/images/nba/Golden_State_Warriors_logo.svg') center center no-repeat; }
+.NBA-Houston 		{ background: transparent url('cash-assets/images/nba/Houston_Rockets.svg') center center no-repeat; }
+.NBA-Indiana 		{ background: transparent url('cash-assets/images/nba/Indiana_Pacers.svg') center center no-repeat; }
+.NBA-LALakers 		{ background: transparent url('cash-assets/images/nba/LosAngeles_Lakers_logo.svg') center center no-repeat; }
+.NBA-LAClippers 	{ background: transparent url('cash-assets/images/nba/Los_Angeles_Clippers_logo.svg') center center no-repeat; }
+.NBA-Memphis 		{ background: transparent url('cash-assets/images/nba/Memphis_Grizzlies.svg') center center no-repeat; }
+.NBA-Miami 			{ background: transparent url('cash-assets/images/nba/Miami_Heat_logo.svg') center center no-repeat; }
+.NBA-Milwaukee 		{ background: transparent url('cash-assets/images/nba/Milwaukee_Bucks.svg') center center no-repeat; }
+.NBA-Minnesota 		{ background: transparent url('cash-assets/images/nba/Minnesota_Timberwolves.svg') center center no-repeat; }
+.NBA-NewYork 		{ background: transparent url('cash-assets/images/nba/knicks.svg') center center no-repeat; }
+.NBA-OklahomaCity 	{ background: transparent url('cash-assets/images/nba/Oklahoma_City_Thunder.svg') center center no-repeat; }
+.NBA-Orlando 		{ background: transparent url('cash-assets/images/nba/Orlando_Magic.svg') center center no-repeat; }
+.NBA-Phoenix 		{ background: transparent url('cash-assets/images/nba/Phoenix_Suns.svg') center center no-repeat; }
+.NBA-Portland 		{ background: transparent url('cash-assets/images/nba/Portland_Trail_Blazers.svg') center center no-repeat; }
+.NBA-Sacramento 	{ background: transparent url('cash-assets/images/nba/Sacramento_Kings.svg') center center no-repeat; }
+.NBA-SanAntonio 	{ background: transparent url('cash-assets/images/nba/San_Antonio_Spurs.svg') center center no-repeat; }
+.NBA-Toronto 		{ background: transparent url('cash-assets/images/nba/Toronto_Raptors.svg') center center no-repeat; }
+.NBA-Utah 			{ background: transparent url('cash-assets/images/nba/Utah_Jazz.svg') center center no-repeat; }
+.NBA-Washington 	{ background: transparent url('cash-assets/images/nba/Washington_Wizards_Logo.svg') center center no-repeat; }
+.NBA-NewOrleans 	{ background: transparent url('cash-assets/images/nba/neworleans.svg') center center no-repeat; }
+
+/*CFL*/
+.CFL-logo 			{ background: transparent url('cash-assets/images/cfl/CFL_Logo.svg') center center no-repeat;}
+.CFL-BC				{ background: transparent url('cash-assets/images/cfl/BC_Lions_logo.svg') center center no-repeat;}
+.CFL-Calgary		{ background: transparent url('cash-assets/images/cfl/Calgary_Stampeders_Logo.svg') center center no-repeat;}
+.CFL-Edmonton		{ background: transparent url('cash-assets/images/cfl/Edmonton_Eskimos_Logo.svg') center center no-repeat;}
+.CFL-Saskatchewan	{ background: transparent url('cash-assets/images/cfl/Saskatchewan_Roughriders_logo.svg') center center no-repeat;}
+.CFL-Winnipeg		{ background: transparent url('cash-assets/images/cfl/Winnipeg_Blue_Bombers.svg') center center no-repeat;}
+.CFL-Hamilton		{ background: transparent url('cash-assets/images/cfl/Hamilton_Tiger-Cats.svg') center center no-repeat;}
+.CFL-Toronto		{ background: transparent url('cash-assets/images/cfl/Argonauts_Logo.svg') center center no-repeat;}
+.CFL-Ottawa			{ background: transparent url('cash-assets/images/cfl/redblacks.svg') center center no-repeat;}
+.CFL-Montreal		{ background: transparent url('cash-assets/images/cfl/Montreal_Alouettes_Logo.svg') center center no-repeat;}
+
+/*MLS*/
+.MLS-logo			{ background: transparent url('cash-assets/images/mls/MLS_Logo.svg') center center no-repeat;}
+.MLS-NewEngland  	{ background: transparent url('cash-assets/images/mls/New_England_Revolution_logo.svg') center center no-repeat;}
+.MLS-KansasCity  	{ background: transparent url('cash-assets/images/mls/KC.svg') center center no-repeat;}
+.MLS-DC		    	{ background: transparent url('cash-assets/images/mls/DC.svg') center center no-repeat;}
+.MLS-Toronto	    { background: transparent url('cash-assets/images/mls/Toronto.svg') center center no-repeat;}
+.MLS-NewYork	    { background: transparent url('cash-assets/images/mls/File-New_York_Red_Bulls_logo.svg') center center no-repeat;}
+.MLS-Columbus    	{ background: transparent url('cash-assets/images/mls/File-Columbus_Crew_logo.svg') center center no-repeat;}
+.MLS-Houston	    { background: transparent url('cash-assets/images/mls/File-Houston_Dynamo_logo.svg') center center no-repeat;}
+.MLS-Philadelphia	{ background: transparent url('cash-assets/images/mls/Philadelphia_Union_Logo.svg') center center no-repeat;}
+.MLS-Chicago	    { background: transparent url('cash-assets/images/mls/File-Chicago_Fire_Soccer_Club.svg') center center no-repeat;}
+.MLS-Montreal    	{ background: transparent url('cash-assets/images/mls/Montreal.svg') center center no-repeat;}
+.MLS-Seattle	    { background: transparent url('cash-assets/images/mls/File-Seattle_Sounders_FC.svg') center center no-repeat;}
+.MLS-SaltLake    	{ background: transparent url('cash-assets/images/mls/Real_Salt_Lake_logo.svg') center center no-repeat;}
+.MLS-Colorado    	{ background: transparent url('cash-assets/images/mls/File-Colorado_Rapids_logo.svg') center center no-repeat;}
+.MLS-Dallas	    	{ background: transparent url('cash-assets/images/mls/File-FC_Dallas_logo.svg') center center no-repeat;}
+.MLS-Vancouver   	{ background: transparent url('cash-assets/images/mls/File-Vancouver_Whitecaps_FC_logo.svg') center center no-repeat;}
+.MLS-Portland    	{ background: transparent url('cash-assets/images/mls/File-Portland_Timbers_logo.svg') center center no-repeat;}
+.MLS-LA		    	{ background: transparent url('cash-assets/images/mls/File-Los_Angeles_Galaxy_logo.svg') center center no-repeat;}
+.MLS-SanJose	    { background: transparent url('cash-assets/images/mls/San_Jose_Earthquakes.svg') center center no-repeat;}
+.MLS-Chivas	    	{ background: transparent url('cash-assets/images/mls/File-Chivas_USA_logo.svg') center center no-repeat;}
+
+/*olympics*/
+.OLY-logo		{ background: transparent url('cash-assets/images/oly/rings.svg') center center no-repeat;}
+.gold-medal		{ background: transparent url('cash-assets/images/oly/gold.svg') center center no-repeat;}
+.silver-medal	{ background: transparent url('cash-assets/images/oly/silver.svg') center center no-repeat;}
+.bronze-medal	{ background: transparent url('cash-assets/images/oly/bronze.svg') center center no-repeat;}
+
+
+/*world cup*/
+.SOC-WC-logo		{ background: transparent url('/cash-assets/images/wc/WC-2014-Brasil.svg') center center no-repeat;}
+.SOC-WC-Algeria		{ background: transparent url('/cash-assets/images/wc/dz.svg') center center no-repeat;}
+.SOC-WC-Argentina	{ background: transparent url('/cash-assets/images/wc/ar.svg') center center no-repeat;}
+.SOC-WC-Australia	{ background: transparent url('/cash-assets/images/wc/au.svg') center center no-repeat;}
+.SOC-WC-Belgium		{ background: transparent url('/cash-assets/images/wc/be.svg') center center no-repeat;}
+.SOC-WC-Bosnia-Herzegovina	{ background: transparent url('/cash-assets/images/wc/ba.svg') center center no-repeat;}
+.SOC-WC-Brazil				{ background: transparent url('/cash-assets/images/wc/br.svg') center center no-repeat;}
+.SOC-WC-Cameroon			{ background: transparent url('/cash-assets/images/wc/cm.svg') center center no-repeat;}
+.SOC-WC-Chile				{ background: transparent url('/cash-assets/images/wc/cl.svg') center center no-repeat;}
+.SOC-WC-Colombia{ background: transparent url('/cash-assets/images/wc/co.svg') center center no-repeat;}
+.SOC-WC-Costa-Rica{ background: transparent url('/cash-assets/images/wc/cr.svg') center center no-repeat; }
+.SOC-WC-Croatia{ background: transparent url('/cash-assets/images/wc/hr.svg') center center no-repeat;}
+.SOC-WC-Ecuador{ background: transparent url('/cash-assets/images/wc/ec.svg') center center no-repeat;}
+.SOC-WC-England{ background: transparent url('/cash-assets/images/wc/england.svg') center center no-repeat;}
+.SOC-WC-France{ background: transparent url('/cash-assets/images/wc/fr.svg') center center no-repeat;}
+.SOC-WC-Germany{ background: transparent url('/cash-assets/images/wc/de.svg') center center no-repeat;}
+.SOC-WC-Ghana{ background: transparent url('/cash-assets/images/wc/gh.svg') center center no-repeat;}
+.SOC-WC-Greece{ background: transparent url('/cash-assets/images/wc/gr.svg') center center no-repeat;}
+.SOC-WC-Honduras{ background: transparent url('/cash-assets/images/wc/hn.svg') center center no-repeat;}
+.SOC-WC-Iran{ background: transparent url('/cash-assets/images/wc/ir.svg') center center no-repeat;}
+.SOC-WC-Italy{ background: transparent url('/cash-assets/images/wc/it.svg') center center no-repeat;}
+.SOC-WC-Cote-dIvoire{ background: transparent url('/cash-assets/images/wc/ie.svg') center center no-repeat;}
+.SOC-WC-Japan{ background: transparent url('/cash-assets/images/wc/jp.svg') center center no-repeat;}
+.SOC-WC-Mexico{ background: transparent url('/cash-assets/images/wc/mx.svg') center center no-repeat;}
+.SOC-WC-Netherlands{ background: transparent url('/cash-assets/images/wc/nl.svg') center center no-repeat;}
+.SOC-WC-Nigeria{ background: transparent url('/cash-assets/images/wc/ng.svg') center center no-repeat;}
+.SOC-WC-Portugal{ background: transparent url('/cash-assets/images/wc/pt.svg') center center no-repeat;}
+.SOC-WC-Russia{ background: transparent url('/cash-assets/images/wc/ru.svg') center center no-repeat;}
+.SOC-WC-KoreaRepublic{ background: transparent url('/cash-assets/images/wc/kr.svg') center center no-repeat;}
+.SOC-WC-Spain{ background: transparent url('/cash-assets/images/wc/es.svg') center center no-repeat;}
+.SOC-WC-Switzerland{ background: transparent url('/cash-assets/images/wc/ch.svg') center center no-repeat;}
+.SOC-WC-USA{ background: transparent url('/cash-assets/images/wc/us.svg') center center no-repeat;}
+.SOC-WC-Uruguay{ background: transparent url('/cash-assets/images/wc/uy.svg') center center no-repeat;}

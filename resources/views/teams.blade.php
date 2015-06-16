@@ -1,12 +1,12 @@
 <html>
 <head>
 	<title>Team Color</title>
-	<link rel="stylesheet" type="text/css" href="css/team-colors.css">
+	<link rel="stylesheet" type="text/css" href="css/team-colours.css">
 </head>
 <body>
 
 	@foreach ($teams as $team)
-		<div class="team{{$team->teamId}} team">
+		<div class="team{{$team->teamId}} team team">
 			<div class="logo">
 				<img src="{{$team->logo}}">
 				<span class="city">{{$team->teamLocation}} </span>

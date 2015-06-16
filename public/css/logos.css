@@ -1,28 +1,3 @@
-@font-face { font-family: GalaxiePolarisCondensed-Book.; src: url('/fonts/GalaxiePolarisCondensed-Book.otf'); }
-@font-face { font-family: GalaxiePolarisCondensed-Bold; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Bold.otf'); }
-@font-face { font-family: GalaxiePolarisCondensed-Light; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Light.otf'); }
-
-
-.teamlogo{ width: 50px !important; height: 50px !important; display: inline-block; position: relative; background-size: contain !important; padding: 0px 0px 0px 5px; }
-.teamname, .cityname, .clock, .score, .at { text-transform: uppercase;}
-
-.cityname, .clock, .at {font-family: GalaxiePolarisCondensed-Book; font-size: 16px; line-height: 13px; }
-.teamname{font-family: GalaxiePolarisCondensed-Bold; font-size: 30px; line-height: 30px; }
-.score{ font-family: GalaxiePolarisCondensed-Bold; font-size: 60px; vertical-align: top; line-height: 50px; padding: 0px 5px; }
-.cityname-sportsdesk, .clock-sportsdesk, .at-sportsdesk {font-family: GalaxiePolarisCondensed-Book; font-size: 16px; color:#bc0d0d; }
-.score-sportsdesk{font-family: GalaxiePolarisCondensed-Bold; font-size:16px; vertical-align: top; padding: 0px 5px; color:#bc0d0d;}
-.at, .clock{ vertical-align: middle; padding: 0px 10px; }
-
-/*td{ border: thin solid lime; } */
-/* .cityteam{text-align: left; } */
-/*
-.team-city { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 35px; line-height: 20px; text-align: left; padding-left: 15px; position: relative; bottom: 20px;}
-.team-name { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 15px; line-height: 15px; text-align: left; float: left;}
-.score{ font-size: 60px; font-family: GalaxiePolarisCondensed-Bold; text-align: center;  margin-left: 30px !important; text-align: right !important; vertical-align: top; position: relative; bottom: 23px;}
-.clock{position: relative; bottom: 15px; left: 50px;}
-*/
-/*.clock{ width: 960px; font-size: 72px; font-family: GalaxiePolarisCondensed-Bold; vertical-align: middle; text-align: right; padding-right: 30px; padding-top:25px; float: right;}*/
-/*sup{ font-size: 40px;}*/
 
 /*nhl logos*/
 .NHL-logo         { background: transparent url('/images/nhl/05_NHL_Shield.svg') center center no-repeat; }

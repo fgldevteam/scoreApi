@@ -1,0 +1,639 @@
+.team{
+	height: 150px;
+	width: 800px;
+	margin: 50px;
+}
+.logo img{
+	height: 150px;
+	width: 150px;
+}
+.city, .teamname{
+	font: 70px GalaxiePolarisCondensed-Bold;
+	color:white;
+	vertical-align: top;
+}
+
+
+/* MLB teams */  
+
+/* Arizona Diamondbacks*/
+.team253{
+	background: linear-gradient( #A71930 , #c92437);
+}
+/*Colorado Rockies*/
+.team251{
+	background: linear-gradient( #333366 , #322f70);
+}
+/*Los Angles Dodgers */
+.team243{
+	background: linear-gradient( #083C6B , #1e4b87 );
+}
+/*San Diago Padres*/
+.team249{
+	background: linear-gradient( #002147 , #1e4b87);
+}
+/*San Francisco Giants */
+.team250{
+	background: linear-gradient( #F2552C , #fb3c0a);
+}
+/*Miami Marlins*/
+.team252{
+	background: linear-gradient( #0077C8 , #1e4b87);
+}
+/*Atlanta Braves*/
+.team239{
+	background: linear-gradient( #002F5F , #1e4b87);
+}
+/*Washington Nationals */
+.team244{
+	background: linear-gradient( #11225B , #1e4b87);
+}
+/*New York Mets*/
+.team245{
+	background: linear-gradient( #002C77 , #1e4b87);
+}
+/*Philadelphia Phillies*/
+.team246{
+	background: linear-gradient( #BA0C2F , #ea1d47);
+}
+/*Milwaukee Brewers*/
+.team232{
+	background: linear-gradient( #182B49 , #1e4b87);
+}
+/*Chicago Cubs*/
+.team240{
+	background: linear-gradient( #CC0033 , #b20f38 );
+}
+
+/*Cincinnati Reds*/
+.team241{
+	background: linear-gradient( #C6011F, #de1e3c);
+}
+/*Pittsburg Pirates*/
+.team247{
+	background: linear-gradient( #000000, #26251b);
+}
+/*St. Louis Cardinals*/
+/*.team248{
+	background: linear-gradient( #0A2252, #082051);
+}*/
+.team248{
+	background: linear-gradient( #C41E3A, #cb364f);
+}
+/*Tampa Bay Rays*/
+.team254{
+	background: linear-gradient( #9ECEEE, #6EAAD2);
+}
+/*Baltimore Orioles*/
+.team225{
+	background: linear-gradient( #ED4C09, #ED5C20);
+}
+/*Boston Red Sox*/
+.team226{
+	background: linear-gradient( #002244, #09325A);
+}
+/*New York Yankees*/
+.team234{
+	background: linear-gradient( #1C2841, #213662);
+}
+/*Toronto Blue Jays*/
+.team238{
+	background: linear-gradient( #041E42, #003DA5);
+}
+/*Los Angeles Angels*/
+.team227{
+	background: linear-gradient( #B71234, #D00000);
+}
+/*Oakland Athletics*/
+.team235{
+	background: linear-gradient( #003831, #014e44);
+}
+/*Seattle mariners*/
+.team236{
+	background: linear-gradient( #0C2C56 , #0b4074);
+}
+/*Texas Rangers*/
+.team237{
+	background: linear-gradient( #003279, #04439d);
+}
+/*Houston Astros*/
+.team242{
+	background: linear-gradient( #072854, #0f386e);
+}
+/*Chicago White Sox*/
+.team228{
+	background: linear-gradient( #000000, #2f2f2f);
+}
+/*Cleveland Indians*/
+.team229{
+	background: linear-gradient( #003366, #034485);
+}
+/*Detroit Tigers*/
+.team230{
+	background: linear-gradient( #001742, #112751);
+}
+/*Kansas City Royals*/
+.team231{
+	background: linear-gradient( #74B4FA, #0e57a8);
+}
+/*Minnesota Twins*/
+.team233{
+	background: linear-gradient( #072754, #1e4b87);
+}
+/*Nl All Stars*/
+.team322{
+	background: linear-gradient( #1e4b87, #1e4b87);
+}
+/*Al All Stars*/
+.team321{
+	background: linear-gradient( #1e4b87, #1e4b87);
+}
+
+/* MLB teams end */
+/* NBA teams */  
+
+/* Boston Celtics*/
+.team2{
+	background: linear-gradient( #009E60 , #30b581);
+}
+/*Brooklyn Nets*/
+.team17{
+	background: linear-gradient( #000000 , #383636);
+}
+/*New York Knicks */
+.team18{
+	background: linear-gradient( #0953A0 , #2368af );
+}
+/*Philadelphia 76ers*/
+.team20{
+	background: linear-gradient( #D0103A , #c70630);
+}
+/*Toronto Raptors*/
+.team28{
+	background: linear-gradient( #F2552C , #fb3c0a);
+}
+/* Chicago Bulls */
+.team4{
+	background: linear-gradient( #D4001F , #aa1d32);
+}
+/*Cleveland Cavaliers*/
+.team5{
+	background: linear-gradient( #860038 , #620029);
+}
+/*Detroit pistons*/
+.team8{
+	background: linear-gradient( #00519A , #02427b);
+}
+/*Indiana Pacers*/
+.team11{
+	background: linear-gradient( #FFC322 , #e4ae1c);
+}
+/*Milwaukee Bucks*/
+.team15{
+	background: linear-gradient( #003614 , #016426);
+}
+/*Atlanta Hawks*/
+.team1{
+	background: linear-gradient( #000080 , #1b1b9e);
+}
+/*Charlotte Hornets*/
+.team5312{
+	background: linear-gradient( #1D1160 , #30227d );
+}
+
+/* Miami Heat*/
+.team14{
+	background: linear-gradient( #B62630, #9b0a14);
+}
+/* Orlando Magic */
+.team19{
+	background: linear-gradient( #0047AB, #073981);
+}
+/*Washington Wizards*/
+.team27{
+	background: linear-gradient( #002244, #13375c);
+}
+/*Golden State Warriors*/
+.team9{
+	background: linear-gradient( #FFCC33, #f9bb03);
+}
+/*Los Angeles Clippers*/
+.team12{
+	background: linear-gradient( #146AA2, #025387);
+}
+/*Los Angeles Lakers*/
+.team13{
+	background: linear-gradient( #F5AF1B, #e69d04);
+}
+/*Phoenix Suns*/
+.team21{
+	background: linear-gradient( #1C105E, #0b023e);
+}
+/*Sacramento Kings*/
+.team23{
+	background: linear-gradient( #753BBD, #4c1393);
+}
+/*Dallas Mavericks*/
+.team6{
+	background: linear-gradient( #0B60AD, #134879);
+}
+/*Houston Rockets*/
+.team10{
+	background: linear-gradient( #000000, #2c2626);
+}
+/*Memphis Grizzles*/
+.team29{
+	background: linear-gradient( #001F70 , #00113f);
+}
+/*New Orleans Pelicans*/
+.team3{
+	background: linear-gradient( #002B5C, #003674);
+}
+/*San Antonio Spurs*/
+.team24{
+	background: linear-gradient( #000000, #292727);
+}
+/*Denver Nuggets*/
+.team7{
+	background: linear-gradient( #4B90CD, #185b97);
+}
+/*Minnesota Timberwolves*/
+.team16{
+	background: linear-gradient( #0F4D92, #04356c);
+}
+/*Oklahoma City Thunder*/
+.team25{
+	background: linear-gradient( #007DC3, #08476a);
+}
+/*Portland Blazers*/
+.team22{
+	background: linear-gradient( #F0163A, #b10521);
+}
+/*Utah Jazz*/
+.team26{
+	background: linear-gradient( #00275D, #011d44);
+}
+/*East Easterners*/
+.team53{
+	background: linear-gradient( #1e4b87, #1e4b87);
+}
+/*West Westerners*/
+.team54{
+	background: linear-gradient( #1e4b87, #1e4b87);
+}
+
+/* NBA teams end */
+/* NHL teams */  
+
+/*Tampa Bay Lightning*/
+.team4973{
+	background: linear-gradient( #013E7D , #00254b);
+}
+/*Montreal Canadiens*/
+.team4963{
+	background: linear-gradient( #BF2F38 , #a80b15);
+}
+/*Toronto Maple Leafs*/
+.team4974{
+	background: linear-gradient( #003777 , #024593 );
+}
+/*Boston Bruins*/
+.team4954{
+	background: linear-gradient( #000000 , #332c2c);
+}
+/*Ottawa Senators*/
+.team4967{
+	background: linear-gradient( #E4173E , #b80023);
+}
+/*Buffalo Sabres*/
+.team4955{
+	background: linear-gradient( #002E62 , #01428c);
+}
+/*Detroit Red Wings*/
+.team4958{
+	background: linear-gradient( #EC1F26 , #c50209);
+}
+/*Florida Panthers*/
+.team4979{
+	background: linear-gradient( #C8213F , #9c0722);
+}
+/*Carolina Hurricanes*/
+.team4960{
+	background: linear-gradient( #E03A3E , #b2090d);
+}
+/*Pittsburgh Penguins*/
+.team4969{
+	background: linear-gradient( #000000 , #383535);
+}
+/*Washington Capitals*/
+.team4976{
+	background: linear-gradient( #CF132B , #a80117);
+}
+/*New York Rangers*/
+.team4966{
+	background: linear-gradient( #0161AB , #044a7f );
+}
+
+/*Philadelphia Flyers*/
+.team4968{
+	background: linear-gradient( #F47940, #cb5017);
+}
+/*New Jersey Devils*/
+.team4964{
+	background: linear-gradient( #E03A3E, #b01518);
+}
+/*New York Islanders*/
+.team4965{
+	background: linear-gradient( #00529B, #083f71);
+}
+/*Columbus Blue Jackets*/
+.team4982{
+	background: linear-gradient( #00285C, #053c85);
+}
+/*Dallas Stars*/
+.team4962{
+	background: linear-gradient( #006A4E, #044735);
+}
+/*Nashville Predators*/
+.team4980{
+	background: linear-gradient( #FDBB2F, #d39003);
+}
+/*Minnesota Wild*/
+.team4983{
+	background: linear-gradient( #BF2B37, #9a0511);
+}
+/*St Louis Blues*/
+.team4972{
+	background: linear-gradient( #0546A0, #073678);
+}
+/*Winnipeg Jets*/
+.team4981{
+	background: linear-gradient( #002E62, #062140);
+}
+/*Chicago Blackhawks*/
+.team4957{
+	background: linear-gradient( #E3263A, #b20b1d);
+}
+/*Colorado Avalanche*/
+.team4970{
+	background: linear-gradient( #8B2942 , #660820);
+}
+/*Arizona Coyotes*/
+.team4977{
+	background: linear-gradient( #841F27, #5c080e);
+}
+/*Anaheim Ducks*/
+.team4978{
+	background: linear-gradient( #000000, #362c2d);
+}
+/*Los Angeles Kings*/
+.team4961{
+	background: linear-gradient( #000000, #2f2f2f);
+}
+/*San Jose Sharks*/
+.team4971{
+	background: linear-gradient( #05535D, #12717d);
+}
+/*Vancouver Canucks*/
+.team4975{
+	background: linear-gradient( #07346F, #04234b);
+}
+/*Calgary Flames*/
+.team4956{
+	background: linear-gradient( #E03A3E, #cc060a);
+}
+/*Edmonton Oilers*/
+.team4959{
+	background: linear-gradient( #072754, #1e4b87);
+}
+/*Team Toews All Stars */
+.team5193{
+	background: linear-gradient( #1e4b87, #1e4b87);
+}
+/*Team Foligno All Stars*/
+.team5194{
+	background: linear-gradient( #1e4b87, #1e4b87);
+}
+
+/* NHL teams end */
+/* NFL teams */  
+
+/*Buffalo Bills*/
+.team324{
+	background: linear-gradient( #00338D , #0c2c66);
+}
+/*Miami Dolphins*/
+.team345{
+	background: linear-gradient( #008D97 , #0f7279);
+}
+/*New England Patriots*/
+.team348{
+	background: linear-gradient( #0D254C , #0f3779 );
+}
+/*New York Jets*/
+.team352{
+	background: linear-gradient( #0C371D , #055826);
+}
+/*Denver Broncos*/
+.team332{
+	background: linear-gradient( #FB4F14 , #ce4a1c);
+}
+/*Kansas City Chiefs*/
+.team339{
+	background: linear-gradient( #B20032 , #d30a42);
+}
+/*Oakland Raiders*/
+.team341{
+	background: linear-gradient( #000000 , #393536);
+}
+/*San Diego Chargers*/
+.team357{
+	background: linear-gradient( #5B92E5 , #165cc7);
+}
+/*Baltimore Ravens*/
+.team366{
+	background: linear-gradient( #280353 , #421577);
+}
+/*Cincinati Bengals*/
+.team327{
+	background: linear-gradient( #FB4F14 , #cd3703);
+}
+/*Cleveland Browns*/
+.team329{
+	background: linear-gradient( #26201E , #443d3b);
+}
+/*Pittsburgh Steelers*/
+.team356{
+	background: linear-gradient( #000000 , #2e2a29 );
+}
+
+/*Houston Texans*/
+.team325{
+	background: linear-gradient( #02253A, #0e3c58);
+}
+/*Jacksonville Jaguars*/
+.team365{
+	background: linear-gradient( #007198, #178db6);
+}
+/*Tennessee Titans*/
+.team336{
+	background: linear-gradient( #648FCC, #1c54a4);
+}
+/*Dallas Cowboys*/
+.team331{
+	background: linear-gradient( #002244, #17416c);
+}
+/*New York Giants*/
+.team351{
+	background: linear-gradient( #192F6B, #14348c);
+}
+/*Philadelphia Eagles*/
+.team354{
+	background: linear-gradient( #003B48, #0f5564);
+}
+/*Washington Redskins*/
+.team363{
+	background: linear-gradient( #773141, #571020);
+}
+/*Arizona Cardinals*/
+.team355{
+	background: linear-gradient( #870619, #6b101e);
+}
+/*San Francisco 49ers*/
+.team359{
+	background: linear-gradient( #AF1E2C, #880512);
+}
+/*Seattle Seahawks*/
+.team361{
+	background: linear-gradient( #06192E, #022e5f);
+}
+/*Indiananapolis Colts*/
+.team338{
+	background: linear-gradient( #003B7B , #1156a0);
+}
+/*St louis rams*/
+.team343{
+	background: linear-gradient( #13264B, #143577);
+}
+/*Chicago Bears*/
+.team326{
+	background: linear-gradient( #03202F, #103446);
+}
+/*Detroit lions*/
+.team334{
+	background: linear-gradient( #006DB0, #2a9de4);
+}
+/*Green Bay Packers*/
+.team335{
+	background: linear-gradient( #213D30, #1e5139);
+}
+/*Minnesota Vikings*/
+.team347{
+	background: linear-gradient( #4F2682, #6c2cbd);
+}
+/*Atlanta Falcons*/
+.team323{
+	background: linear-gradient( #BD0D18, #a72c34);
+}
+/*Carolina Panthers*/
+.team364{
+	background: linear-gradient( #0088CE, #1f6082);
+}
+/*New Orleans Saints*/
+.team350{
+	background: linear-gradient( #494949, #000000);
+}
+/*Tampa Bay Buccaneers*/
+.team362{
+	background: linear-gradient( #D60A0B, #b72e2f);
+}
+
+/* NFL teams end */
+/* MLS teams*/
+
+/*Chicago Fire*/
+.team-chicago-fire{
+	background: linear-gradient( #AF2626, #d61414);
+}
+/*Chivas USA*/
+.team-chivas-usa{
+	background: linear-gradient( #AA002C, #d70d41);
+}
+/*Colorado Rapids*/
+.team-colorado-rapids{
+	background: linear-gradient( #91022D, #730d2b);
+}
+/*Columbus Crew*/
+.team-columbus-crew{
+	background: linear-gradient( #FFDB00, #ecce1b);
+}
+/*DC United*/
+.team-dc-united{
+	background: linear-gradient( #DD0000, #bf0f0f);
+}
+/*FC Dallas*/
+.team-fc-dallas{
+	background: linear-gradient( #CF0032, #e81b4d);
+}
+/*Houston Dynamos */
+.team-houston-dynamo{
+	background: linear-gradient( #F36600, #e77c2f);
+}
+/*Los Angeles Galaxy*/
+.team-los-angeles-galaxy{
+	background: linear-gradient( #00245D, #123977);
+}
+/*Montreal Impact*/
+.team-montreal-impact{
+	background: linear-gradient( #122089, #2e3ca6);
+}
+/*New England Revolution*/
+.team-new-england-revolution{
+	background: linear-gradient( #0A2141, #1b3963);
+}
+/*New York City FC*/
+.team-new-york-city-fc{
+	background: linear-gradient( #6CADDF , #4f90c3);
+}
+/*New York Red Bulls*/
+.team-new-york-red-bulls{
+	background: linear-gradient( #012055, #0c234b);
+}
+/*Orlando City SC*/
+.team-orlando-city-sc{
+	background: linear-gradient( #633492, #491e74);
+}
+/*Philadelphia Union*/
+.team-philadelphia-union{
+	background: linear-gradient( #001B2D, #072e48);
+}
+/*Portland Timbers*/
+.team-portland-timbers{
+	background: linear-gradient( #004812, #115e24);
+}
+/*Real Salt Lake*/
+.team-real-salt-lake{
+	background: linear-gradient( #A50531, #b42049);
+}
+/*San Jose Earthquake*/
+.team-san-jose-earthquakes{
+	background: linear-gradient( #0051BA, #1351a2);
+}
+/*Seattle Sounders FC*/
+.team-seattle-sounders-fc{
+	background: linear-gradient( #4F8A10, #549d06);
+}
+/*Sporting Kansas City*/
+.team-sporting-kansas-city{
+	background: linear-gradient( #A4BBD7, #89a4c6);
+}
+/*Toronto FC*/
+.team-toronto-fc{
+	background: linear-gradient( #D80016, #ca1a2c);
+}
+/*Vancouver Whitecaps FC*/
+.team-vancouver-whitecaps-fc{
+	background: linear-gradient( #12264C, #223559);
+}
+
+/* MLS teams end */

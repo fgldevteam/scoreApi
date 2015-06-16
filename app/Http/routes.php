@@ -43,3 +43,20 @@ $app->get('sportsdesk', function(){
 
 });
 
+$app->get('cash', function(){
+
+	return view('cash');
+
+});
+
+$app->get('community', function(){
+
+	return view('community');
+
+});
+
+$app->get('flip', function(){
+
+	return view('flip');
+
+});

@@ -1,0 +1,81 @@
+body{
+		
+		/*font-family : Helvetica;*/
+		text-transform: uppercase;
+		font-weight: bold;
+		font: normal 100px GalaxiePolarisCondensed-Bold;
+	}
+	#scoreboard-container{
+		height:1080px;
+		width:1920px;
+		
+	}
+	.scoreboard {
+		
+		color: #FFFFFF;
+
+	}
+	.home-team {
+		display :none;
+	}
+	
+	.away-team{
+		display :none;
+		
+	}
+	
+	.game-state {
+		display:none;
+		font-size:0.8em;
+		background-color: #000000;
+		border-radius : 10px ;
+		float:right;
+		padding: 20px;
+		margin-top: -7.8em;
+		margin-right:5em;
+	}
+	.scoreboard p{
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		
+	}
+	
+	.logo{
+		display:inline-block;
+		padding: 0.1em 0.05em;
+		margin-top: 5px;
+		margin-bottom: 4px;
+	}
+	
+	.team-info{
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 1em;
+		
+	}
+	.city{
+		font-size: 0.75em;
+	}
+	.team {
+		font-size: 2.2em;
+		line-height: 0.75em;
+		
+	}
+	
+
+	.score{
+		line-height: 1.5em;
+		float:right;
+		margin-left:0.1em;
+		margin-right: 0.3em;
+		font-size: 3.5em;
+		display: inline-block;
+		
+	}
+	
+
+	.home-team img, .away-team img{
+		height:4.89em;
+		width:4.89em;
+		
+	}
