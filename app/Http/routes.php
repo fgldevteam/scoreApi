@@ -60,3 +60,24 @@ $app->get('flip', function(){
 	return view('flip');
 
 });
+
+$app->get('sportsdesk1', function(){
+
+	return view('sportsdesk-black');
+
+});
+$app->get('sportsdesk2', function(){
+
+	return view('sportsdesk-grey-gradient');
+
+});
+$app->get('sportsdesk3', function(){
+
+	return view('sportsdesk-grey1');
+
+});
+$app->get('sportsdesk4', function(){
+
+	return view('sportsdesk-grey2');
+
+});

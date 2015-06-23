@@ -14,20 +14,20 @@
         <link rel="stylesheet" href="/css/jquery.simplyscroll.css" media="all" type="text/css">
         <link rel="stylesheet" href="/css/logos.css" media="all" type="text/css">
         <link rel="stylesheet" type="text/css" href="/css/sportsdesk.css">
-        <link rel="stylesheet" type="text/css" href="/css/sportsdesk/grey-gradient.css">
         <style type="text/css">
 
-                .simply-scroll .simply-scroll-clip {
-                    background: rgba(185,180,177,1);
-                    background: -moz-linear-gradient(left, rgba(185,180,177,1) 0%, rgba(97,97,97,1) 25%, rgba(44,43,44,1) 51%, rgba(97,97,97,1) 75%, rgba(185,180,177,1) 100%);
-                    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(185,180,177,1)), color-stop(25%, rgba(97,97,97,1)), color-stop(51%, rgba(44,43,44,1)), color-stop(75%, rgba(97,97,97,1)), color-stop(100%, rgba(185,180,177,1)));
-                    background: -webkit-linear-gradient(left, rgba(185,180,177,1) 0%, rgba(97,97,97,1) 25%, rgba(44,43,44,1) 51%, rgba(97,97,97,1) 75%, rgba(185,180,177,1) 100%);
-                    background: -o-linear-gradient(left, rgba(185,180,177,1) 0%, rgba(97,97,97,1) 25%, rgba(44,43,44,1) 51%, rgba(97,97,97,1) 75%, rgba(185,180,177,1) 100%);
-                    background: -ms-linear-gradient(left, rgba(185,180,177,1) 0%, rgba(97,97,97,1) 25%, rgba(44,43,44,1) 51%, rgba(97,97,97,1) 75%, rgba(185,180,177,1) 100%);
-                    background: linear-gradient(to right, rgba(185,180,177,1) 0%, rgba(97,97,97,1) 25%, rgba(44,43,44,1) 51%, rgba(97,97,97,1) 75%, rgba(185,180,177,1) 100%);
-                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9b4b1', endColorstr='#b9b4b1', GradientType=1 );
-                }
+            .simply-scroll .simply-scroll-clip {
 
+                background: rgba(97,97,97,1);
+                background: -moz-linear-gradient(left, rgba(97,97,97,1) 0%, rgba(97,97,97,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(97,97,97,1)), color-stop(100%, rgba(97,97,97,1)));
+                background: -webkit-linear-gradient(left, rgba(97,97,97,1) 0%, rgba(97,97,97,1) 100%);
+                background: -o-linear-gradient(left, rgba(97,97,97,1) 0%, rgba(97,97,97,1) 100%);
+                background: -ms-linear-gradient(left, rgba(97,97,97,1) 0%, rgba(97,97,97,1) 100%);
+                background: linear-gradient(to right, rgba(97,97,97,1) 0%, rgba(97,97,97,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', endColorstr='#616161', GradientType=1 );
+
+            }
 
         </style>
     </head>
