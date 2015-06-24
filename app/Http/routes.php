@@ -15,13 +15,18 @@ $app->get('/', function() use ($app) {
     return $app->welcome();
 });
 
-$app->get('api/scores/{league}', 'App\Http\Controllers\Controller@getScoreByLeague' );
+$app->get('scores/{league}', 'App\Http\Controllers\Controller@getScoreByLeague' );
 
-$app->get('api/scores', 'App\Http\Controllers\Controller@getAllScores' );
+$app->get('scores', 'App\Http\Controllers\Controller@getAllScores' );
 
 $app->get('api/teams/{league}', 'App\Http\Controllers\Controller@getTeamsByLeague' );
 
 $app->get('api/teams', 'App\Http\Controllers\Controller@getAllTeams' );
+
+$app->get('api/scores', function(){
+	$scores =  file_get_contents('files/scores.json');
+	return $scores;
+});	
 
 $app->get('teams', function(){
 	
