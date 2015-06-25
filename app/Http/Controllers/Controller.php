@@ -9,23 +9,28 @@ class Controller extends BaseController
     private $leagueSeasons = array();
     public function __construct()
     {
-    	$this->leagues 	=  [ 'mlb'=>'baseball','nba'=>'basketball', 'nhl'=>'hockey', 'nfl'=>'football'];
+    	$this->leagues 	=  [ 'mlb'=>'baseball','nba'=>'basketball', 'nhl'=>'hockey', 'nfl'=>'football', 'cfl'=>'football'];
     	$this->leagueSeasons = ['mlb'=> [ 
-    										'start'=> '2015-04-05', 
-    										'end'=> '2015-10-04'
+    										'start'=> '2015-02-15', 
+    										'end'=> '2015-11-07'
     									], 
     							'nhl' =>[
-    										'start'=> '2014-10-08', 
-    										'end'=> '2015-04-11'
+    										'start'=> '2015-09-18', 
+    										'end'=> '2016-06-25'
     									], 
     							'nba' => [
-    										'start'=> '2014-10-28', 
-    										'end'=> '2015-06-04'
+    										'start'=> '2015-10-27', 
+    										'end'=> '2016-06-25'
     									] ,
     							'nfl' =>[
-    										'start'=> '2015-09-10', 
-    										'end'=> '2016-01-03'
-    									] 
+    										'start'=> '2015-08-08', 
+    										'end'=> '2016-02-10'
+    									],
+    							'cfl' =>[
+    										'start'=>'2015-06-20',
+    										'end'  =>'2015-12-03' 
+
+    									]
     							];
 
     }
