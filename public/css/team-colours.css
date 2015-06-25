@@ -1,17 +1,3 @@
-.team{
-	height: 150px;
-	width: 800px;
-	margin: 50px;
-}
-.logo img{
-	height: 150px;
-	width: 150px;
-}
-.city, .teamname{
-	font: 70px GalaxiePolarisCondensed-Bold;
-	color:white;
-	vertical-align: top;
-}
 
 
 /* MLB teams */  

@@ -2,6 +2,7 @@
 <head>
 	<title>Team Color</title>
 	<link rel="stylesheet" type="text/css" href="css/team-colours.css">
+	<link rel="stylesheet" type="text/css" href="css/teams.css">
 </head>
 <body>
 
