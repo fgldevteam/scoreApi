@@ -892,5 +892,61 @@
     "teamLocation": "Vancouver",
     "teamNickname": "Whitecaps FC",
     "logo": "/images/mls/vancouver-whitecaps-fc.svg"
+  },
+
+  {
+  "teamId": 5611,
+  "teamLocation": "Hamilton",
+  "teamNickname": "Tiger-Cats",
+  "logo": "/images/cfl/hamilton-tiger-cats.svg"
+  },
+  {
+  "teamId": 5612,
+  "teamLocation": "Montreal",
+  "teamNickname": "Alouettes",
+  "logo": "/images/cfl/montreal-alouettes.svg"
+  },
+  {
+  "teamId": 27755,
+  "teamLocation": "Ottawa",
+  "teamNickname": "REDBLACKS",
+  "logo": "/images/cfl/ottawa-redblacks.svg"
+  },
+  {
+  "teamId": 5615,
+  "teamLocation": "Toronto",
+  "teamNickname": "Argonauts",
+  "logo": "/images/cfl/toronto-argonauts.svg"
+  },
+  {
+  "teamId": 5608,
+  "teamLocation": "BC",
+  "teamNickname": "Lions",
+  "logo": "/images/cfl/bc-lions.svg"
+  },
+  {
+  "teamId": 5609,
+  "teamLocation": "Calgary",
+  "teamNickname": "Stampeders",
+  "logo": "/images/cfl/calgary-stampeders.svg"
+  },
+  {
+  "teamId": 5610,
+  "teamLocation": "Edmonton",
+  "teamNickname": "Eskimos",
+  "logo": "/images/cfl/edmonton-eskimos.svg"
+  },
+  {
+  "teamId": 5614,
+  "teamLocation": "Saskatchewan",
+  "teamNickname": "Roughriders",
+  "logo": "/images/cfl/saskatchewan-roughriders.svg"
+  },
+  {
+  "teamId": 5616,
+  "teamLocation": "Winnipeg",
+  "teamNickname": "Blue Bombers",
+  "logo": "/images/cfl/winnipeg-blue-bombers.svg"
   }
+  
 ]

@@ -7,7 +7,7 @@
 <body>
 
 	@foreach ($teams as $team)
-		<div class="team{{$team->teamId}} team team">
+		<div class="team{{$team->teamId}} team">
 			<div class="logo">
 				<img src="{{$team->logo}}">
 				<span class="city">{{$team->teamLocation}} </span>

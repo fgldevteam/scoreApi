@@ -623,3 +623,43 @@
 }
 
 /* MLS teams end */
+
+/*CFL teams*/
+/*Hamilton Tiger Cats*/
+.team5611{
+	background: linear-gradient( #FFB60F, #e8b236);
+}
+/*montreal Alouettes*/
+.team5612{
+	background: linear-gradient( #AF0A18, #c42c39);
+}
+/*ottawa redblacks*/
+.team27755{
+	background: linear-gradient( #000000, #404040);
+}
+
+/*Toronto Argonauts*/
+.team5615{
+	background: linear-gradient( #003163, #124171);
+}
+/*BC lions*/
+.team5608{
+	background: linear-gradient( #EC6E22, #ce6628);
+}
+/*Calgary Stampeders*/
+.team5609{
+	background: linear-gradient( #DC1407, #f1392d);
+}
+/*Edmontom Eskimos*/
+.team5610{
+	background: linear-gradient( #00471D, #12572e);
+}
+/*Saskatchewan Roughriders*/
+.team5614{
+	background: linear-gradient( #2C7446, #3a8053);
+}
+/*Winnipeg Blue Bombers*/
+.team5616{
+	background: linear-gradient( #12264C, #223559);
+}
+
