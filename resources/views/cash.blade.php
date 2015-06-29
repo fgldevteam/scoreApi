@@ -68,6 +68,19 @@ $(document).ready(function(){
 		$.each(sportObj , function (leagueKey, leagueObj){
 
 			   $.each(leagueObj , function(gameKey, game){
+				 
+				    if(game["homeNickname"] == "Timberwolves"){
+				   		game["homeNickname"] = "T\'wolves";
+				   }
+				   if(game["homeNickname"] == "Diamondbacks"){
+				   		game["homeNickname"] = "D\'backs";
+				   }
+				   if(game["awayNickname"] == "Timberwolves"){
+				   		game["awayNickname"] = "T\'wolves";
+				   }
+				   if(game["awayNickname"] == "Diamondbacks"){
+				   		game["awayNickname"] = "D\'backs";
+				   }
 
 			   		$("#scoreboard-container").append($('<div>', { class : "scoreboard",
 	   													id    : "scoreboard"+counter }))
