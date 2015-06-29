@@ -66,6 +66,12 @@ $app->get('flip', function(){
 
 });
 
+$app->get('flip-ls', function(){
+
+	return view('flip-ls');
+
+});
+
 $app->get('sportsdesk1', function(){
 
 	return view('sportsdesk-black');

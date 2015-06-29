@@ -6,7 +6,7 @@
     <head>
 		<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>flip - landscape</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,7 +19,7 @@
 
     </head>
 
-    <body>
+    <body class="landscape-scoreboard">
 
 		<div class="slider" id="gallery">
 
@@ -96,8 +96,7 @@
 	                        html +=   "        <span class='minilogo' style='background: transparent url(http://scoreapi.flagshipapps.fglsports.com"+data.sports[i][j].homeLogo+") center center no-repeat;'></span>";
 	                        html +=   "    </td>";
 	                        html +=   "    <td class='cityteam'>";
-	                        html +=   "        <span class='team-city'>"+ data.sports[i][j].homeTeam + "</span>";
-							html +=   "        <span class='team-name'>" + data.sports[i][j].homeNickname +"</span>";
+	                        html +=   "        <span class='team-city'>"+ data.sports[i][j].homeTeam + " " + data.sports[i][j].homeNickname +"</span>";
 	                        html +=   "    </td>";
 	                        html +=   "    <td>";
 	                        if(data.sports[i][j].hasOwnProperty("homeScore")){
@@ -112,8 +111,7 @@
 	                        html +=   "        <span class='minilogo' style='background: transparent url(http://scoreapi.flagshipapps.fglsports.com"+data.sports[i][j].awayLogo+") center center no-repeat;'></span>";
 	                        html +=   "    </td>";
 	                        html +=   "    <td class='cityteam'>";
-	                        html +=   "        <span class='team-city'>"+ data.sports[i][j].awayTeam + "</span>";
-							html +=   "        <span class='team-name'>" + data.sports[i][j].awayNickname +"</span>";
+	                        html +=   "        <span class='team-city'>"+ data.sports[i][j].awayTeam +" "+ data.sports[i][j].awayNickname +"</span>";
 	                        html +=   "    </td>";
 	                        html +=   "    <td>";
 	                        if(data.sports[i][j].hasOwnProperty("awayScore")){
@@ -165,10 +163,6 @@
 			var interval = setInterval(myFunction, resetInterval);
 
 		});
-
-
-
-
 
 		</script>
     </body>

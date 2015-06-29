@@ -1,12 +1,13 @@
 
-.minilogo{ width: 55px !important; height: 55px !important; display: inline-block; position: relative; background-size: contain !important; position: relative; bottom: 15px; }
+.minilogo{ width: 75px !important; height: 75px !important; display: inline-block; position: relative; background-size: contain !important; position: relative; bottom: 10px; }
+.landscape-scoreboard .minilogo{ width: 100px !important; height: 100px !important; display: inline-block; position: relative; background-size: contain !important; position: relative; bottom: 15px; }
 
 /*td{ border: thin solid lime; } */
-.cityteam{text-align: left; }
+/*.cityteam{text-align: left; }
 .team-city { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 35px; line-height: 20px; text-align: left; padding-left: 15px; position: relative; bottom: 20px;}
 .team-name { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 15px; line-height: 15px; text-align: left; float: left;}
 .score{ font-size: 60px; font-family: GalaxiePolarisCondensed-Bold; text-align: center;  margin-left: 30px !important; text-align: right !important; vertical-align: top; position: relative; bottom: 23px;}
-.clock{position: relative; bottom: 15px; left: 50px;}
+.clock{position: relative; bottom: 15px; left: 50px;}*/
 /*.clock{ width: 960px; font-size: 72px; font-family: GalaxiePolarisCondensed-Bold; vertical-align: middle; text-align: right; padding-right: 30px; padding-top:25px; float: right;}*/
 /*sup{ font-size: 40px;}*/
 
