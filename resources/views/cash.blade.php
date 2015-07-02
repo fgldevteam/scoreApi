@@ -35,6 +35,9 @@ $(document).ready(function(){
             h = h - 12;
             pm = "pm";
         }
+        else if(h == 12){
+        	pm = "pm";
+        }
 
         if(m < 10){
             m = "0" + m;
