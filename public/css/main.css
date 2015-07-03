@@ -10,6 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
 html,
 button,
 input,
@@ -259,6 +260,9 @@ textarea {
 
 html, body { height: 100%; overflow: hidden; }
 
+@font-face { font-family: GalaxiePolarisCondensed-Book.; src: url('/fonts/GalaxiePolarisCondensed-Book.otf'); }
+@font-face { font-family: GalaxiePolarisCondensed-Bold; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Bold.otf'); }
+@font-face { font-family: GalaxiePolarisCondensed-Light; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Light.otf'); }
 
 .slider { height: 120px; width: 756px; margin: 0; }
 
