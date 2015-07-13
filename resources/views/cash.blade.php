@@ -23,7 +23,7 @@
 <script>
 $(document).ready(function(){
 
-	var src = "http://scoreapi.flagshipapps.fglsports.com/files/scores.json";
+	var src = "/files/scores.json";
 	
 	var dateExtractor = function(UTCTime){
 		
@@ -72,7 +72,8 @@ $(document).ready(function(){
 
 			   $.each(leagueObj , function(gameKey, game){
 				 
-				    if(game["homeNickname"] == "Timberwolves"){
+				   
+				   if(game["homeNickname"] == "Timberwolves"){
 				   		game["homeNickname"] = "T\'wolves";
 				   }
 				   if(game["homeNickname"] == "Diamondbacks"){
@@ -84,6 +85,25 @@ $(document).ready(function(){
 				   if(game["awayNickname"] == "Diamondbacks"){
 				   		game["awayNickname"] = "D\'backs";
 				   }
+				   /* condition for national and american all star game*/
+				   /*One time thing*/
+
+				   if(game["homeId"] == 322) {
+				   		game["homeTeam"] = 'National' 
+
+				   }
+				   if(game["awayId"] == 322){
+				   		game["awayTeam"] = 'National' 
+				   } 
+				   if(game["homeId"] == 321) {
+				   		game["homeTeam"] = 'American' 
+
+				   }
+				   if(game["awayId"] == 321){
+				   		game["awayTeam"] = 'American' 
+				   } 
+
+				   /*Exception condition ends for mlb all star games*/
 
 			   		$("#scoreboard-container").append($('<div>', { class : "scoreboard",
 	   													id    : "scoreboard"+counter }))
@@ -97,7 +117,13 @@ $(document).ready(function(){
 
 				   											}))
 				   
-				   $('<div class="logo"><img src= http://scoreapi.flagshipapps.fglsports.com/'+game["homeLogo"]+'></div>').appendTo('#scoreboard-container #scoreboard'+counter + ' .home-team' )
+				   if ((game["homeId"] == 322) || (game["homeId"] == 321)) {
+				  	 	$('<div class="logo"><img src= http://scoreapi.flagshipapps.fglsports.com/'+game["homeLogo"].replace('.svg', '.png')+'></div>').appendTo('#scoreboard-container #scoreboard'+counter + ' .home-team' )
+				   }
+				   else{
+				   		$('<div class="logo"><img src= http://scoreapi.flagshipapps.fglsports.com/'+game["homeLogo"]+'></div>').appendTo('#scoreboard-container #scoreboard'+counter + ' .home-team' )
+
+				   }
 				   $("<div class=\"team-info\"><p class=\"city\">"+ game["homeTeam"] +"</p><p class=\"team\">"+ game["homeNickname"] +"</p> </div>").appendTo('#scoreboard-container #scoreboard'+counter + ' .home-team' )
 				   
 				   if(game["gameStatus"] == "In-Progress" || game["gameStatus"] == "Final"){
@@ -105,9 +131,14 @@ $(document).ready(function(){
 				   		$("<div class=\"score\">"+ game["homeScore"]+"</div>").appendTo('#scoreboard-container #scoreboard'+counter + ' .home-team' )
 				   
 				   }
-				   
-				   $('<div class="logo"> <img src= http://scoreapi.flagshipapps.fglsports.com/'+game["awayLogo"]+'></div>').appendTo('#scoreboard-container #scoreboard'+counter + ' .away-team' )
-				   
+				   if ((game["awayId"] == 322) || (game["awayId"] == 321)) {
+	
+					   $('<div class="logo"> <img src= http://scoreapi.flagshipapps.fglsports.com/'+game["awayLogo"].replace('.svg', '.png')+'></div>').appendTo('#scoreboard-container #scoreboard'+counter + ' .away-team' )
+	
+				   }
+				   else{
+				   		$('<div class="logo"> <img src= http://scoreapi.flagshipapps.fglsports.com/'+game["awayLogo"]+'></div>').appendTo('#scoreboard-container #scoreboard'+counter + ' .away-team' )
+				   }
 				   $("<div class=\"team-info\"><p class=\"city\">"+ game["awayTeam"] +"</p><p class=\"team\">"+ game["awayNickname"] +"</p> </div>").appendTo('#scoreboard-container #scoreboard'+counter + ' .away-team' )
 				   
 				   if(game["gameStatus"] == "In-Progress" || game["gameStatus"] == "Final"){
