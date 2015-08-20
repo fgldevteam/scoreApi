@@ -16,10 +16,10 @@
     </head>
 
     <body>
-
-        <ul id="scroller">
-
-        </ul>
+        <div class='scroll-overlay'></div>
+        <div class='sc-logo sc-front'></div>
+        <div class='sc-logo sc-back'></div>
+        <ul id="scroller"></ul>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript" src="/js/jquery.simplyscroll.js"></script>
@@ -36,20 +36,20 @@
 
                 switch(i){
 
-                    case "baseball":
-                        logo="<li class='slim mlblogo'><img src='mlb.png' /></li>";
-                        league="MLB";
-                    break;
+                    // case "baseball":
+                    //     logo="<li class='slim mlblogo'><img src='/images/mlb.png' /></li>";
+                    //     league="MLB";
+                    // break;
 
-                    case "basketball":
-                        logo="<li class='slim nbalogo'><img src='nba.png' /></li>";
-                        league="NBA";
-                    break;
+                    // case "basketball":
+                    //     logo="<li class='slim nbalogo'><img src='/images/nba.png' /></li>";
+                    //     league="NBA";
+                    // break;
 
-                    case "hockey":
-                        logo="<li class='slim nhllogo'><img src='nhl.png' /></li>";
-                        league="NHL";
-                    break;
+                    // case "hockey":
+                    //     logo="<li class='slim nhllogo'><img src='/images/nhl.png' /></li>";
+                    //     league="NHL";
+                    // break;
 
                 }
 
