@@ -17,48 +17,49 @@
 	/*margin-bottom: 1em;*/
 	background: url('/images/bg.png') top left repeat;
 	color: #ddd;
-	
+
 }
 
 	.simply-scroll .simply-scroll-clip {
 		width: 1144px;
 		height: 64px;
-		position: relative; 
+		position: relative;
 		left: 100px;
 
 		color: #ddd;
 		background: url('/images/bg.png') top left repeat;
-		
-		
+
+
 	}
 
-	.scroll-overlay{ 
-		position: absolute; 
+	.scroll-overlay{
+		position: absolute;
 		top: 0px;
 		left: 100px;
 		background: url('/images/fadeoutbar.png') top left no-repeat;
-		
-		height: 64px; width: 1144px; 
+
+		height: 64px; width: 1144px;
 		z-index: 999;
 	}
 
 	.sc-logo{
-		height: 64px; 
+		height: 64px;
 		width: 90px;
-		
+
 		position: absolute;
 		z-index:999;
 	}
 
 		.sc-front{
-			top: 0px; 
+			top: 0px;
 			left: 1254px;
 			background: url('/images/sc-front.png') top left no-repeat;
 		}
 
 		.sc-back{
-			top: 0px;
+			top: -5px;
 			left: 0px;
+
 			background: url('/images/sc-back.png') top left no-repeat;
 		}
 
