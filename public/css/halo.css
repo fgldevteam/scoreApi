@@ -50,7 +50,7 @@
 		z-index:999;
 	}
 
-		.sc-front{
+/*		.sc-front{
 			top: 0px;
 			left: 1254px;
 			background: url('/images/sc-front.png') top left no-repeat;
@@ -62,7 +62,7 @@
 
 			background: url('/images/sc-back.png') top left no-repeat;
 		}
-
+*/
 		.simply-scroll .simply-scroll-list {}
 
 		.simply-scroll .simply-scroll-list li {

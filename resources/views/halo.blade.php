@@ -11,8 +11,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="/css/jquery.simplyscroll.css" media="all" type="text/css">
-        <link rel="stylesheet" href="/css/halo.css" media="all" type="text/css">
+        <link rel="stylesheet" href="/css/jquery.simplyscroll.css?<?=time();?>" media="all" type="text/css">
+        <link rel="stylesheet" href="/css/halo.css?<?=time();?>" media="all" type="text/css">
+
+		<style>
+		
+		
+		.sc-front{
+                top: 0px;
+                left: 1254px;
+                background: url('/images/sc-front.png?<?=time();?>') top left no-repeat;
+        }
+
+        .sc-back{
+                top: -5px;
+                left: 0px;
+
+                background: url('/images/sc-back.png?<?=time();?>') top left no-repeat;
+        }
+		</style>
     </head>
 
     <body>
@@ -21,10 +38,13 @@
         <div class='sc-logo sc-back'></div>
         <ul id="scroller"></ul>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script type="text/javascript" src="/js/jquery.simplyscroll.js"></script>
-        <script type="text/javascript" src="/js/moment.min.js"></script>
-		<script src="js/utils.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?<?=time();?>"></script>
+        <script type="text/javascript" src="/js/jquery.simplyscroll.js?<?=time();?>"></script>
+        <script type="text/javascript" src="/js/moment.min.js?<?=time();?>"></script>
+		<script src="js/utils.js?<?=time();?>"></script>
+		
+		
+
 
         <script type="text/javascript">
         var htmlString ="";
