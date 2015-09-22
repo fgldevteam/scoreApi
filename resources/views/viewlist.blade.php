@@ -22,6 +22,15 @@
             <a href="/cash">Cash Wall</a><br />
             <a href="/flip">Community Board</a><br />
             <a href="/flip-ls">Community Board - Landscape</a><br />
+            <a href="/sportsdesk">NBA Draft Ticker - Light Gradient</a><br />
+            <a href="/sportsdesk2">NBA Draft Ticker - Darker Gradient </a><br />
+            <a href="/sportsdesk4"> NBA Draft Ticker - Light </a><br />
+            <a href="/sportsdesk3">NBA Draft Ticker - Dark </a><br />
+            <a href="/sportsdesk1">NBA Draft Ticker - Black </a><br />
+
+            <a href="/sportsdesk-score"> Sportsdesk Ticker  </a>
+            
+
             </p>
     </body>
 

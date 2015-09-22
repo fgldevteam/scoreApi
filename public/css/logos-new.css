@@ -1,0 +1,346 @@
+
+
+/* MLB teams */  
+
+/* Arizona Diamondbacks*/
+.logo253 { background-image: url('/images/mlb/arizona-diamondbacks.svg') }
+/*Colorado Rockies*/
+.logo251 { background-image: url('/images/mlb/colorado-rockies.svg') }
+/*Los Angles Dodgers */
+.logo243 { background-image: url('/images/mlb/los-angeles-dodgers.svg') }
+/*San Diago Padres*/
+.logo249 { background-image: url('/images/mlb/san-diego-padres.svg') }
+/*San Francisco Giants */
+.logo250 { background-image: url('/images/mlb/san-francisco-giants.svg') }
+/*Miami Marlins*/
+.logo252 { background-image: url('/images/mlb/miami-marlins.svg') }
+/*Atlanta Braves*/
+.logo239 { background-image: url('/images/mlb/atlanta-braves.svg') }
+/*Washington Nationals */
+.logo244 { background-image: url('/images/mlb/washington-nations.svg') }
+/*New York Mets*/
+.logo245 { background-image: url('/images/mlb/new-york-mets.svg') }
+/*Philadelphia Phillies*/
+.logo246 { background-image: url('/images/mlb/philadelphia-phillies.svg') }
+/*Milwaukee Brewers*/
+.logo232 { background-image: url('/images/mlb/milwaukee-brewers.svg') }
+/*Chicago Cubs*/
+.logo240 { background-image: url('/images/mlb/chicago-cubs.svg') }
+
+/*Cincinnati Reds*/
+.logo241 { background-image: url('/images/mlb/cincinnati-reds.svg') }
+/*Pittsburg Pirates*/
+.logo247 { background-image: url('/images/mlb/pittsburg-pirates.svg') }
+/*St. Louis Cardinals*/
+.logo248 { background-image: url('/images/mlb/st.-louis-cardinals.svg') }
+/*Tampa Bay Rays*/
+.logo254 { background-image: url('/images/mlb/tampa-bay-rays.svg') }
+/*Baltimore Orioles*/
+.logo225 { background-image: url('/images/mlb/baltimore-orioles.svg') }
+/*Boston Red Sox*/
+.logo226 { background-image: url('/images/mlb/boston-red-sox.svg') }
+/*New York Yankees*/
+.logo234 { background-image: url('/images/mlb/new-york-yankees.svg') }
+/*Toronto Blue Jays*/
+.logo238 { background-image: url('/images/mlb/toronto-blue-jays.svg') }
+/*Los Angeles Angels*/
+.logo227 { background-image: url('/images/mlb/los-angeles-angels.svg') }
+/*Oakland Athletics*/
+.logo235 { background-image: url('/images/mlb/oakland-athletics.svg') }
+/*Seattle mariners*/
+.logo236 { background-image: url('/images/mlb/seattle-mariners.svg') }
+/*Texas Rangers*/
+.logo237 { background-image: url('/images/mlb/texas-rangers.svg') }
+/*Houston Astros*/
+.logo242 { background-image: url('/images/mlb/houston-astros.svg') }
+/*Chicago White Sox*/
+.logo228 { background-image: url('/images/mlb/chicago-white-sox.svg') }
+/*Cleveland Indians*/
+.logo229 { background-image: url('/images/mlb/cleveland-indians.svg') }
+/*Detroit Tigers*/
+.logo230 { background-image: url('/images/mlb/detroit-tigers.svg') }
+/*Kansas City Royals*/
+.logo231 { background-image: url('/images/mlb/kansas-city-royals.svg') }
+/*Minnesota Twins*/
+.logo233 { background-image: url('/images/mlb/minnesota-twins.svg') }
+/*Nl All Stars*/
+.logo322 { background-image: url('/images/mlb/nl-all-stars.svg') }
+/*Al All Stars*/
+.logo321 { background-image: url('/images/mlb/al-all-stars.svg') }
+
+/* MLB teams end */
+/* NBA teams */  
+
+/* Boston Celtics*/
+.logo2 { background-image: url('/images/nba/boston-celtics.svg') }
+/*Brooklyn Nets*/
+.logo17 { background-image: url('/images/nba/brooklyn-nets.svg') }
+/*New York Knicks */
+.logo18 { background-image: url('/images/nba/new-york-knicks.svg') }
+/*Philadelphia 76ers*/
+.logo20 { background-image: url('/images/nba/philadelphia-76ers.svg') }
+/*Toronto Raptors*/
+.logo28 { background-image: url('/images/nba/toronto-raptors.svg') }
+/* Chicago Bulls */
+.logo4 { background-image: url('/images/nba/chicago-bulls.svg') }
+/*Cleveland Cavaliers*/
+.logo5 { background-image: url('/images/nba/cleveland-cavaliers.svg') }
+/*Detroit pistons*/
+.logo8 { background-image: url('/images/nba/detroit-pistons.svg') }
+/*Indiana Pacers*/
+.logo11 { background-image: url('/images/nba/indiana-pacers.svg') }
+/*Milwaukee Bucks*/
+.logo15 { background-image: url('/images/nba/milwaukee-bucks.svg') }
+/*Atlanta Hawks*/
+.logo1 { background-image: url('/images/nba/atlanta-hawks.svg') }
+/*Charlotte Hornets*/
+.logo5312 { background-image: url('/images/nba/charlotte-hornets.svg') }
+
+/* Miami Heat*/
+.logo14 { background-image: url('/images/nba/miami-heat.svg') }
+/* Orlando Magic */
+.logo19 { background-image: url('/images/nba/orlando-magic.svg') }
+/*Washington Wizards*/
+.logo27 { background-image: url('/images/nba/washington-wizards.svg') }
+/*Golden State Warriors*/
+.logo9 { background-image: url('/images/nba/golden-state-warriors.svg') }
+/*Los Angeles Clippers*/
+.logo12 { background-image: url('/images/nba/los-angeles-clippers') }
+/*Los Angeles Lakers*/
+.logo13 { background-image: url('/images/nba/los-angeles-lakers.svg') }
+/*Phoenix Suns*/
+.logo21 { background-image: url('/images/nba/phoenix-suns.svg') }
+/*Sacramento Kings*/
+.logo23 { background-image: url('/images/nba/sacramento-kings.svg') }
+/*Dallas Mavericks*/
+.logo6 { background-image: url('/images/nba/dallas-mavericks.svg') }
+/*Houston Rockets*/
+.logo10 { background-image: url('/images/nba/houston-rockets.svg') }
+/*Memphis Grizzles*/
+.logo29 { background-image: url('/images/nba/memphis-grizzlies.svg') }
+/*New Orleans Pelicans*/
+.logo3 { background-image: url('/images/nba/new-orleans-pelicans.svg') }
+/*San Antonio Spurs*/
+.logo24 { background-image: url('/images/nba/san-antonio-spurs.svg') }
+/*Denver Nuggets*/
+.logo7 { background-image: url('/images/nba/denver-nuggets.svg') }
+/*Minnesota Timberwolves*/
+.logo16 { background-image: url('/images/nba/minnesota-timberwolves.svg') }
+/*Oklahoma City Thunder*/
+.logo25 { background-image: url('/images/nba/oklahoma-city-thunder.svg') }
+/*Portland Blazers*/
+.logo22 { background-image: url('/images/nba/portland-blazers.svg') }
+/*Utah Jazz*/
+.logo26 { background-image: url('/images/nba/utah-jazz.svg') }
+/*East Easterners*/
+.logo53 { background-image: url('/images/nba/east-easterners.svg') }
+/*West Westerners*/
+.logo54 { background-image: url('/images/nba/west-westerners.svg') }
+
+/* NBA teams end */
+/* NHL teams */  
+
+/*Tampa Bay Lightning*/
+.logo4973 { background-image: url('/images/nhl/tampa-bay-lightning.svg') }
+/*Montreal Canadiens*/
+.logo4963 { background-image: url('/images/nhl/montreal-canadiens.svg') }
+/*Toronto Maple Leafs*/
+.logo4974 { background-image: url('/images/nhl/toronto-maple-leafs.svg') }
+/*Boston Bruins*/
+.logo4954 { background-image: url('/images/nhl/boston-bruins.svg') }
+/*Ottawa Senators*/
+.logo4967 { background-image: url('/images/nhl/ottawa-senators.svg') }
+/*Buffalo Sabres*/
+.logo4955 { background-image: url('/images/nhl/buffalo-sabres.svg') }
+/*Detroit Red Wings*/
+.logo4958 { background-image: url('/images/nhl/detroit-red-wings.svg') }
+/*Florida Panthers*/
+.logo4979 { background-image: url('/images/nhl/florida-panthers.svg') }
+/*Carolina Hurricanes*/
+.logo4960 { background-image: url('/images/nhl/carolina-hurricanes.svg') }
+/*Pittsburgh Penguins*/
+.logo4969 { background-image: url('/images/nhl/pittsburg-penguins.svg') }
+/*Washington Capitals*/
+.logo4976 { background-image: url('/images/nhl/washington-capitals.svg') }
+/*New York Rangers*/
+.logo4966 { background-image: url('/images/nhl/new-york-rangers.svg') }
+
+/*Philadelphia Flyers*/
+.logo4968 { background-image: url('/images/nhl/philadelphia-flyers.svg') }
+/*New Jersey Devils*/
+.logo4964 { background-image: url('/images/nhl/new-jersey-devils.svg') }
+/*New York Islanders*/
+.logo4965 { background-image: url('/images/nhl/new-york-islanders.svg') }
+/*Columbus Blue Jackets*/
+.logo4982 { background-image: url('/images/nhl/columbus-blue-jackets.svg') }
+/*Dallas Stars*/
+.logo4962 { background-image: url('/images/nhl/dallas-stars.svg') }
+/*Nashville Predators*/
+.logo4980 { background-image: url('/images/nhl/nashville-predators.svg') }
+/*Minnesota Wild*/
+.logo4983 { background-image: url('/images/nhl/minnesota-wild.svg') }
+/*St Louis Blues*/
+.logo4972 { background-image: url('/images/nhl/st.-louis-blues.svg') }
+/*Winnipeg Jets*/
+.logo4981 { background-image: url('/images/nhl/winnipeg-jets.svg') }
+/*Chicago Blackhawks*/
+.logo4957 { background-image: url('/images/nhl/chicago-blackhawks.svg') }
+/*Colorado Avalanche*/
+.logo4970 { background-image: url('/images/nhl/colorado-avalanche.svg') }
+/*Arizona Coyotes*/
+.logo4977 { background-image: url('/images/nhl/arizona-coyotes.svg') }
+/*Anaheim Ducks*/
+.logo4978 { background-image: url('/images/nhl/anaheim-ducks.svg') }
+/*Los Angeles Kings*/
+.logo4961 { background-image: url('/images/nhl/los-angeles-kings.svg') }
+/*San Jose Sharks*/
+.logo4971 { background-image: url('/images/nhl/san-jose-sharks.svg') }
+/*Vancouver Canucks*/
+.logo4975 { background-image: url('/images/nhl/vancouver-canucks.svg') }
+/*Calgary Flames*/
+.logo4956 { background-image: url('/images/nhl/calgary-flames.svg') }
+/*Edmonton Oilers*/
+.logo4959 { background-image: url('/images/nhl/edmonton-oilers.svg') }
+/*Team Toews All Stars */
+.logo5193 { background-image: url('/images/nhl/team-toews-all-stars.svg') }
+/*Team Foligno All Stars*/
+.logo5194 { background-image: url('/images/nhl/team-foligno-all-stars.svg') }
+
+/* NHL teams end */
+/* NFL teams */  
+
+/*Buffalo Bills*/
+.logo324 { background-image: url('/images/nfl/buffalo-bills.svg') }
+/*Miami Dolphins*/
+.logo345 { background-image: url('/images/nfl/miami-dolphins.svg') }
+/*New England Patriots*/
+.logo348 { background-image: url('/images/nfl/new-england-patriots.svg') }
+/*New York Jets*/
+.logo352 { background-image: url('/images/nfl/new-york-jets.svg') }
+/*Denver Broncos*/
+.logo332 { background-image: url('/images/nfl/denver-broncos.svg') }
+/*Kansas City Chiefs*/
+.logo339 { background-image: url('/images/nfl/kansas-city-chiefs.svg') }
+/*Oakland Raiders*/
+.logo341 { background-image: url('/images/nfl/oakland-raiders.svg') }
+/*San Diego Chargers*/
+.logo357 { background-image: url('/images/nfl/san-diego-chargers.svg') }
+/*Baltimore Ravens*/
+.logo366 { background-image: url('/images/nfl/baltimore-ravens.svg') }
+/*Cincinati Bengals*/
+.logo327 { background-image: url('/images/nfl/cincinnati-bengals.svg') }
+/*Cleveland Browns*/
+.logo329 { background-image: url('/images/nfl/cleveland-browns.svg') }
+/*Pittsburgh Steelers*/
+.logo356 { background-image: url('/images/nfl/pittsburg-steelers.svg') }
+
+/*Houston Texans*/
+.logo325 { background-image: url('/images/nfl/houston-texans.svg') }
+/*Jacksonville Jaguars*/
+.logo365 { background-image: url('/images/nfl/jacksonville-jaguars.svg') }
+/*Tennessee Titans*/
+.logo336 { background-image: url('/images/nfl/tennessee-titans.svg') }
+/*Dallas Cowboys*/
+.logo331 { background-image: url('/images/nfl/dallas-cowboys.svg') }
+/*New York Giants*/
+.logo351 { background-image: url('/images/nfl/new-york-giants.svg') }
+/*Philadelphia Eagles*/
+.logo354 { background-image: url('/images/nfl/philadelphia-eagles.svg') }
+/*Washington Redskins*/
+.logo363 { background-image: url('/images/nfl/washington-redskins.svg') }
+/*Arizona Cardinals*/
+.logo355 { background-image: url('/images/nfl/arizona-cardinals.svg') }
+/*San Francisco 49ers*/
+.logo359 { background-image: url('/images/nfl/san-francisco-49ers.svg') }
+/*Seattle Seahawks*/
+.logo361 { background-image: url('/images/nfl/seattle-seahawks.svg') }
+/*Indiananapolis Colts*/
+.logo338 { background-image: url('/images/nfl/indiananapolis-colts.svg') }
+/*St louis rams*/
+.logo343 { background-image: url('/images/nfl/st.-louis-rams.svg') }
+/*Chicago Bears*/
+.logo326 { background-image: url('/images/nfl/chicago-bears.svg') }
+/*Detroit lions*/
+.logo334 { background-image: url('/images/nfl/detroit-lions.svg') }
+/*Green Bay Packers*/
+.logo335 { background-image: url('/images/nfl/green-bay-packers.svg') }
+/*Minnesota Vikings*/
+.logo347 { background-image: url('/images/nfl/minnesota-vikings.svg') }
+/*Atlanta Falcons*/
+.logo323 { background-image: url('/images/nfl/atlanta-falcons.svg') }
+/*Carolina Panthers*/
+.logo364 { background-image: url('/images/nfl/carolina-panthers.svg') }
+/*New Orleans Saints*/
+.logo350 { background-image: url('/images/nfl/new-orleans-saints.svg') }
+/*Tampa Bay Buccaneers*/
+.logo362 { background-image: url('/images/nfl/tampa-bay-buccaneers.svg') }
+
+/* NFL teams end */
+/* MLS teams*/
+
+/*Chicago Fire*/
+.logo-chicago-fire { background-image: url('/images/mls/chicago-fire.svg') }
+/*Chivas USA*/
+.logo-chivas-usa { background-image: url('/images/mls/chivas-usa.svg') }
+/*Colorado Rapids*/
+.logo-colorado-rapids { background-image: url('/images/mls/colorado-rapids.svg') }
+/*Columbus Crew*/
+.logo-columbus-crew { background-image: url('/images/mls/columbus-crew.svg') }
+/*DC United*/
+.logo-dc-united { background-image: url('/images/mls/dc-united.svg') }
+/*FC Dallas*/
+.logo-fc-dallas { background-image: url('/images/mls/fc-dallas.svg') }
+/*Houston Dynamos */
+.logo-houston-dynamo { background-image: url('/images/mls/houston-dynamo.svg') }
+/*Los Angeles Galaxy*/
+.logo-los-angeles-galaxy { background-image: url('/images/mls/los-angeles-galaxy.svg') }
+/*Montreal Impact*/
+.logo-montreal-impact { background-image: url('/images/mls/montreal-impact.svg') }
+/*New England Revolution*/
+.logo-new-england-revolution { background-image: url('/images/mls/new-england-revolution.svg') }
+/*New York City FC*/
+.logo-new-york-city-fc { background-image: url('/images/mls/new-york-city-fc.svg') }
+/*New York Red Bulls*/
+.logo-new-york-red-bulls { background-image: url('/images/mls/new-york-red-bulls.svg') }
+/*Orlando City SC*/
+.logo-orlando-city-sc { background-image: url('/images/mls/orlando-city-sc.svg') }
+/*Philadelphia Union*/
+.logo-philadelphia-union { background-image: url('/images/mls/philadelphia-union.svg') }
+/*Portland Timbers*/
+.logo-portland-timbers { background-image: url('/images/mls/potland-timers.svg') }
+/*Real Salt Lake*/
+.logo-real-salt-lake { background-image: url('/images/mls/real-salt-lake.svg') }
+/*San Jose Earthquake*/
+.logo-san-jose-earthquakes { background-image: url('/images/mls/san-jose-earthquakes.svg') }
+/*Seattle Sounders FC*/
+.logo-seattle-sounders-fc { background-image: url('/images/mls/seattle-souders-fc.svg') }
+/*Sporting Kansas City*/
+.logo-sporting-kansas-city { background-image: url('/images/mls/sporting-kansas-city.svg') }
+/*Toronto FC*/
+.logo-toronto-fc { background-image: url('/images/mls/toronto-fc.svg') }
+/*Vancouver Whitecaps FC*/
+.logo-vancouver-whitecaps-fc { background-image: url('/images/mls/vancouver-whitecaps-fc.svg') }
+
+/* MLS teams end */
+
+/*CFL teams*/
+/*Hamilton Tiger Cats*/
+.logo5611 { background-image: url('/images/cfl/hamilton-tiger-cats.svg') }
+/*montreal Alouettes*/
+.logo5612 { background-image: url('/images/cfl/montreal-alouettes.svg') }
+/*ottawa redblacks*/
+.logo27755 { background-image: url('/images/cfl/ottawa-redblacks.svg') }
+
+/*Toronto Argonauts*/
+.logo5615 { background-image: url('/images/cfl/toronto-argonauts.svg') }
+/*BC lions*/
+.logo5608 { background-image: url('/images/cfl/bc-lions.svg') }
+/*Calgary Stampeders*/
+.logo5609 { background-image: url('/images/cfl/calgary-stampeders.svg') }
+/*Edmontom Eskimos*/
+.logo5610 { background-image: url('/images/cfl/edmonton-eskimos.svg') }
+/*Saskatchewan Roughriders*/
+.logo5614 { background-image: url('/images/cfl/saskatchewan-roughriders.svg') }
+/*Winnipeg Blue Bombers*/
+.logo5616 { background-image: url('/images/cfl/winnipeg-blue-bombers.svg') }
+

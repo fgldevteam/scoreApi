@@ -98,3 +98,9 @@ $app->get('sportsdesk4', function(){
 	return view('sportsdesk-grey2');
 
 });
+
+$app->get('sportsdesk-score', function(){
+
+	return view('sportsdesk-score');
+	
+});
