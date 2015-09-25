@@ -46,24 +46,28 @@ body{
 	font-family: GalaxiePolarisCondensed-Bold; 
 	text-transform: uppercase;
 	font-size: 36px; 
+	line-height: 36px;
+	height: 36px;
 	color:#f2f2f2; 
-	line-height: 0;
+/*	line-height: 0;*/
 	padding: 0px 5px; 
 	/*margin-top:-3px;*/
 	position: relative;
 	bottom: 8px;
+
 }
- .clock-sportsdesk , .at{
+ .clock-sportsdesk, .at {
  	font-family: GalaxiePolarisCondensed-Book; 
 	text-transform: uppercase;
 	font-size: 18px; 
 	color:#f2f2f2; 
-	line-height: 26px;
 	padding: 0 5px;
 	position: relative;
-	bottom: 4px;
-	
+	bottom: 4px;	
  }
+
+
+
 .score-sportsdesk {
 	font-family: GalaxiePolarisCondensed-Bold; 
 	font-size:36px; 
