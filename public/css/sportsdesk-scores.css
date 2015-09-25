@@ -1,3 +1,6 @@
+body{
+	font-family: sans-serif !important;
+}
 .simply-scroll { /* Customisable base class for style override DIV */
 	width: 1344px;
 	height: 64px;
@@ -16,7 +19,7 @@
 /* 			width: 450px; */
 			height: 32px;
 			padding: 0px 10px;
-/* 			padding: 0px 30px 0px 0px; */
+ 			padding-right: 30px;
 /* 			border: thin solid lime; */
 		}
 
@@ -42,24 +45,32 @@
 .cityname-sportsdesk{
 	font-family: GalaxiePolarisCondensed-Bold; 
 	text-transform: uppercase;
-	font-size: 16px; 
+	font-size: 36px; 
 	color:#f2f2f2; 
-	line-height: 26px;
+	line-height: 0;
 	padding: 0px 5px; 
+	/*margin-top:-3px;*/
+	position: relative;
+	bottom: 8px;
 }
  .clock-sportsdesk , .at{
- 	font-family: GalaxiePolarisCondensed-Bold; 
+ 	font-family: GalaxiePolarisCondensed-Book; 
 	text-transform: uppercase;
-	font-size: 10px; 
+	font-size: 18px; 
 	color:#f2f2f2; 
 	line-height: 26px;
 	padding: 0 5px;
+	position: relative;
+	bottom: 4px;
 	
  }
 .score-sportsdesk {
 	font-family: GalaxiePolarisCondensed-Bold; 
-	font-size:26px; 
+	font-size:36px; 
 	color: #ffffff;
-	line-height: 26px;
+	line-height:1;
 	text-transform: uppercase;
+	position: relative;
+	bottom: 8px;
+	
 }
