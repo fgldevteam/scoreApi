@@ -98,9 +98,10 @@ body{
  		font-size: 12px;
  	}
 
-
-
-	.scoredesk3 .clock-sportsdesk, .at{}
+	.scoredesk3 .clock-sportsdesk, .at{
+		font-family: Oswald-Light; 
+		font-size: 12px;
+	}
 
 
 .score-sportsdesk {
