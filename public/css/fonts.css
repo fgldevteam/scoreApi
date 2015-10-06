@@ -1,3 +1,8 @@
 @font-face { font-family: GalaxiePolarisCondensed-Book.; src: url('/fonts/GalaxiePolarisCondensed-Book.otf'); }
 @font-face { font-family: GalaxiePolarisCondensed-Bold; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Bold.otf'); }
 @font-face { font-family: GalaxiePolarisCondensed-Light; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Light.otf'); }
+
+
+@font-face { font-family: Oswald-Bold; src: url('/fonts/Oswald-Bold.ttf'); }
+@font-face { font-family: Oswald-Light; src: url('/fonts/Oswald-Light.ttf'); }
+@font-face { font-family: Oswald-Regular; src: url('/fonts/Oswald-Regular.ttf'); }

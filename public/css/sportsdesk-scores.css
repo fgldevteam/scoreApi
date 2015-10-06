@@ -21,6 +21,7 @@ body{
 			padding: 0px 10px;
  			padding-right: 30px;
 /* 			border: thin solid lime; */
+/*			background-color: lightblue;*/
 		}
 
 		.simply-scroll .simply-scroll-list li.slim {
@@ -42,6 +43,9 @@ body{
 			margin: 0px;
 		}
 
+
+
+
 .cityname-sportsdesk{
 	font-family: GalaxiePolarisCondensed-Bold; 
 	text-transform: uppercase;
@@ -54,10 +58,28 @@ body{
 	/*margin-top:-3px;*/
 	position: relative;
 	bottom: 8px;
-
 }
+
+	.scoredesk2 .cityname-sportsdesk{ 
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 24px;
+		padding: 0; margin: 0;
+		letter-spacing: -1px;
+		position: relative;
+		bottom: 3px;
+		
+	}
+	.scoredesk3 .cityname-sportsdesk{ 
+		font-family: Oswald-Regular;
+		font-size: 20px;
+		padding: 0; margin: 0;
+	/*	letter-spacing: -1px;*/
+		position: relative;
+		bottom: 4px;
+	}
+
  .clock-sportsdesk, .at {
- 	font-family: GalaxiePolarisCondensed-Book; 
+ 	font-family: Oswald-Light; 
 	text-transform: uppercase;
 	font-size: 18px; 
 	color:#f2f2f2; 
@@ -66,15 +88,40 @@ body{
 	bottom: 4px;	
  }
 
+ 	.scoredesk2 .clock-sportsdesk, .at{
+ 		font-family: Helvetica, Arial, sans-serif;
+ 		letter-spacing: -1px;
+ 	}
+
+ 	.scoredesk2 .clock-sportsdesk, .scoredesk3 .clock-sportsdesk{
+ 		padding-right: 30px;
+ 		font-size: 12px;
+ 	}
+
+
+
+	.scoredesk3 .clock-sportsdesk, .at{}
 
 
 .score-sportsdesk {
 	font-family: GalaxiePolarisCondensed-Bold; 
 	font-size:36px; 
-	color: #ffffff;
+	color:#f2f2f2;
 	line-height:1;
 	text-transform: uppercase;
 	position: relative;
 	bottom: 8px;
-	
 }
+
+	.scoredesk2 .score-sportsdesk {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 28px;
+		bottom: 4px;
+		padding: 0px 10px;
+	}
+	.scoredesk3 .score-sportsdesk {
+		font-family: Oswald-Regular; 
+		font-size: 20px;
+		bottom: 4px;
+		padding: 0px 10px;
+	}

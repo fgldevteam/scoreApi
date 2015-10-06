@@ -104,3 +104,15 @@ $app->get('sportsdesk-score', function(){
 	return view('sportsdesk-score');
 	
 });
+
+$app->get('sportsdesk-score2', function(){
+
+	return view('sportsdesk-score2');
+	
+});
+
+$app->get('sportsdesk-score3', function(){
+
+	return view('sportsdesk-score3');
+	
+});

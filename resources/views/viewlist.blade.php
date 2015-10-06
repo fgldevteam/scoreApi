@@ -28,8 +28,11 @@
             <a href="/sportsdesk3">NBA Draft Ticker - Dark </a><br />
             <a href="/sportsdesk1">NBA Draft Ticker - Black </a><br />
 
-            <a href="/sportsdesk-score"> Sportsdesk Ticker  </a>
-            
+            <hr />
+            <h2>Desk</h2>
+            <a href="/sportsdesk-score">Original - Sportsdesk Ticker  </a><br/>
+            <a href="/sportsdesk-score2">version 2 - Sportsdesk Ticker  </a><br/>
+            <a href="/sportsdesk-score3">version 3 - Sportsdesk Ticker  </a><br/>
 
             </p>
     </body>
