@@ -57,13 +57,15 @@ class Controller extends BaseController
             }
 
             if (!empty($feed)) {
-                $filteredFeed[$sport] = json_decode(json_encode($feed, JSON_FORCE_OBJECT));
+                $filteredFeed[$league] = json_decode(json_encode($feed, JSON_FORCE_OBJECT));
                 unset($feed);
             }
 
         }
         $returnFeed["sports"] = $filteredFeed;
-        file_put_contents("/var/www/vhosts/scoreapi/public/files/scores.json", json_encode($returnFeed));
+        // file_put_contents("/var/www/vhosts/scoreapi/public/files/scores.json", json_encode($returnFeed));
+        file_put_contents("files/scores.json", json_encode($returnFeed));
+
         return $returnFeed;
     }
 

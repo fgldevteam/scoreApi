@@ -11,9 +11,21 @@ class Feed extends Model
 		$date = date('y-m-d');
 	 	$feedContent = Feed::getFeedFromURL($date, $sport, $league);
 		$filteredFeed = Feed::filterScoreFeed($feedContent, $sport, $league);
+		
+		// get last nights games
+ 		$date = date("Y-m-d", strtotime("yesterday"));
+ 		$yesterdaysFeed = Feed::getFeedFromURL($date, $sport, $league);
+ 		$yesterdaysFilteredFeed = Feed::filterScoreFeed($yesterdaysFeed, $sport, $league);
 
+	 	if (count($yesterdaysFilteredFeed)>0) {
+	 		foreach ($yesterdaysFilteredFeed as $y) {
+	 			array_push($filteredFeed, $y);
+	 		}
+	 	}
+
+	 	/*
 	 	if(! empty($feedContent)){
-		 	
+		 
 
 		 	usort($filteredFeed, function($a, $b)
 			{
@@ -50,6 +62,11 @@ class Feed extends Model
 	    		return strcmp($a->startTime, $b->startTime);	
 			});
 		 }
+		 */
+		 usort($filteredFeed, function($a, $b)
+			{
+	    		return strcmp($a->startTime, $b->startTime);	
+			});
 	 	return $filteredFeed;
 	}
 
