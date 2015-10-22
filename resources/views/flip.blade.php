@@ -38,109 +38,126 @@
         $(document).ready(function() {
 
             var sport = "";
-            var feed ="http://scoreapi.flagshipapps.fglsports.com/files/scores.json";
+            // var feed ="http://scoreapi.flagshipapps.fglsports.com/files/scores.json";
+            // var feed ="http://localhost:8001/files/scores.json";
+            var feed ="http://bgarner.com/scores-test.json";
+            
             var timezoneoffset = -2;
-
-            var dateExtractor = function(UTCTime){
-
-				var date = new Date(UTCTime);
-		        var h = date.getHours();
-		        var m = date.getMinutes();
+            
+			var dateExtractor = function(UTCTime){
+				
+				x = new Date(UTCTime);
+				
+				var timeoffset = x.getTimezoneOffset()*60*1000;
+				var epoch = x.getTime();
+				
+				var UTCseconds = ( epoch - timeoffset)/1000;	
+				
+				var d = new Date(UTCseconds * 1000); // The 0 there is the key, which sets the date to the epoch
+				localTime = d.toLocaleString();
+				GMTTime = d.toGMTString();
+				
+		        var h = d.getHours();
+		        var m = d.getMinutes();
 		        var pm = "am";
 		        if(h > 12 ){
 		            h = h - 12;
 		            pm = "pm";
 		        }
 		        else if(h == 12){
-        			pm = "pm";
-        		}
-
+		        	pm = "pm";
+		        }
 		        if(m < 10){
 		            m = "0" + m;
 		        }
+		               
+		       return h +":"+ m + " " + pm
 
-		        return h +":"+ m + " " + pm
 			}
 
             var setupScores = function(){
 
+
+
                 $.get(feed, function(data){
 
                 	console.log("grabbed new json: "+ Date.now() );
+                	console.log(data);
+                	console.log(Object.keys(data.sports[i]).length);
 
-                    $.each(data.sports, function(i, item){
+      //               $.each(data.sports, function(i, item){
 
-                    	totalGames = totalGames + Object.keys(data.sports[i]).length;
-                    	console.log("totalGames:" + totalGames);
+      //               	totalGames = totalGames + Object.keys(data.sports[i]).length;
+      //               	console.log("totalGames:" + totalGames);
 
-                        $.each(data.sports[i], function(j, jtem) {
+      //                   $.each(data.sports[i], function(j, jtem) {
 
-                        	var clock = "";
+      //                   	var clock = "";
 
-                        	switch( data.sports[i][j].gameStatus ){
+      //                   	switch( data.sports[i][j].gameStatus ){
 
-							case "In-Progress":
-								clock = data.sports[i][j].clock;
-								break;
-							case "Final":
-								clock = "Final";
-								break;
-							case "Delayed":
-								clock = "Delayed";
-								break;
-							case "Pre-Game":
-	                            clock = dateExtractor(data.sports[i][j].startTime);
-	                            break;
-	                        }
+						// 	case "In-Progress":
+						// 		clock = data.sports[i][j].clock;
+						// 		break;
+						// 	case "Final":
+						// 		clock = "Final";
+						// 		break;
+						// 	case "Delayed":
+						// 		clock = "Delayed";
+						// 		break;
+						// 	case "Pre-Game":
+	     //                        clock = dateExtractor(data.sports[i][j].startTime);
+	     //                        break;
+	     //                    }
 
-                        	var html = "<div class='item'><table>";
+      //                   	var html = "<div class='item'><table>";
 
-	                        html +=   "<tr class='scorebar'>";
-	                        html +=   "    <td class='logo'>";
-	                        html +=   "        <span class='minilogo' style='background: transparent url(http://scoreapi.flagshipapps.fglsports.com"+data.sports[i][j].homeLogo+") center center no-repeat;'></span>";
-	                        html +=   "    </td>";
-	                        html +=   "    <td class='cityteam'>";
-	                        html +=   "        <span class='team-city'>"+ data.sports[i][j].homeTeam + "</span>";
-							html +=   "        <span class='team-name'>" + data.sports[i][j].homeNickname +"</span>";
-	                        html +=   "    </td>";
-	                        html +=   "    <td>";
-	                        if(data.sports[i][j].hasOwnProperty("homeScore")){
-	                        html +=   "        <span class='score hscore'>"+ data.sports[i][j].homeScore +"</span>";
-	                        }
-	                        else{
-	                    	html +=   "        <span class='score hscore'>"+ 0 +"</span>";
-	                    	}
-	                        html +=   "    </td>";
-	                        html +=   "    <td style='width: 70px;'></td>";
-	                        html +=   "    <td>";
-	                        html +=   "        <span class='minilogo' style='background: transparent url(http://scoreapi.flagshipapps.fglsports.com"+data.sports[i][j].awayLogo+") center center no-repeat;'></span>";
-	                        html +=   "    </td>";
-	                        html +=   "    <td class='cityteam'>";
-	                        html +=   "        <span class='team-city'>"+ data.sports[i][j].awayTeam + "</span>";
-							html +=   "        <span class='team-name'>" + data.sports[i][j].awayNickname +"</span>";
-	                        html +=   "    </td>";
-	                        html +=   "    <td>";
-	                        if(data.sports[i][j].hasOwnProperty("awayScore")){
-	                        html +=   "        <span class='score vscore'>"+ data.sports[i][j].awayScore +"</span>";
-	                    	}
-	                    	else{
-	                    	html +=   "        <span class='score vscore'>"+ 0 +"</span>";
-	                    	}
-	                        html +=   "    </td>";
-							html +=   "		<td><span class='clock time'>"+ clock +"</span></td>";
-	                        html +=   "</tr>";
+	     //                    html +=   "<tr class='scorebar'>";
+	     //                    html +=   "    <td class='logo'>";
+	     //                    html +=   "        <span class='minilogo' style='background: transparent url(http://scoreapi.flagshipapps.fglsports.com"+data.sports[i][j].homeLogo+") center center no-repeat;'></span>";
+	     //                    html +=   "    </td>";
+	     //                    html +=   "    <td class='cityteam'>";
+	     //                    html +=   "        <span class='team-city'>"+ data.sports[i][j].homeTeam + "</span>";
+						// 	html +=   "        <span class='team-name'>" + data.sports[i][j].homeNickname +"</span>";
+	     //                    html +=   "    </td>";
+	     //                    html +=   "    <td>";
+	     //                    if(data.sports[i][j].hasOwnProperty("homeScore")){
+	     //                    html +=   "        <span class='score hscore'>"+ data.sports[i][j].homeScore +"</span>";
+	     //                    }
+	     //                    else{
+	     //                	html +=   "        <span class='score hscore'>"+ 0 +"</span>";
+	     //                	}
+	     //                    html +=   "    </td>";
+	     //                    html +=   "    <td style='width: 70px;'></td>";
+	     //                    html +=   "    <td>";
+	     //                    html +=   "        <span class='minilogo' style='background: transparent url(http://scoreapi.flagshipapps.fglsports.com"+data.sports[i][j].awayLogo+") center center no-repeat;'></span>";
+	     //                    html +=   "    </td>";
+	     //                    html +=   "    <td class='cityteam'>";
+	     //                    html +=   "        <span class='team-city'>"+ data.sports[i][j].awayTeam + "</span>";
+						// 	html +=   "        <span class='team-name'>" + data.sports[i][j].awayNickname +"</span>";
+	     //                    html +=   "    </td>";
+	     //                    html +=   "    <td>";
+	     //                    if(data.sports[i][j].hasOwnProperty("awayScore")){
+	     //                    html +=   "        <span class='score vscore'>"+ data.sports[i][j].awayScore +"</span>";
+	     //                	}
+	     //                	else{
+	     //                	html +=   "        <span class='score vscore'>"+ 0 +"</span>";
+	     //                	}
+	     //                    html +=   "    </td>";
+						// 	html +=   "		<td><span class='clock time'>"+ clock +"</span></td>";
+	     //                    html +=   "</tr>";
 
-		                  	html +=  "</table>";
-		                    html += '</div>';
+		    //               	html +=  "</table>";
+		    //                 html += '</div>';
 
-	                        $('#gallery').append($(html));
+	     //                    $('#gallery').append($(html));
 
-                        });
+      //                   });
 
-						resetInterval = 7000 * totalGames;
-            			console.log("resetInterval:" + resetInterval);
+						// resetInterval = 7000 * totalGames;
+      //       			console.log("resetInterval:" + resetInterval);
 
-                    });  //end looping through scorefeed
+      //               });  //end looping through scorefeed
 
 					(function($){
 					  $('.slider').boxRollSlider({

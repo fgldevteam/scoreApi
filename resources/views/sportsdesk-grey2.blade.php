@@ -128,9 +128,19 @@
 							
 						case "Pre-Game":
 						
-							var date = new Date(data.sports[i][j].startTime);
-                            var h = date.getHours();
-                            var m = date.getMinutes();
+
+                            var date = new Date(data.sports[i][j].startTime);
+                            console.log(date);
+                            var timeoffset = date.getTimezoneOffset()*60*1000;
+                            var epoch = date.getTime();
+                            var UTCseconds = ( epoch - timeoffset)/1000;
+
+                            var d = new Date(UTCseconds * 1000); // The 0 there is the key, which sets the date to the epoch
+                            localTime = d.toLocaleString();
+                            GMTTime = d.toGMTString();                            
+
+                            var h = d.getHours();
+                            var m = d.getMinutes();
                             var pm = "";
                             if(h > 12 ){
                                 h = h - 12;

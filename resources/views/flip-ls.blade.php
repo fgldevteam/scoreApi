@@ -41,11 +41,21 @@
             var feed ="http://scoreapi.flagshipapps.fglsports.com/files/scores.json";
             var timezoneoffset = -2;
 
-            var dateExtractor = function(UTCTime){
-
-				var date = new Date(UTCTime);
-		        var h = date.getHours();
-		        var m = date.getMinutes();
+			var dateExtractor = function(UTCTime){
+				
+				x = new Date(UTCTime);
+				
+				var timeoffset = x.getTimezoneOffset()*60*1000;
+				var epoch = x.getTime();
+				
+				var UTCseconds = ( epoch - timeoffset)/1000;	
+				
+				var d = new Date(UTCseconds * 1000); // The 0 there is the key, which sets the date to the epoch
+				localTime = d.toLocaleString();
+				GMTTime = d.toGMTString();
+				
+		        var h = d.getHours();
+		        var m = d.getMinutes();
 		        var pm = "am";
 		        if(h > 12 ){
 		            h = h - 12;
@@ -54,12 +64,12 @@
 		        else if(h == 12){
 		        	pm = "pm";
 		        }
-
 		        if(m < 10){
 		            m = "0" + m;
 		        }
+		               
+		       return h +":"+ m + " " + pm
 
-		        return h +":"+ m + " " + pm
 			}
 
             var setupScores = function(){

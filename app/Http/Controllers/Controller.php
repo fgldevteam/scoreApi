@@ -64,7 +64,6 @@ class Controller extends BaseController
         }
         $returnFeed["sports"] = $filteredFeed;
         file_put_contents("/var/www/vhosts/scoreapi/public/files/scores.json", json_encode($returnFeed));
-        // file_put_contents("files/scores.json", json_encode($returnFeed));
 
         return $returnFeed;
     }
