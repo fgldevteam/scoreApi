@@ -37,19 +37,27 @@
         <div class='sc-logo sc-front'></div>
         <div class='sc-logo sc-back'></div>
         <ul id="scroller"></ul>
+        <input type="text" hidden name="timezoneoffset" value={{$timezoneoffset}}>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?<?=time();?>"></script>
         <script type="text/javascript" src="/js/jquery.simplyscroll.js?<?=time();?>"></script>
         <script type="text/javascript" src="/js/moment.min.js?<?=time();?>"></script>
-		<script src="js/utils.js?<?=time();?>"></script>
+		<script src="/js/utils.js?<?=time();?>"></script>
 		
 		
 
 
         <script type="text/javascript">
         var htmlString ="";
+        var timezoneoffset = $('input[name="timezoneoffset"]').val();
+        var formatTime = function( startTime ){
+            var hour = parseInt( startTime["hour"]) + parseInt(timezoneoffset);
+            var minute = startTime["minute"];
+            var am = startTime["am"];
+            return hour + ":" + minute + " " +  am; 
+        }
 
-        $.getJSON( "http://scoreapi.flagshipapps.fglsports.com/files/scores.json", function( data ) {
+        $.getJSON( "/files/scores.json", function( data ) {
             //var json = $.parseJSON(data);
             var logo = "";
             $.each(data.sports, function(i, item) {
@@ -136,30 +144,7 @@
 							break;
 							
 						case "Pre-Game":
-				
-
-
-							var date = new Date(data.sports[i][j].startTime);
-                            console.log(date);
-                            var timeoffset = date.getTimezoneOffset()*60*1000;
-                            var epoch = date.getTime();
-                            var UTCseconds = ( epoch - timeoffset)/1000;
-
-                            var d = new Date(UTCseconds * 1000); // The 0 there is the key, which sets the date to the epoch
-                            localTime = d.toLocaleString();
-                            GMTTime = d.toGMTString();                            
-
-                            var h = d.getHours();
-                            var m = d.getMinutes();
-                            var pm = "";
-                            if(h > 12 ){
-                                h = h - 12;
-                                pm = "pm";
-                            }
-
-                            if(m < 10){
-                                m = "0" + m;
-                            }
+			
 
                             htmlString += "<li>";
                             htmlString += "<table>";
@@ -179,7 +164,7 @@
                             htmlString += "			<div class='cityname'>"+data.sports[i][j].homeTeam+"</div>";
 							htmlString += "   		<div class='teamname'>"+data.sports[i][j].homeNickname+"</div>";                            
                             htmlString += "     </td>";                            
-                            htmlString += "     <td class='clock'>" + h +":"+ m + " " + pm + "</td>";
+                            htmlString += "     <td class='clock'>" + formatTime(data.sports[i][j].startTime) + "</td>";
                             htmlString += " </tr>";
                             htmlString += "</table>";
                             htmlString += "</li>";

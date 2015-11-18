@@ -11,11 +11,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	 	<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/boxroll-slider.css">
-		<link rel="stylesheet" href="css/logo-landscape.css">
-		<script src="js/modernizr-2.6.1.min.js"></script>
+	 	<link rel="stylesheet" href="/css/normalize.css">
+		<link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/boxroll-slider.css">
+		<link rel="stylesheet" href="/css/logo-landscape.css">
+		<script src="/js/modernizr-2.6.1.min.js"></script>
 
     </head>
 
@@ -24,21 +24,30 @@
 		<div class="slider" id="gallery">
 
 		</div>
+		<input type="text" hidden name="timezoneoffset" value={{$timezoneoffset}}>
 
 
-		<script src="js/jquery.min.js"></script>
-        <script src="js/jquery.boxroll-slider.js"></script>
-		<script src="js/utils.js"></script>
+		<script src="/js/jquery.min.js"></script>
+        <script src="/js/jquery.boxroll-slider.js"></script>
+		<script src="/js/utils.js"></script>
 
 		<script>
 
 		totalGames = 0;
 		resetInterval = 200;
+		var timezoneoffset = $('input[name="timezoneoffset"]').val();
+
+		var formatTime = function( startTime ){
+			var hour = parseInt( startTime["hour"]) + parseInt(timezoneoffset);
+			var minute = startTime["minute"];
+			var am = startTime["am"];
+			return hour + ":" + minute + " " +  am; 
+		}
 
         $(document).ready(function() {
 
             var sport = "";
-            var feed ="http://scoreapi.flagshipapps.fglsports.com/files/scores.json";
+            var feed ="/files/scores.json";
             var timezoneoffset = -2;
 
 			var dateExtractor = function(UTCTime){
@@ -75,9 +84,9 @@
             var setupScores = function(){
 
                 $.get(feed, function(data){
-
+                	data = JSON.parse(data);
                 	console.log("grabbed new json: "+ Date.now() );
-
+                	console.log(data.sports);
                     $.each(data.sports, function(i, item){
 
                     	totalGames = totalGames + Object.keys(data.sports[i]).length;
@@ -99,7 +108,7 @@
 								clock = "Delayed";
 								break;
 							case "Pre-Game":
-	                            clock = dateExtractor(data.sports[i][j].startTime);
+	                            clock = formatTime(data.sports[i][j].startTime);
 	                            break;
 	                        }
 

@@ -39,14 +39,23 @@
         <ul id="scroller">
 
         </ul>
+        <input type="text" hidden name="timezoneoffset" value={{$timezoneoffset}}>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript" src="/js/jquery.simplyscroll.js"></script>
         <script type="text/javascript" src="/js/moment.min.js"></script>
-		<script src="js/utils.js"></script>
+		<script src="/js/utils.js"></script>
 		
         <script type="text/javascript">
         var htmlString ="";
+        var timezoneoffset = $('input[name= "timezoneoffset"]').val();
+
+        var formatTime = function( startTime ){
+            var hour = parseInt( startTime["hour"]) + parseInt(timezoneoffset);
+            var minute = startTime["minute"];
+            var am = startTime["am"];
+            return hour + ":" + minute + " " +  am; 
+        }
 
         $.getJSON( "../../files/scores.json", function( data ) {
 
@@ -166,7 +175,7 @@
                             htmlString += "			<div class='cityname-sportsdesk'>"+data.sports[i][j].homeNickname+"</div>";
 							
                             htmlString += "     </td>";                            
-                            htmlString += "     <td class='clock-sportsdesk'>" + h +":"+ m + " " + pm + "</td>";
+                            htmlString += "     <td class='clock-sportsdesk'>" + formatTime(data.sports[i][j].startTime) + "</td>";
                             htmlString += " </tr>";
                             htmlString += "</table>";
                             htmlString += "</li>";

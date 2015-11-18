@@ -42,77 +42,101 @@ $app->get('teams', function(){
 });
 
 
+$app->get('halo/{timezoneoffset}', function($timezoneoffset= null){
+
+	return view('halo')->with('timezoneoffset', $timezoneoffset);
+
+});
+
 $app->get('halo', function(){
 
-	return view('halo');
-
+	return view('halo')->with('timezoneoffset', 0);
 });
 
 $app->get('sportsdesk', function(){
 
-	return view('sportsdesk');
+	return view('sportsdesk')->with('timezoneoffset', $timezoneoffset);
 
 });
 
-$app->get('cash', function(){
+$app->get('cash/{timezoneoffset}', function($timezoneoffset){
 
-	return view('cash');
+	return view('cash')->with('timezoneoffset', $timezoneoffset);
 
 });
 
 $app->get('community', function(){
 
-	return view('community');
+	return view('community')->with('timezoneoffset', $timezoneoffset);
 
 });
 
-$app->get('flip', function(){
+$app->get('flip/{timezoneoffset}', function($timezoneoffset){
 
-	return view('flip');
-
-});
-
-$app->get('flip-ls', function(){
-
-	return view('flip-ls');
+	return view('flip')->with('timezoneoffset', $timezoneoffset);
 
 });
 
-$app->get('sportsdesk1', function(){
+$app->get('flip-ls/{timezoneoffset}', function($timezoneoffset){
 
-	return view('sportsdesk-black');
-
-});
-$app->get('sportsdesk2', function(){
-
-	return view('sportsdesk-grey-gradient');
+	return view('flip-ls')->with('timezoneoffset', $timezoneoffset);
 
 });
-$app->get('sportsdesk3', function(){
 
-	return view('sportsdesk-grey1');
+$app->get('sportsdesk1/{timezoneoffset}', function($timezoneoffset){
 
-});
-$app->get('sportsdesk4', function(){
-
-	return view('sportsdesk-grey2');
+	return view('sportsdesk-black')->with('timezoneoffset', $timezoneoffset);
 
 });
+$app->get('sportsdesk2/{timezoneoffset}', function($timezoneoffset){
+
+	return view('sportsdesk-grey-gradient')->with('timezoneoffset', $timezoneoffset);
+
+});
+$app->get('sportsdesk3/{timezoneoffset}', function($timezoneoffset){
+
+	return view('sportsdesk-grey1')->with('timezoneoffset', $timezoneoffset);
+
+});
+$app->get('sportsdesk4/{timezoneoffset}', function($timezoneoffset){
+
+	return view('sportsdesk-grey2')->with('timezoneoffset', $timezoneoffset);
+
+});
+
+$app->get('sportsdesk-score/{timezoneoffset}', function($timezoneoffset){
+
+	return view('sportsdesk-score')->with('timezoneoffset', $timezoneoffset);
+	
+});
+
 
 $app->get('sportsdesk-score', function(){
 
-	return view('sportsdesk-score');
+	return view('sportsdesk-score')->with('timezoneoffset', 0);
+	
+});
+
+$app->get('sportsdesk-score2/{timezoneoffset}', function($timezoneoffset){
+
+	return view('sportsdesk-score2')->with('timezoneoffset', $timezoneoffset);
 	
 });
 
 $app->get('sportsdesk-score2', function(){
 
-	return view('sportsdesk-score2');
+	return view('sportsdesk-score2')->with('timezoneoffset', 0);
+	
+});
+
+$app->get('sportsdesk-score3/{timezoneoffset}', function($timezoneoffset){
+
+	return view('sportsdesk-score3')->with('timezoneoffset', $timezoneoffset);
 	
 });
 
 $app->get('sportsdesk-score3', function(){
 
-	return view('sportsdesk-score3');
+	return view('sportsdesk-score3')->with('timezoneoffset', 0);
 	
 });

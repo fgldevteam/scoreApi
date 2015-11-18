@@ -17,22 +17,23 @@
 
     <body>
             <h1>Live Scores - Available Views</h1>
+            <h4>All start times in EST</h4>
             <p>
-            <a href="/halo">Halo</a><br />
-            <a href="/cash">Cash Wall</a><br />
-            <a href="/flip">Community Board</a><br />
-            <a href="/flip-ls">Community Board - Landscape</a><br />
-            <a href="/sportsdesk">NBA Draft Ticker - Light Gradient</a><br />
-            <a href="/sportsdesk2">NBA Draft Ticker - Darker Gradient </a><br />
-            <a href="/sportsdesk4"> NBA Draft Ticker - Light </a><br />
-            <a href="/sportsdesk3">NBA Draft Ticker - Dark </a><br />
-            <a href="/sportsdesk1">NBA Draft Ticker - Black </a><br />
+            <a href="/halo/0">Halo</a><br />
+            <a href="/cash/0">Cash Wall</a><br />
+            <a href="/flip/0">Community Board</a><br />
+            <a href="/flip-ls/0">Community Board - Landscape</a><br />
+            <a href="/sportsdesk/0">NBA Draft Ticker - Light Gradient</a><br />
+            <a href="/sportsdesk2/0">NBA Draft Ticker - Darker Gradient </a><br />
+            <a href="/sportsdesk4/0"> NBA Draft Ticker - Light </a><br />
+            <a href="/sportsdesk3/0">NBA Draft Ticker - Dark </a><br />
+            <a href="/sportsdesk1/0">NBA Draft Ticker - Black </a><br />
 
             <hr />
             <h2>Desk</h2>
-            <a href="/sportsdesk-score">Original - Sportsdesk Ticker  </a><br/>
-            <a href="/sportsdesk-score2">version 2 - Sportsdesk Ticker  </a><br/>
-            <a href="/sportsdesk-score3">version 3 - Sportsdesk Ticker  </a><br/>
+            <a href="/sportsdesk-score/0">Original - Sportsdesk Ticker  </a><br/>
+            <a href="/sportsdesk-score2/0">version 2 - Sportsdesk Ticker  </a><br/>
+            <a href="/sportsdesk-score3/0">version 3 - Sportsdesk Ticker  </a><br/>
 
             </p>
     </body>

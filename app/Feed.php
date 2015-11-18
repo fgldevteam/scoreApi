@@ -22,50 +22,9 @@ class Feed extends Model
 	 			array_push($filteredFeed, $y);
 	 		}
 	 	}
-
-	 	/*
-	 	if(! empty($feedContent)){
-		 
-
-		 	usort($filteredFeed, function($a, $b)
-			{
-	    		return strcmp($a->startTime, $b->startTime);	
-			});
-
-		 	$earliestGame = $filteredFeed[0];
-		 	$latestGame   = $earliestGame;
-		 	if(count($filteredFeed) > 1 ){
-		 		$latestGame   = $filteredFeed[count($filteredFeed)-1];
-		 	}
-		 	
-		 	if( ($earliestGame->active = 'false') && ($earliestGame->gameStatus == "Pre-Game") ){
-		 		
-		 		// get last nights games
-		 		$date = date("Y-m-d", strtotime("yesterday"));
-		 		$yesterdaysFeed = Feed::getFeedFromURL($date, $sport, $league);
-		 		$yesterdaysFilteredFeed = Feed::filterScoreFeed($yesterdaysFeed, $sport, $league);
-	 	 		$filteredFeed  = array_merge($filteredFeed, $yesterdaysFilteredFeed );
-		 
-		 	}
-		 	else if( ($latestGame->active == 'false') && ($latestGame->gameStatus == "Final" )){
-		 		
-		 		//get tomorrow's games
-		 		$date = date("Y-m-d", strtotime("tomorrow"));
-		 		$tomorrowsFeed = Feed::getFeedFromURL($date, $sport, $league);
-		 		$tomorrowsFilteredFeed = Feed::filterScoreFeed($tomorrowsFeed, $sport, $league);
-	 	 		$filteredFeed  = array_merge($filteredFeed, $tomorrowsFilteredFeed );
-
-		 	}		
-
-		 	usort($filteredFeed, function($a, $b)
-			{
-	    		return strcmp($a->startTime, $b->startTime);	
-			});
-		 }
-		 */
 		 usort($filteredFeed, function($a, $b)
 			{
-	    		return strcmp($a->startTime, $b->startTime);	
+	    		return strcmp($a->startTime->datetime, $b->startTime->datetime);	
 			});
 	 	return $filteredFeed;
 	}
@@ -92,7 +51,7 @@ class Feed extends Model
 					$game["active"] =  "false";
 				}
 				
-				$game["startTime"]	= $event->startDate[1]->full;
+				$game["startTime"]	= Feed::convertDatetime($event->startDate[1]->full);
 				$game["gameStatus"] = $event->eventStatus->name;
 				foreach ($event->teams as $team) {	
 					$game[$team->teamLocationType->name."Id"]		=  $team->teamId;
@@ -210,6 +169,27 @@ class Feed extends Model
 		$content =  file_get_contents($url);
 		
 		return json_decode($content);
+	}
+
+	public static function convertDatetime($datetimeStringISO)
+	{
+		$epochTime = strtotime($datetimeStringISO);
+		$date = new \Datetime('@'.$epochTime);  
+
+		$defaultTimezone = new \DateTimeZone('America/New_York'); 
+
+		$dateConvertedToTimezone = date_timezone_set($date, $defaultTimezone);
+		
+		$returnResponse = [];
+		$returnResponse["date"] = $dateConvertedToTimezone->format('Y-m-d');
+		$returnResponse["hour"] = $dateConvertedToTimezone->format('h');
+		$returnResponse["minute"] = $dateConvertedToTimezone->format('i');
+		$returnResponse["datetime"]	= $dateConvertedToTimezone->format('Y-m-d H:i');
+		$returnResponse["am"] = $dateConvertedToTimezone->format('a');
+		$returnResponse["timezone"] ='America/New_York';
+
+		return ($returnResponse);
+
 	}
 
 	

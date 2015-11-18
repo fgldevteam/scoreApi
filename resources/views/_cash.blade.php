@@ -12,36 +12,24 @@
 <body>
 	
 <div id="scoreboard-container" >
-<input type="text" hidden name="timezoneoffset" value={{$timezoneoffset}}>
 		
 </div>
 
-<script type="text/javascript"  src="/js/jquery.min.js"></script>
-<script type="text/javascript"  src="/js/underscore-min.js"></script>
-<script src="/js/jquery-ui.min.js"></script>
-<script src="/js/utils.js"></script>
+<script type="text/javascript"  src="js/jquery.min.js"></script>
+<script type="text/javascript"  src="js/underscore-min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/utils.js"></script>
 
 <script>
 $(document).ready(function(){
 
 	var src = "/files/scores.json";
-	var timezoneoffset = $('input[name="timezoneoffset"]').val();
-
+	
 	var dateExtractor = function(UTCTime){
 		
-		x = new Date(UTCTime);
-		
-		var timeoffset = x.getTimezoneOffset()*60*1000;
-		var epoch = x.getTime();
-		
-		var UTCseconds = ( epoch - timeoffset)/1000;	
-		
-		var d = new Date(UTCseconds * 1000); // The 0 there is the key, which sets the date to the epoch
-		localTime = d.toLocaleString();
-		GMTTime = d.toGMTString();
-		
-        var h = d.getHours();
-        var m = d.getMinutes();
+		var date = new Date(UTCTime);
+        var h = date.getHours();
+        var m = date.getMinutes();
         var pm = "am";
         if(h > 12 ){
             h = h - 12;
@@ -50,15 +38,13 @@ $(document).ready(function(){
         else if(h == 12){
         	pm = "pm";
         }
+
         if(m < 10){
             m = "0" + m;
         }
-               
-       return h +":"+ m + " " + pm
 
+        return h +":"+ m + " " + pm
 	}
-
-	
 	var getFeed = function(){
 		$.getJSON( src , {
 			data : {},
@@ -77,17 +63,10 @@ $(document).ready(function(){
 		})
 	}
 
-	var formatTime = function( startTime ){
-		var hour = parseInt( startTime["hour"]) + parseInt(timezoneoffset);
-		var minute = startTime["minute"];
-		var am = startTime["am"];
-		return hour + ":" + minute + " " +  am; 
-	}
-
 	fillFeed = function(filteredFeed){
 
 	var counter = 1;
-	$.each(filteredFeed , function (sportKey, sportObj){
+	$.each(filteredFeed , function( sportKey, sportObj){
 
 		$.each(sportObj , function (leagueKey, leagueObj){
 
@@ -169,7 +148,7 @@ $(document).ready(function(){
 				   	}		
 				   if(game["gameStatus"] == "Pre-Game" || game["gameStatus"] == "Delayed"){
 				   		
-				   		$('<div class=\"game-state\"><p>' + formatTime(game["startTime"]) + "</p></div>").appendTo('#scoreboard-container #scoreboard'+counter )
+				   		$('<div class=\"game-state\"><p>' + dateExtractor(game["startTime"]) + "</p></div>").appendTo('#scoreboard-container #scoreboard'+counter )
 
 				   }
 				   else if(game["gameStatus"] == "In-Progress"){

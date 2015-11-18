@@ -39,16 +39,25 @@
         <ul id="scroller">
 
         </ul>
+        <input type="text" hidden name="timezoneoffset" value={{$timezoneoffset}}>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript" src="/js/jquery.simplyscroll.js"></script>
         <script type="text/javascript" src="/js/moment.min.js"></script>
-		<script src="js/utils.js"></script>
+		<script src="/js/utils.js"></script>
 		
         <script type="text/javascript">
         var htmlString ="";
+        var timezoneoffset = $('input[name= "timezoneoffset"]').val();
 
-        $.getJSON( "../../files/scores.json", function( data ) {
+        var formatTime = function( startTime ){
+            var hour = parseInt( startTime["hour"]) + parseInt(timezoneoffset);
+            var minute = startTime["minute"];
+            var am = startTime["am"];
+            return hour + ":" + minute + " " +  am; 
+        }
+
+        $.getJSON( "/files/scores.json", function( data ) {
 
             var logo = "";
             $.each(data.sports, function(i, item) {
@@ -129,29 +138,6 @@
 							
 						case "Pre-Game":
 						
-
-                            var date = new Date(data.sports[i][j].startTime);
-                            console.log(date);
-                            var timeoffset = date.getTimezoneOffset()*60*1000;
-                            var epoch = date.getTime();
-                            var UTCseconds = ( epoch - timeoffset)/1000;
-
-                            var d = new Date(UTCseconds * 1000); // The 0 there is the key, which sets the date to the epoch
-                            localTime = d.toLocaleString();
-                            GMTTime = d.toGMTString();                            
-
-                            var h = d.getHours();
-                            var m = d.getMinutes();
-                            var pm = "";
-                            if(h > 12 ){
-                                h = h - 12;
-                                pm = "pm";
-                            }
-
-                            if(m < 10){
-                                m = "0" + m;
-                            }
-
                             htmlString += "<li>";
                             htmlString += "<table>";
                             htmlString += " <tr>";
@@ -166,7 +152,7 @@
                             htmlString += "			<div class='cityname-sportsdesk'>"+data.sports[i][j].homeNickname+"</div>";
 							
                             htmlString += "     </td>";                            
-                            htmlString += "     <td class='clock-sportsdesk'>" + h +":"+ m + " " + pm + "</td>";
+                            htmlString += "     <td class='clock-sportsdesk'>" + formatTime(data.sports[i][j].startTime) + "</td>";
                             htmlString += " </tr>";
                             htmlString += "</table>";
                             htmlString += "</li>";
