@@ -84,7 +84,7 @@
             var setupScores = function(){
 
                 $.get(feed, function(data){
-                	data = JSON.parse(data);
+                //	data = JSON.parse(data);
                 	console.log("grabbed new json: "+ Date.now() );
 
                     $.each(data.sports, function(i, item){
