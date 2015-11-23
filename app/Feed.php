@@ -161,6 +161,8 @@ class Feed extends Model
 
 		$url = "http://api.stats.com/v1/stats/".$sport."/". $league."/scores/?date=". $date ."&accept=json&api_key=".env('API_KEY')."&sig=".$sig;
 		
+		\Log::info('url '. $url);
+
 		if (get_headers($url, 1)[0] == 'HTTP/1.1 404 Not Found'){
 
 			return array();
@@ -182,7 +184,7 @@ class Feed extends Model
 		
 		$returnResponse = [];
 		$returnResponse["date"] = $dateConvertedToTimezone->format('Y-m-d');
-		$returnResponse["hour"] = $dateConvertedToTimezone->format('h');
+		$returnResponse["hour"] = $dateConvertedToTimezone->format('H');
 		$returnResponse["minute"] = $dateConvertedToTimezone->format('i');
 		$returnResponse["datetime"]	= $dateConvertedToTimezone->format('Y-m-d H:i');
 		$returnResponse["am"] = $dateConvertedToTimezone->format('a');

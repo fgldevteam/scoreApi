@@ -1,1 +1,842 @@
-{"sports":{"nba":{"0":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"00","datetime":"2015-11-17 19:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":27,"homeTeam":"Washington","homeNickname":"Wizards","homeScore":115,"homeLogo":"\/images\/nba\/washington-wizards.svg","awayId":15,"awayTeam":"Milwaukee","awayNickname":"Bucks","awayScore":86,"awayLogo":"\/images\/nba\/milwaukee-bucks.svg"},"1":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"30","datetime":"2015-11-17 19:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":14,"homeTeam":"Miami","homeNickname":"Heat","homeScore":91,"homeLogo":"\/images\/nba\/miami-heat.svg","awayId":16,"awayTeam":"Minnesota","awayNickname":"Timberwolves","awayScore":103,"awayLogo":"\/images\/nba\/minnesota-timberwolves.svg"},"2":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"30","datetime":"2015-11-17 19:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":8,"homeTeam":"Detroit","homeNickname":"Pistons","homeScore":104,"homeLogo":"\/images\/nba\/detroit-pistons.svg","awayId":5,"awayTeam":"Cleveland","awayNickname":"Cavaliers","awayScore":99,"awayLogo":"\/images\/nba\/cleveland-cavaliers.svg"},"3":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"30","datetime":"2015-11-17 19:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":17,"homeTeam":"Brooklyn","homeNickname":"Nets","homeScore":90,"homeLogo":"\/images\/nba\/brooklyn-nets.svg","awayId":1,"awayTeam":"Atlanta","awayNickname":"Hawks","awayScore":88,"awayLogo":"\/images\/nba\/atlanta-hawks.svg"},"4":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"30","datetime":"2015-11-17 19:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":18,"homeTeam":"New York","homeNickname":"Knicks","homeScore":102,"homeLogo":"\/images\/nba\/new-york-knicks.svg","awayId":5312,"awayTeam":"Charlotte","awayNickname":"Hornets","awayScore":94,"awayLogo":"\/images\/nba\/charlotte-hornets.svg"},"5":{"active":"false","startTime":{"date":"2015-11-17","hour":"08","minute":"00","datetime":"2015-11-17 20:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":3,"homeTeam":"New Orleans","homeNickname":"Pelicans","homeScore":98,"homeLogo":"\/images\/nba\/new-orleans-pelicans.svg","awayId":7,"awayTeam":"Denver","awayNickname":"Nuggets","awayScore":115,"awayLogo":"\/images\/nba\/denver-nuggets.svg"},"6":{"active":"false","startTime":{"date":"2015-11-17","hour":"10","minute":"30","datetime":"2015-11-17 22:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":9,"homeTeam":"Golden State","homeNickname":"Warriors","homeScore":115,"homeLogo":"\/images\/nba\/golden-state-warriors.svg","awayId":28,"awayTeam":"Toronto","awayNickname":"Raptors","awayScore":110,"awayLogo":"\/images\/nba\/toronto-raptors.svg"},"7":{"active":"false","startTime":{"date":"2015-11-18","hour":"07","minute":"00","datetime":"2015-11-18 19:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":20,"homeTeam":"Philadelphia","homeNickname":"76ers","homeLogo":"\/images\/nba\/philadelphia-76ers.svg","awayId":11,"awayTeam":"Indiana","awayNickname":"Pacers","awayLogo":"\/images\/nba\/indiana-pacers.svg"},"8":{"active":"false","startTime":{"date":"2015-11-18","hour":"07","minute":"00","datetime":"2015-11-18 19:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":19,"homeTeam":"Orlando","homeNickname":"Magic","homeLogo":"\/images\/nba\/orlando-magic.svg","awayId":16,"awayTeam":"Minnesota","awayNickname":"Timberwolves","awayLogo":"\/images\/nba\/minnesota-timberwolves.svg"},"9":{"active":"false","startTime":{"date":"2015-11-18","hour":"07","minute":"00","datetime":"2015-11-18 19:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":5312,"homeTeam":"Charlotte","homeNickname":"Hornets","homeLogo":"\/images\/nba\/charlotte-hornets.svg","awayId":17,"awayTeam":"Brooklyn","awayNickname":"Nets","awayLogo":"\/images\/nba\/brooklyn-nets.svg"},"10":{"active":"false","startTime":{"date":"2015-11-18","hour":"07","minute":"30","datetime":"2015-11-18 19:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":2,"homeTeam":"Boston","homeNickname":"Celtics","homeLogo":"\/images\/nba\/boston-celtics.svg","awayId":6,"awayTeam":"Dallas","awayNickname":"Mavericks","awayLogo":"\/images\/nba\/dallas-mavericks.svg"},"11":{"active":"false","startTime":{"date":"2015-11-18","hour":"08","minute":"00","datetime":"2015-11-18 20:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":25,"homeTeam":"Oklahoma City","homeNickname":"Thunder","homeLogo":"\/images\/nba\/oklahoma-city-thunder.svg","awayId":3,"awayTeam":"New Orleans","awayNickname":"Pelicans","awayLogo":"\/images\/nba\/new-orleans-pelicans.svg"},"12":{"active":"false","startTime":{"date":"2015-11-18","hour":"08","minute":"00","datetime":"2015-11-18 20:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":1,"homeTeam":"Atlanta","homeNickname":"Hawks","homeLogo":"\/images\/nba\/atlanta-hawks.svg","awayId":23,"awayTeam":"Sacramento","awayNickname":"Kings","awayLogo":"\/images\/nba\/sacramento-kings.svg"},"13":{"active":"false","startTime":{"date":"2015-11-18","hour":"08","minute":"00","datetime":"2015-11-18 20:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":10,"homeTeam":"Houston","homeNickname":"Rockets","homeLogo":"\/images\/nba\/houston-rockets.svg","awayId":22,"awayTeam":"Portland","awayNickname":"Trail Blazers","awayLogo":"\/images\/nba\/portland-trail-blazers.svg"},"14":{"active":"false","startTime":{"date":"2015-11-18","hour":"08","minute":"30","datetime":"2015-11-18 20:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":24,"homeTeam":"San Antonio","homeNickname":"Spurs","homeLogo":"\/images\/nba\/san-antonio-spurs.svg","awayId":7,"awayTeam":"Denver","awayNickname":"Nuggets","awayLogo":"\/images\/nba\/denver-nuggets.svg"},"15":{"active":"false","startTime":{"date":"2015-11-18","hour":"09","minute":"00","datetime":"2015-11-18 21:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":26,"homeTeam":"Utah","homeNickname":"Jazz","homeLogo":"\/images\/nba\/utah-jazz.svg","awayId":28,"awayTeam":"Toronto","awayNickname":"Raptors","awayLogo":"\/images\/nba\/toronto-raptors.svg"},"16":{"active":"false","startTime":{"date":"2015-11-18","hour":"10","minute":"30","datetime":"2015-11-18 22:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":21,"homeTeam":"Phoenix","homeNickname":"Suns","homeLogo":"\/images\/nba\/phoenix-suns.svg","awayId":4,"awayTeam":"Chicago","awayNickname":"Bulls","awayLogo":"\/images\/nba\/chicago-bulls.svg"}},"nhl":{"0":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"00","datetime":"2015-11-17 19:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":4955,"homeTeam":"Buffalo","homeNickname":"Sabres","homeScore":1,"homeLogo":"\/images\/nhl\/buffalo-sabres.svg","awayId":4962,"awayTeam":"Dallas","awayNickname":"Stars","awayScore":3,"awayLogo":"\/images\/nhl\/dallas-stars.svg"},"1":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"00","datetime":"2015-11-17 19:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":4968,"homeTeam":"Philadelphia","homeNickname":"Flyers","homeScore":2,"homeLogo":"\/images\/nhl\/philadelphia-flyers.svg","awayId":4961,"awayTeam":"Los Angeles","awayNickname":"Kings","awayScore":3,"awayLogo":"\/images\/nhl\/los-angeles-kings.svg"},"2":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"00","datetime":"2015-11-17 19:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":4954,"homeTeam":"Boston","homeNickname":"Bruins","homeScore":4,"homeLogo":"\/images\/nhl\/boston-bruins.svg","awayId":4971,"awayTeam":"San Jose","awayNickname":"Sharks","awayScore":5,"awayLogo":"\/images\/nhl\/san-jose-sharks.svg"},"3":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"00","datetime":"2015-11-17 19:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":4982,"homeTeam":"Columbus","homeNickname":"Blue Jackets","homeScore":3,"homeLogo":"\/images\/nhl\/columbus-blue-jackets.svg","awayId":4972,"awayTeam":"St. Louis","awayNickname":"Blues","awayScore":1,"awayLogo":"\/images\/nhl\/st.-louis-blues.svg"},"4":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"30","datetime":"2015-11-17 19:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":4974,"homeTeam":"Toronto","homeNickname":"Maple Leafs","homeScore":5,"homeLogo":"\/images\/nhl\/toronto-maple-leafs.svg","awayId":4970,"awayTeam":"Colorado","awayNickname":"Avalanche","awayScore":1,"awayLogo":"\/images\/nhl\/colorado-avalanche.svg"},"5":{"active":"false","startTime":{"date":"2015-11-17","hour":"07","minute":"30","datetime":"2015-11-17 19:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":4969,"homeTeam":"Pittsburgh","homeNickname":"Penguins","homeScore":4,"homeLogo":"\/images\/nhl\/pittsburgh-penguins.svg","awayId":4983,"awayTeam":"Minnesota","awayNickname":"Wild","awayScore":3,"awayLogo":"\/images\/nhl\/minnesota-wild.svg"},"6":{"active":"false","startTime":{"date":"2015-11-17","hour":"08","minute":"00","datetime":"2015-11-17 20:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":4980,"homeTeam":"Nashville","homeNickname":"Predators","homeScore":3,"homeLogo":"\/images\/nhl\/nashville-predators.svg","awayId":4978,"awayTeam":"Anaheim","awayNickname":"Ducks","awayScore":2,"awayLogo":"\/images\/nhl\/anaheim-ducks.svg"},"7":{"active":"false","startTime":{"date":"2015-11-17","hour":"09","minute":"00","datetime":"2015-11-17 21:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Final","homeId":4956,"homeTeam":"Calgary","homeNickname":"Flames","homeScore":3,"homeLogo":"\/images\/nhl\/calgary-flames.svg","awayId":4964,"awayTeam":"New Jersey","awayNickname":"Devils","awayScore":2,"awayLogo":"\/images\/nhl\/new-jersey-devils.svg"},"8":{"active":"false","startTime":{"date":"2015-11-18","hour":"07","minute":"30","datetime":"2015-11-18 19:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":4981,"homeTeam":"Winnipeg","homeNickname":"Jets","homeLogo":"\/images\/nhl\/winnipeg-jets.svg","awayId":4975,"awayTeam":"Vancouver","awayNickname":"Canucks","awayLogo":"\/images\/nhl\/vancouver-canucks.svg"},"9":{"active":"false","startTime":{"date":"2015-11-18","hour":"08","minute":"00","datetime":"2015-11-18 20:00","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":4958,"homeTeam":"Detroit","homeNickname":"Red Wings","homeLogo":"\/images\/nhl\/detroit-red-wings.svg","awayId":4976,"awayTeam":"Washington","awayNickname":"Capitals","awayLogo":"\/images\/nhl\/washington-capitals.svg"},"10":{"active":"false","startTime":{"date":"2015-11-18","hour":"09","minute":"30","datetime":"2015-11-18 21:30","am":"pm","timezone":"America\/New_York"},"gameStatus":"Pre-Game","homeId":4959,"homeTeam":"Edmonton","homeNickname":"Oilers","homeLogo":"\/images\/nhl\/edmonton-oilers.svg","awayId":4957,"awayTeam":"Chicago","awayNickname":"Blackhawks","awayLogo":"\/images\/nhl\/chicago-blackhawks.svg"}}}}
+{
+  "sports": {
+    "nba": {
+      "0": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "15",
+          "minute": "30",
+          "datetime": "2015-11-22 15:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 12,
+        "homeTeam": "Los Angeles",
+        "homeNickname": "Clippers",
+        "homeScore": 80,
+        "homeLogo": "/images/nba/los-angeles-clippers.svg",
+        "awayId": 28,
+        "awayTeam": "Toronto",
+        "awayNickname": "Raptors",
+        "awayScore": 91,
+        "awayLogo": "/images/nba/toronto-raptors.svg"
+      },
+      "1": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "18",
+          "minute": "00",
+          "datetime": "2015-11-22 18:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 3,
+        "homeTeam": "New Orleans",
+        "homeNickname": "Pelicans",
+        "homeScore": 122,
+        "homeLogo": "/images/nba/new-orleans-pelicans.svg",
+        "awayId": 21,
+        "awayTeam": "Phoenix",
+        "awayNickname": "Suns",
+        "awayScore": 116,
+        "awayLogo": "/images/nba/phoenix-suns.svg"
+      },
+      "2": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "18",
+          "minute": "00",
+          "datetime": "2015-11-22 18:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 17,
+        "homeTeam": "Brooklyn",
+        "homeNickname": "Nets",
+        "homeScore": 111,
+        "homeLogo": "/images/nba/brooklyn-nets.svg",
+        "awayId": 2,
+        "awayTeam": "Boston",
+        "awayNickname": "Celtics",
+        "awayScore": 101,
+        "awayLogo": "/images/nba/boston-celtics.svg"
+      },
+      "3": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "19",
+          "minute": "00",
+          "datetime": "2015-11-22 19:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 25,
+        "homeTeam": "Oklahoma City",
+        "homeNickname": "Thunder",
+        "homeScore": 117,
+        "homeLogo": "/images/nba/oklahoma-city-thunder.svg",
+        "awayId": 6,
+        "awayTeam": "Dallas",
+        "awayNickname": "Mavericks",
+        "awayScore": 114,
+        "awayLogo": "/images/nba/dallas-mavericks.svg"
+      },
+      "4": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "20",
+          "minute": "00",
+          "datetime": "2015-11-22 20:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 7,
+        "homeTeam": "Denver",
+        "homeNickname": "Nuggets",
+        "homeScore": 105,
+        "homeLogo": "/images/nba/denver-nuggets.svg",
+        "awayId": 9,
+        "awayTeam": "Golden State",
+        "awayNickname": "Warriors",
+        "awayScore": 118,
+        "awayLogo": "/images/nba/golden-state-warriors.svg"
+      },
+      "5": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "21",
+          "minute": "30",
+          "datetime": "2015-11-22 21:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 13,
+        "homeTeam": "Los Angeles",
+        "homeNickname": "Lakers",
+        "homeScore": 93,
+        "homeLogo": "/images/nba/los-angeles-lakers.svg",
+        "awayId": 22,
+        "awayTeam": "Portland",
+        "awayNickname": "Trail Blazers",
+        "awayScore": 107,
+        "awayLogo": "/images/nba/portland-trail-blazers.svg"
+      },
+      "6": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "00",
+          "datetime": "2015-11-23 19:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 5312,
+        "homeTeam": "Charlotte",
+        "homeNickname": "Hornets",
+        "homeLogo": "/images/nba/charlotte-hornets.svg",
+        "awayId": 23,
+        "awayTeam": "Sacramento",
+        "awayNickname": "Kings",
+        "awayLogo": "/images/nba/sacramento-kings.svg"
+      },
+      "7": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "00",
+          "datetime": "2015-11-23 19:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 5,
+        "homeTeam": "Cleveland",
+        "homeNickname": "Cavaliers",
+        "homeLogo": "/images/nba/cleveland-cavaliers.svg",
+        "awayId": 19,
+        "awayTeam": "Orlando",
+        "awayNickname": "Magic",
+        "awayLogo": "/images/nba/orlando-magic.svg"
+      },
+      "8": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "30",
+          "datetime": "2015-11-23 19:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 14,
+        "homeTeam": "Miami",
+        "homeNickname": "Heat",
+        "homeLogo": "/images/nba/miami-heat.svg",
+        "awayId": 18,
+        "awayTeam": "New York",
+        "awayNickname": "Knicks",
+        "awayLogo": "/images/nba/new-york-knicks.svg"
+      },
+      "9": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "20",
+          "minute": "00",
+          "datetime": "2015-11-23 20:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 16,
+        "homeTeam": "Minnesota",
+        "homeNickname": "Timberwolves",
+        "homeLogo": "/images/nba/minnesota-timberwolves.svg",
+        "awayId": 20,
+        "awayTeam": "Philadelphia",
+        "awayNickname": "76ers",
+        "awayLogo": "/images/nba/philadelphia-76ers.svg"
+      },
+      "10": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "20",
+          "minute": "00",
+          "datetime": "2015-11-23 20:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 15,
+        "homeTeam": "Milwaukee",
+        "homeNickname": "Bucks",
+        "homeLogo": "/images/nba/milwaukee-bucks.svg",
+        "awayId": 8,
+        "awayTeam": "Detroit",
+        "awayNickname": "Pistons",
+        "awayLogo": "/images/nba/detroit-pistons.svg"
+      },
+      "11": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "20",
+          "minute": "30",
+          "datetime": "2015-11-23 20:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 24,
+        "homeTeam": "San Antonio",
+        "homeNickname": "Spurs",
+        "homeLogo": "/images/nba/san-antonio-spurs.svg",
+        "awayId": 21,
+        "awayTeam": "Phoenix",
+        "awayNickname": "Suns",
+        "awayLogo": "/images/nba/phoenix-suns.svg"
+      },
+      "12": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "21",
+          "minute": "00",
+          "datetime": "2015-11-23 21:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 26,
+        "homeTeam": "Utah",
+        "homeNickname": "Jazz",
+        "homeLogo": "/images/nba/utah-jazz.svg",
+        "awayId": 25,
+        "awayTeam": "Oklahoma City",
+        "awayNickname": "Thunder",
+        "awayLogo": "/images/nba/oklahoma-city-thunder.svg"
+      }
+    },
+    "nhl": {
+      "0": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 4960,
+        "homeTeam": "Carolina",
+        "homeNickname": "Hurricanes",
+        "homeScore": 4,
+        "homeLogo": "/images/nhl/carolina-hurricanes.svg",
+        "awayId": 4961,
+        "awayTeam": "Los Angeles",
+        "awayNickname": "Kings",
+        "awayScore": 3,
+        "awayLogo": "/images/nhl/los-angeles-kings.svg"
+      },
+      "1": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "17",
+          "minute": "00",
+          "datetime": "2015-11-22 17:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 4982,
+        "homeTeam": "Columbus",
+        "homeNickname": "Blue Jackets",
+        "homeScore": 3,
+        "homeLogo": "/images/nhl/columbus-blue-jackets.svg",
+        "awayId": 4971,
+        "awayTeam": "San Jose",
+        "awayNickname": "Sharks",
+        "awayScore": 5,
+        "awayLogo": "/images/nhl/san-jose-sharks.svg"
+      },
+      "2": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "19",
+          "minute": "00",
+          "datetime": "2015-11-22 19:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 4963,
+        "homeTeam": "Montreal",
+        "homeNickname": "Canadiens",
+        "homeScore": 4,
+        "homeLogo": "/images/nhl/montreal-canadiens.svg",
+        "awayId": 4965,
+        "awayTeam": "New York",
+        "awayNickname": "Islanders",
+        "awayScore": 2,
+        "awayLogo": "/images/nhl/new-york-islanders.svg"
+      },
+      "3": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "22",
+          "minute": "00",
+          "datetime": "2015-11-22 22:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 4975,
+        "homeTeam": "Vancouver",
+        "homeNickname": "Canucks",
+        "homeScore": 2,
+        "homeLogo": "/images/nhl/vancouver-canucks.svg",
+        "awayId": 4964,
+        "awayTeam": "New Jersey",
+        "awayNickname": "Devils",
+        "awayScore": 3,
+        "awayLogo": "/images/nhl/new-jersey-devils.svg"
+      },
+      "4": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "00",
+          "datetime": "2015-11-23 19:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 4955,
+        "homeTeam": "Buffalo",
+        "homeNickname": "Sabres",
+        "homeLogo": "/images/nhl/buffalo-sabres.svg",
+        "awayId": 4972,
+        "awayTeam": "St. Louis",
+        "awayNickname": "Blues",
+        "awayLogo": "/images/nhl/st.-louis-blues.svg"
+      },
+      "5": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "00",
+          "datetime": "2015-11-23 19:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 4976,
+        "homeTeam": "Washington",
+        "homeNickname": "Capitals",
+        "homeLogo": "/images/nhl/washington-capitals.svg",
+        "awayId": 4959,
+        "awayTeam": "Edmonton",
+        "awayNickname": "Oilers",
+        "awayLogo": "/images/nhl/edmonton-oilers.svg"
+      },
+      "6": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "00",
+          "datetime": "2015-11-23 19:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 4966,
+        "homeTeam": "New York",
+        "homeNickname": "Rangers",
+        "homeLogo": "/images/nhl/new-york-rangers.svg",
+        "awayId": 4980,
+        "awayTeam": "Nashville",
+        "awayNickname": "Predators",
+        "awayLogo": "/images/nhl/nashville-predators.svg"
+      },
+      "7": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "00",
+          "datetime": "2015-11-23 19:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 4968,
+        "homeTeam": "Philadelphia",
+        "homeNickname": "Flyers",
+        "homeLogo": "/images/nhl/philadelphia-flyers.svg",
+        "awayId": 4960,
+        "awayTeam": "Carolina",
+        "awayNickname": "Hurricanes",
+        "awayLogo": "/images/nhl/carolina-hurricanes.svg"
+      },
+      "8": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "30",
+          "datetime": "2015-11-23 19:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 4974,
+        "homeTeam": "Toronto",
+        "homeNickname": "Maple Leafs",
+        "homeLogo": "/images/nhl/toronto-maple-leafs.svg",
+        "awayId": 4954,
+        "awayTeam": "Boston",
+        "awayNickname": "Bruins",
+        "awayLogo": "/images/nhl/boston-bruins.svg"
+      },
+      "9": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "19",
+          "minute": "30",
+          "datetime": "2015-11-23 19:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 4979,
+        "homeTeam": "Florida",
+        "homeNickname": "Panthers",
+        "homeLogo": "/images/nhl/florida-panthers.svg",
+        "awayId": 4961,
+        "awayTeam": "Los Angeles",
+        "awayNickname": "Kings",
+        "awayLogo": "/images/nhl/los-angeles-kings.svg"
+      },
+      "10": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "20",
+          "minute": "00",
+          "datetime": "2015-11-23 20:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 4981,
+        "homeTeam": "Winnipeg",
+        "homeNickname": "Jets",
+        "homeLogo": "/images/nhl/winnipeg-jets.svg",
+        "awayId": 4970,
+        "awayTeam": "Colorado",
+        "awayNickname": "Avalanche",
+        "awayLogo": "/images/nhl/colorado-avalanche.svg"
+      }
+    },
+    "nfl": {
+      "0": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 345,
+        "homeTeam": "Miami",
+        "homeNickname": "Dolphins",
+        "homeScore": 14,
+        "homeLogo": "/images/nfl/miami-dolphins.svg",
+        "awayId": 331,
+        "awayTeam": "Dallas",
+        "awayNickname": "Cowboys",
+        "awayScore": 24,
+        "awayLogo": "/images/nfl/dallas-cowboys.svg"
+      },
+      "1": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 366,
+        "homeTeam": "Baltimore",
+        "homeNickname": "Ravens",
+        "homeScore": 16,
+        "homeLogo": "/images/nfl/baltimore-ravens.svg",
+        "awayId": 343,
+        "awayTeam": "St. Louis",
+        "awayNickname": "Rams",
+        "awayScore": 13,
+        "awayLogo": "/images/nfl/st.-louis-rams.svg"
+      },
+      "2": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 323,
+        "homeTeam": "Atlanta",
+        "homeNickname": "Falcons",
+        "homeScore": 21,
+        "homeLogo": "/images/nfl/atlanta-falcons.svg",
+        "awayId": 338,
+        "awayTeam": "Indianapolis",
+        "awayNickname": "Colts",
+        "awayScore": 24,
+        "awayLogo": "/images/nfl/indianapolis-colts.svg"
+      },
+      "3": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 364,
+        "homeTeam": "Carolina",
+        "homeNickname": "Panthers",
+        "homeScore": 44,
+        "homeLogo": "/images/nfl/carolina-panthers.svg",
+        "awayId": 363,
+        "awayTeam": "Washington",
+        "awayNickname": "Redskins",
+        "awayScore": 16,
+        "awayLogo": "/images/nfl/washington-redskins.svg"
+      },
+      "4": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 354,
+        "homeTeam": "Philadelphia",
+        "homeNickname": "Eagles",
+        "homeScore": 17,
+        "homeLogo": "/images/nfl/philadelphia-eagles.svg",
+        "awayId": 362,
+        "awayTeam": "Tampa Bay",
+        "awayNickname": "Buccaneers",
+        "awayScore": 45,
+        "awayLogo": "/images/nfl/tampa-bay-buccaneers.svg"
+      },
+      "5": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 334,
+        "homeTeam": "Detroit",
+        "homeNickname": "Lions",
+        "homeScore": 18,
+        "homeLogo": "/images/nfl/detroit-lions.svg",
+        "awayId": 341,
+        "awayTeam": "Oakland",
+        "awayNickname": "Raiders",
+        "awayScore": 13,
+        "awayLogo": "/images/nfl/oakland-raiders.svg"
+      },
+      "6": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 325,
+        "homeTeam": "Houston",
+        "homeNickname": "Texans",
+        "homeScore": 24,
+        "homeLogo": "/images/nfl/houston-texans.svg",
+        "awayId": 352,
+        "awayTeam": "New York",
+        "awayNickname": "Jets",
+        "awayScore": 17,
+        "awayLogo": "/images/nfl/new-york-jets.svg"
+      },
+      "7": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 326,
+        "homeTeam": "Chicago",
+        "homeNickname": "Bears",
+        "homeScore": 15,
+        "homeLogo": "/images/nfl/chicago-bears.svg",
+        "awayId": 332,
+        "awayTeam": "Denver",
+        "awayNickname": "Broncos",
+        "awayScore": 17,
+        "awayLogo": "/images/nfl/denver-broncos.svg"
+      },
+      "8": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "16",
+          "minute": "05",
+          "datetime": "2015-11-22 16:05",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 357,
+        "homeTeam": "San Diego",
+        "homeNickname": "Chargers",
+        "homeScore": 3,
+        "homeLogo": "/images/nfl/san-diego-chargers.svg",
+        "awayId": 339,
+        "awayTeam": "Kansas City",
+        "awayNickname": "Chiefs",
+        "awayScore": 33,
+        "awayLogo": "/images/nfl/kansas-city-chiefs.svg"
+      },
+      "9": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "16",
+          "minute": "25",
+          "datetime": "2015-11-22 16:25",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 347,
+        "homeTeam": "Minnesota",
+        "homeNickname": "Vikings",
+        "homeScore": 13,
+        "homeLogo": "/images/nfl/minnesota-vikings.svg",
+        "awayId": 335,
+        "awayTeam": "Green Bay",
+        "awayNickname": "Packers",
+        "awayScore": 30,
+        "awayLogo": "/images/nfl/green-bay-packers.svg"
+      },
+      "10": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "16",
+          "minute": "25",
+          "datetime": "2015-11-22 16:25",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 361,
+        "homeTeam": "Seattle",
+        "homeNickname": "Seahawks",
+        "homeScore": 29,
+        "homeLogo": "/images/nfl/seattle-seahawks.svg",
+        "awayId": 359,
+        "awayTeam": "San Francisco",
+        "awayNickname": "49ers",
+        "awayScore": 13,
+        "awayLogo": "/images/nfl/san-francisco-49ers.svg"
+      },
+      "11": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "20",
+          "minute": "30",
+          "datetime": "2015-11-22 20:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 355,
+        "homeTeam": "Arizona",
+        "homeNickname": "Cardinals",
+        "homeScore": 34,
+        "homeLogo": "/images/nfl/arizona-cardinals.svg",
+        "awayId": 327,
+        "awayTeam": "Cincinnati",
+        "awayNickname": "Bengals",
+        "awayScore": 31,
+        "awayLogo": "/images/nfl/cincinnati-bengals.svg"
+      },
+      "12": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-23",
+          "hour": "20",
+          "minute": "30",
+          "datetime": "2015-11-23 20:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Pre-Game",
+        "homeId": 348,
+        "homeTeam": "New England",
+        "homeNickname": "Patriots",
+        "homeScore": 0,
+        "homeLogo": "/images/nfl/new-england-patriots.svg",
+        "awayId": 324,
+        "awayTeam": "Buffalo",
+        "awayNickname": "Bills",
+        "awayScore": 0,
+        "awayLogo": "/images/nfl/buffalo-bills.svg"
+      }
+    },
+    "cfl": {
+      "0": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "13",
+          "minute": "00",
+          "datetime": "2015-11-22 13:00",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 27755,
+        "homeTeam": "Ottawa",
+        "homeNickname": "REDBLACKS",
+        "homeScore": 35,
+        "homeLogo": "/images/cfl/ottawa-redblacks.svg",
+        "awayId": 5611,
+        "awayTeam": "Hamilton",
+        "awayNickname": "Tiger-Cats",
+        "awayScore": 28,
+        "awayLogo": "/images/cfl/hamilton-tiger-cats.svg"
+      },
+      "1": {
+        "active": "false",
+        "startTime": {
+          "date": "2015-11-22",
+          "hour": "16",
+          "minute": "30",
+          "datetime": "2015-11-22 16:30",
+          "am": "pm",
+          "timezone": "America/New_York"
+        },
+        "gameStatus": "Final",
+        "homeId": 5610,
+        "homeTeam": "Edmonton",
+        "homeNickname": "Eskimos",
+        "homeScore": 45,
+        "homeLogo": "/images/cfl/edmonton-eskimos.svg",
+        "awayId": 5609,
+        "awayTeam": "Calgary",
+        "awayNickname": "Stampeders",
+        "awayScore": 31,
+        "awayLogo": "/images/cfl/calgary-stampeders.svg"
+      }
+    }
+  }
+}

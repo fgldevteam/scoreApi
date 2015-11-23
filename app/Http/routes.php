@@ -83,6 +83,12 @@ $app->get('flip-ls/{timezoneoffset}', function($timezoneoffset){
 
 });
 
+$app->get('sportsdesk/{timezoneoffset}', function($timezoneoffset){
+
+	return view('sportsdesk')->with('timezoneoffset', $timezoneoffset);
+
+});
+
 $app->get('sportsdesk1/{timezoneoffset}', function($timezoneoffset){
 
 	return view('sportsdesk-black')->with('timezoneoffset', $timezoneoffset);

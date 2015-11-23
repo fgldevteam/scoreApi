@@ -40,7 +40,14 @@
 		var formatTime = function( startTime ){
 			var hour = parseInt( startTime["hour"]) + parseInt(timezoneoffset);
 			var minute = startTime["minute"];
-			var am = startTime["am"];
+			var am = "am";
+			if(hour > 12 ){
+            hour = hour - 12;
+	        	am = "pm";
+	        }
+			else if(hour == 12){
+	        	am = "pm";
+	        }
 			return hour + ":" + minute + " " +  am; 
 		}
 
@@ -84,7 +91,7 @@
             var setupScores = function(){
 
                 $.get(feed, function(data){
- //               	data = JSON.parse(data);
+               	// data = JSON.parse(data);
                 	console.log("grabbed new json: "+ Date.now() );
                 	console.log(data.sports);
                     $.each(data.sports, function(i, item){
