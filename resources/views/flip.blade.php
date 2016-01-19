@@ -134,7 +134,7 @@
 	                        html +=   "        <span class='score hscore'>"+ data.sports[i][j].homeScore +"</span>";
 	                        }
 	                        else{
-	                    	html +=   "        <span class='score hscore'>"+ 0 +"</span>";
+	                    	html +=   "        <span class='score hscore'></span>";
 	                    	}
 	                        html +=   "    </td>";
 	                        html +=   "    <td style='width: 70px;'></td>";
@@ -150,7 +150,7 @@
 	                        html +=   "        <span class='score vscore'>"+ data.sports[i][j].awayScore +"</span>";
 	                    	}
 	                    	else{
-	                    	html +=   "        <span class='score vscore'>"+ 0 +"</span>";
+	                    	html +=   "        <span class='score vscore'></span>";
 	                    	}
 	                        html +=   "    </td>";
 							html +=   "		<td><span class='clock time'>"+ clock +"</span></td>";
