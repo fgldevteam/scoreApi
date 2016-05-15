@@ -45,7 +45,15 @@ class Feed extends Model
 				if ($event->eventStatus->name == "In-Progress") {
 				   
 				    $game ["active"] = "true";
-				    $game ["clock"]  = $event->eventStatus->inningDivision . " " . $event->eventStatus->inning; 
+				    if($sport == 'baseball'){
+				    	$game ["clock"]  = $event->eventStatus->inningDivision . " " . $event->eventStatus->inning; 
+					}
+					if($sport == 'basketball') {
+						$game ["clock"]  = "Q". $event->eventStatus->period. " " . $event->eventStatus->minutes . ":" . $event->eventStatus->seconds ; 	
+					}
+					if( $sport = "hockey") {
+
+					}
 				}
 				else{
 					$game["active"] =  "false";
