@@ -287,8 +287,8 @@ html, body { height: 100%; overflow: hidden; }
 
 /*td{ border: thin solid lime; } */
 .cityteam{ position: relative; bottom: 20px;}
-.team-city { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 15px; line-height: 20px; padding-bottom: 10px; text-align: left; }
-.team-name { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 30px; line-height: 15px; text-align: left; }
+.team-city { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 15px; line-height: 20px; padding-bottom: 5px; text-align: left; }
+.team-name { text-transform: uppercase; display: block; font-family: GalaxiePolarisCondensed-Bold; font-size: 25px; line-height: 15px; text-align: left; }
 .score{ font-size: 40px; font-family: GalaxiePolarisCondensed-Bold; text-align: center;  margin-left: 30px !important; text-align: right !important; vertical-align: top; position: relative; bottom: 15px;}
 .clock{position: relative; bottom: 15px; left: 50px; text-transform: uppercase;}
 
