@@ -51,9 +51,6 @@ class Feed extends Model
 					if($sport == 'basketball') {
 						$game ["clock"]  = "Q". $event->eventStatus->period. " " . $event->eventStatus->minutes . ":" . $event->eventStatus->seconds ; 	
 					}
-					if( $sport = "hockey") {
-
-					}
 				}
 				else{
 					$game["active"] =  "false";
