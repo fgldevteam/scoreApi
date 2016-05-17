@@ -1,0 +1,97 @@
+@font-face { font-family: GalaxiePolarisCondensed-Book.; src: url('/fonts/GalaxiePolarisCondensed-Book.otf'); }
+@font-face { font-family: GalaxiePolarisCondensed-Bold; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Bold.otf'); }
+@font-face { font-family: GalaxiePolarisCondensed-Light; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Light.otf'); }
+
+
+.teamlogo{ width: 75px !important; height: 75px !important; display: inline-block; position: relative; background-size: contain !important; padding: 0px 0px 0px 5px; }
+.teamname, .cityname, .clock, .score, .at { text-transform: uppercase;}
+
+.cityname, .clock, .at {font-family: GalaxiePolarisCondensed-Book; font-size: 16px; line-height: 13px; }
+.teamname{font-family: GalaxiePolarisCondensed-Bold; font-size: 30px; line-height: 30px; }
+.score{ font-family: GalaxiePolarisCondensed-Bold; font-size: 60px; vertical-align: top; line-height: 50px; padding: 5px 5px; }
+.at, .clock{ vertical-align: middle; padding: 0px 10px; }
+
+.simply-scroll { /* Customisable base class for style override DIV */
+	width: 1920px;
+	height: 96px;
+	/*margin-bottom: 1em;*/
+	background: url('/images/bg.png') top left repeat;
+	color: #ddd;
+
+}
+
+	.simply-scroll .simply-scroll-clip {
+		width: 1920px;
+		height: 96px;
+		position: relative;
+		/*left: 100px;*/
+		color: #ddd;
+		background: url('/images/bg_96.png') top left repeat;
+
+
+	}
+
+	.scroll-overlay{
+		position: absolute;
+		top: 0px;
+		/*left: 100px;*/
+		background: url('/images/fadeoutbar_1920x96.png') top left no-repeat;
+		height: 96px; width: 1920px;
+		z-index: 999;
+	}
+
+	.sc-logo{
+		height: 96px;
+		width: 90px;
+		position: absolute;
+		z-index:999;
+	}
+
+/*		.sc-front{
+			top: 0px;
+			left: 1254px;
+			background: url('/images/sc-front.png') top left no-repeat;
+		}
+
+		.sc-back{
+			top: -5px;
+			left: 0px;
+
+			background: url('/images/sc-back.png') top left no-repeat;
+		}
+*/
+		.simply-scroll .simply-scroll-list {}
+
+		.simply-scroll .simply-scroll-list li {
+			float: left;
+/* 			width: 450px; */
+			height: 96px;
+			padding: 0px 50px;
+/* 			padding: 0px 30px 0px 0px; */
+/* 			border: thin solid lime; */
+		}
+
+		.simply-scroll .simply-scroll-list li.slim {
+			width: 64px;
+
+		}
+		.simply-scroll .simply-scroll-list li.mlblogo {
+			width: 100px;
+		}
+
+		.simply-scroll .simply-scroll-list li.nbalogo {
+			width: 40px;
+		}
+
+		td{
+			vertical-align: middle;
+			font-size: 13px;
+/* 			border: thin solid red; */
+			padding: 0px;
+			margin: 0px;
+/*			padding: 0px 8px; */
+		}
+
+		.simply-scroll .simply-scroll-list li img {
+			vertical-align: middle;
+		}

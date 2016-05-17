@@ -146,3 +146,9 @@ $app->get('sportsdesk-score3', function(){
 	return view('sportsdesk-score3')->with('timezoneoffset', 0);
 	
 });
+
+$app->get('robson-halo/{timezoneoffset}', function($timezoneoffset= null){
+
+	return view('robson-halo')->with('timezoneoffset', $timezoneoffset);
+
+});
