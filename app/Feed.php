@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Feed extends Model
 {
-    
+    protected $clockAppendString = ['st', 'nd', 'rd', 'th'];
 
 	public static function getScoreFeed($league, $sport)
 	{
@@ -48,8 +48,13 @@ class Feed extends Model
 				    if($sport == 'baseball'){
 				    	$game ["clock"]  = $event->eventStatus->inningDivision . " " . $event->eventStatus->inning; 
 					}
-					if($sport == 'basketball') {
-						$game ["clock"]  = "Q". $event->eventStatus->period. " " . $event->eventStatus->minutes . ":" . $event->eventStatus->seconds ; 	
+					// if($sport == 'basketball') {
+					// 	$game ["clock"]  = "Q". $event->eventStatus->period. " " . $event->eventStatus->minutes . ":" . $event->eventStatus->seconds ; 	
+					// }
+					else{
+
+						$appendStringIndex = Feed::getClockAppendString($event->eventStatus->period);
+						$game ["clock"]  = $event->eventStatus->period. $clockAppendString[$appendStringIndex]. " " . $event->eventStatus->minutes . ":" . $event->eventStatus->seconds ; 							
 					}
 				}
 				else{
@@ -197,6 +202,16 @@ class Feed extends Model
 
 		return ($returnResponse);
 
+	}
+
+	public static function getClockAppendString($period)
+	{
+		$index = $period -1 ; 
+		if ($index >= 0 && $index < 3) {
+			return $index;
+		}
+		$index = 3;
+		return $index; 
 	}
 
 	

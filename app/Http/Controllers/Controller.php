@@ -12,8 +12,8 @@ class Controller extends BaseController
     {
         $this->leagues       = ['mlb' => 'baseball', 'nba' => 'basketball', 'nhl' => 'hockey', 'nfl' => 'football', 'cfl' => 'football'];
         $this->leagueSeasons = ['mlb' => [
-            'start' => '2015-02-15',
-            'end'   => '2015-11-07',
+            'start' => '2016-04-03',
+            'end'   => '2016-11-07',
         ],
             'nhl'                         => [
                 'start' => '2015-09-18',
