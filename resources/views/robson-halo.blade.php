@@ -19,8 +19,8 @@
 		
 		.sc-front{
                 top: 0px;
-                left: 1254px;
-                background: url('/images/sc-front.png?<?=time();?>') top left no-repeat;
+                left: 1920px;
+                background: url('/images/robson-filler.png?<?=time();?>') top left no-repeat;
         }
 
         .sc-back{
@@ -34,8 +34,8 @@
 
     <body>
         <div class='scroll-overlay'></div>
-        <!-- div class='sc-logo sc-front'></div>
-        <div class='sc-logo sc-back'></div> -->
+        <div class='sc-logo sc-front'></div>
+        <!-- <div class='sc-logo sc-back'></div> -->
         <ul id="scroller"></ul>
         <input type="text" hidden name="timezoneoffset" value={{$timezoneoffset}}>
 

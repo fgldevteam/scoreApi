@@ -2,20 +2,22 @@
 @font-face { font-family: GalaxiePolarisCondensed-Bold; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Bold.otf'); }
 @font-face { font-family: GalaxiePolarisCondensed-Light; font-weight: bold; src: url('/fonts/GalaxiePolarisCondensed-Light.otf'); }
 
-
+body{
+	background-color: #fff;
+}
 .teamlogo{ width: 75px !important; height: 75px !important; display: inline-block; position: relative; background-size: contain !important; padding: 0px 0px 0px 5px; }
 .teamname, .cityname, .clock, .score, .at { text-transform: uppercase;}
 
-.cityname, .clock, .at {font-family: GalaxiePolarisCondensed-Book; font-size: 16px; line-height: 13px; }
-.teamname{font-family: GalaxiePolarisCondensed-Bold; font-size: 30px; line-height: 30px; }
-.score{ font-family: GalaxiePolarisCondensed-Bold; font-size: 60px; vertical-align: top; line-height: 50px; padding: 5px 5px; }
+.cityname, .clock, .at {font-family: GalaxiePolarisCondensed-Book; font-size: 24px; line-height: 13px; }
+.teamname{font-family: GalaxiePolarisCondensed-Bold; font-size: 48px; line-height: 48px; }
+.score{ font-family: GalaxiePolarisCondensed-Bold; font-size: 85px; vertical-align: top; line-height: 75px; padding: 0px 5px; }
 .at, .clock{ vertical-align: middle; padding: 0px 10px; }
 
 .simply-scroll { /* Customisable base class for style override DIV */
-	width: 1920px;
+	width: 2448px;
 	height: 96px;
 	/*margin-bottom: 1em;*/
-	background: url('/images/bg.png') top left repeat;
+	background: url('/images/bg_96.png') top left repeat;
 	color: #ddd;
 
 }
@@ -25,6 +27,7 @@
 		height: 96px;
 		position: relative;
 		/*left: 100px;*/
+
 		color: #ddd;
 		background: url('/images/bg_96.png') top left repeat;
 
@@ -36,13 +39,15 @@
 		top: 0px;
 		/*left: 100px;*/
 		background: url('/images/fadeoutbar_1920x96.png') top left no-repeat;
+
 		height: 96px; width: 1920px;
 		z-index: 999;
 	}
 
 	.sc-logo{
 		height: 96px;
-		width: 90px;
+		width: 528px;
+
 		position: absolute;
 		z-index:999;
 	}
@@ -89,7 +94,7 @@
 /* 			border: thin solid red; */
 			padding: 0px;
 			margin: 0px;
-/*			padding: 0px 8px; */
+/* 			padding: 5px 8px; */
 		}
 
 		.simply-scroll .simply-scroll-list li img {
